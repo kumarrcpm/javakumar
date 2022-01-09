@@ -9,7 +9,7 @@ System.out.println(fbuser1.name);
 fbuser1.accountCreation("Kumar",123);
 fbuser1.accountCreation("Ram",422489248,123);
 fbuser1.accountCreation("Kumar",422489248,123);
-fbuser1.accountCreation("Sweet Solutions",827732723,"chennai");
+//fbuser1.accountCreation("Sweet Solutions",827732723,"chennai");
 //int password = fbuser1.accountCreation("Ram",99999888,77770653,8971);
 System.out.println(fbuser1.name);
 //fbuser1.accountCreation();
@@ -22,10 +22,10 @@ System.out.println("Name "+name+" Password "+password);
 System.out.println("This is from child class");
 }
 
-public void accountCreation(String name,long mobileno,int password)
+//public void accountCreation(String name,long mobileno,String address)
 {
-System.out.println("Name "+name+" Mobile No "+mobileno+" Password "+password);
-System.out.println("This is from child class");
+//System.out.println("Name "+name+" Mobile No "+mobileno+" Password "+password);
+//System.out.println("This is from child class");
 }
 //public void accountCreation()
 {
