@@ -1,5 +1,9 @@
 package electionprocess;
+<<<<<<< HEAD
 public class StateElectionOffice extends NationalElectoralBoard
+=======
+public class StateElectionOffice 
+>>>>>>> 4009d2fa12ae46deb4d3bab2c9c7baf70638c168
 {
 
 public static void main(String [] args)
