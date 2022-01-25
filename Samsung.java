@@ -1,23 +1,32 @@
-package korea.south;
-public class Samsung
-{
-	protected int pinno =1234;
-	protected void changepin()
-	{
-System.out.println("ChangingPin");
-	}
-private void resarch()
-{
-	System.out.println("research");
-}
-public void makeQuality()
-	
-{
-System.out.println("Samsung");
-}
-public void giveWarranty()
-{
-System.out.println("Warranty");
-}
 
+public class Samsung extends FactoryDemo {
+	static int price = 5000;
+	public static void main(String [] args)
+	{
+
+	Samsung sam = new Samsung();
+	sam.browse();  //browse method is calling abstract sub class method and abstract class constructor
+	System.out.println(sam.price); //5000 is print
+	}
+	public int call(int seconds)
+	{
+	System.out.println("Parent abstract class");
+	return seconds;
+	}
+	public void sendMessage()
+	{
+	System.out.println("Parent abstract class");
+	}
+	public void receivecall()
+	{
+	System.out.println("Parent abstract class");
+	}
+	public void verifyFingerPrint()
+	{
+	System.out.println(" Abstract sub class");
+	}
+	public void providePattern()
+	{
+	System.out.println("Abstract sub class");
+	}
 }
