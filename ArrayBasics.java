@@ -10,11 +10,62 @@ public class ArrayBasics {
 	ArrayBasics user = new ArrayBasics();
 	//user.reportCard();
 	//user.LowestFinder();
-	user.biggestFinder();
-
+	//user.biggestFinder();
+	//user.linearSearch();
+	//user.binarySearch();
 
 
 	}
+
+	private void binarySearch() {
+		// TODO Auto-generated method stub
+		int[] num = {2,3,5,6,1,77,67,93};
+		int key=2;
+		int min=0;
+		int max=num.length-1;
+		while(min<=max)
+		{
+		int mid= (min+max)/2;
+			if(key==num[mid])
+			{
+				System.out.println("number is present");
+				break;
+			}
+			else if(key>num[mid])
+			{
+				max=mid-1;
+			}
+			else if(key<num[mid])
+			{
+				min=mid+1;
+			}
+		}
+		if(min>max) {
+			System.out.println("Your number is not present");
+		}
+		
+	}
+
+	public void linearSearch()
+	{
+		int[] num= {55,47,65,24,76};
+		int key=44;
+		int i=0;
+		for(i=0;i<num.length;i++)
+		{
+		if(num[i]==key)
+		{
+			System.out.println("Number is present");
+		break;
+		}
+		else if(i>num.length)
+		{
+		System.out.println("Number is not present");
+	}
+	}	
+	}
+	
+	
 	public void biggestFinder()
 	{
 		Scanner sc = new Scanner(System.in);

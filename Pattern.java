@@ -10,12 +10,41 @@ Pattern user = new Pattern();
 //user.pattern3();
 //user.pattern4();
 //user.pattern5();
-user.pattern6();
-user.pattern7();
-user.pattern8();
-
+//user.pattern6();
+//user.pattern7();
+//user.pattern8();
+//user.pattern9();
+user.pattern10();
 	}
 	
+public void pattern10()
+{
+	for (int row=5;row>=1;row--)
+	{
+		for(int col=1;col<row;col++)
+		{
+			System.out.print(" "+ " ");
+			
+		}
+		for (int star =1;star<=6-row;star++)
+		{
+			System.out.print(" "+row+" ");
+		}
+		System.out.println();
+	}
+}
+public void pattern9()
+{
+	for(int r=5;r>=1;r--)
+	{
+		for(int col=1;col<=r;col++)
+		{
+			System.out.print((col*r)+ " ");
+			
+		}
+		System.out.println();
+	}
+}
 public void pattern8()
 {
 	for(int row=1;row<=4;row++)
@@ -94,9 +123,9 @@ public void pattern2()
 		System.out.print(1+" ");
 	}
 	System.out.println();
-	for(int col=1;col<=5;col++);
+	for(int col=1;col<=5;col++)
 	{
-		System.out.print(1 +" ");
+		System.out.print(1+" ");
 	}
 	System.out.println();
 	for(int col=1;col<=5;col++)
@@ -114,3 +143,12 @@ for(int col=1;col<=5;col++)
 }
 }
 }
+
+
+
+
+
+
+
+
+

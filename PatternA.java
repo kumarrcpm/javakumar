@@ -35,8 +35,91 @@ PatternA user= new PatternA();
 //user.pattern27();
 //user.pattern28();
 //user.pattern29();
-user.pattern30();
+//user.pattern30();
+//user.pattern31();
+//user.pattern32();
+user.pattern33();
 	}
+	
+
+
+private void pattern33() {
+		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++)
+		{
+			for(int col=1;col<=row;col++)
+			{
+				System.out.print(col);
+			}
+				for(int a=row-1;a>=1;a--)
+				{
+					System.out.print(a);
+			}
+				System.out.println();
+		}
+	}
+
+
+
+public void pattern32()
+{
+		int i=2;
+		String a = "*";
+		String b = "!";
+		for(int row=1;row<=8;row++)
+		{
+		for(int col=1;col<=8;col++)
+		{	
+			if(i%2==0)
+			System.out.print(a+" ");
+			else
+			System.out.print(b+" ");
+			i++;
+			
+		}
+		String temp =a;
+		a=b;
+		b=temp;
+		System.out.println();
+		}
+}
+
+	
+public void pattern31()
+{
+	for(int row=1;row<=5;row++)
+	{
+		for(int col=1;col<=row-1;col++)
+		{
+			System.out.print(" ");
+		}
+		int i=5;
+		for(int col1=5;col1>=row;col1--)
+		{
+			System.out.print(i+" ");
+			i--;
+		}
+		System.out.println();
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 public void pattern30()
 {
