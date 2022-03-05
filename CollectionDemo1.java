@@ -13,6 +13,7 @@ public class CollectionDemo1 {
 		a.add(10);
 		a.add(17);
 		a.add(20);
+		
 		// type casting
 		for (Object o : a) {
 			Integer i = (Integer) o;
