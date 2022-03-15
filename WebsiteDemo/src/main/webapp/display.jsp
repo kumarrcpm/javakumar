@@ -13,16 +13,7 @@ http://www.w3.org/TR/html4/loose.dtd
 Today's date: <%= (new 
 java.util.Date
 ()).toLocaleString()%>
-<form action ="/addCustomer">
-Username <input type = "text" name ="username"><br>
-Door No<input type = "text" name ="doorNo"><br>
-<input type="submit"><br>
-</form>
-<form action ="/showCustomer">
-Username <input type = "text" name ="username"><br>
-Door No<input type = "text" name ="doorNo"><br>
-<input type="submit"><br>
-</form>
+<H2> Information is  submitted successfully</H2>
 ${userInfo.username}
 ${userInfo.doorNo}
 </body>

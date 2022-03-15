@@ -7,23 +7,18 @@ http://www.w3.org/TR/html4/loose.dtd
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title> Kumar current Date</title>
+<title> Kumar's Sweet Solution</title>
 </head>
 <body>
 Today's date: <%= (new 
 java.util.Date
 ()).toLocaleString()%>
-<form action ="/addCustomer">
-Username <input type = "text" name ="username"><br>
-Door No<input type = "text" name ="doorNo"><br>
-<input type="submit"><br>
-</form>
-<form action ="/showCustomer">
-Username <input type = "text" name ="username"><br>
-Door No<input type = "text" name ="doorNo"><br>
-<input type="submit"><br>
+<form action = "/addCustomer">
+username<input type = "text" name = "username"><br>
+password<input type = "text" name = "password"><br>
+<input type ="submit"><br>
 </form>
 ${userInfo.username}
-${userInfo.doorNo}
+${userInfo.password}
 </body>
 </html> 
