@@ -1,0 +1,33 @@
+192.168.1.15:8083/master/getbyvehicleid
+
+
+Req-->
+{
+  
+  "ProspectId":1,
+  "QuotationVechId":1001
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ProspectId": 1,
+        "QuotationVehicleId": 1001,
+        "MakeModelVariant": "string",
+        "RegistrationNumber": "string",
+        "EngineNumber": "string",
+        "ChassisNumber": "wrw",
+        "Idv": "string",
+        "ElectronicAccessoryValue": "string",
+        "OtherthanElecAccValueYn": "string",
+        "OtherthanElecAccValue": 1,
+        "CubicCapacity": 3,
+        "EntryDate": "05/06/2022"
+    },
+    "ErroCode": 0
+}

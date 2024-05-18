@@ -1,0 +1,73 @@
+192.168.1.15:8083/master/saveprospectquotation
+
+
+Insert 
+
+Req -->
+
+{
+  "Classs": "Normal",
+  "ClientName": "Kumar",
+  "ExpiryDate": "05/06/2022",
+  "OldPolicyNo": "1",
+  "PolicyTerm": "Normal",
+  "PolicyTermId": "1",
+  "PolicyType": "General",
+  "PremiumCoverType": "Normal",
+  "PremiumCoverTypeId": "12",
+  "ProspectId": "1",
+  "StartDate": "04/06/2022"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "QuotationId": "10001"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+
+
+// Update
+
+Req-->
+
+
+{
+    "QuotationId":"10001",
+  "Classs": "Update",
+  "ClientName": "Kumar",
+  "ExpiryDate": "05/06/2022",
+  "OldPolicyNo": "1",
+  "PolicyTerm": "Normal",
+  "PolicyTermId": "1",
+  "PolicyType": "General",
+  "PremiumCoverType": "Normal",
+  "PremiumCoverTypeId": "12",
+  "ProspectId": "1",
+  "StartDate": "04/06/2022"
+}
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully ",
+        "QuotationId": "10001"
+    },
+    "ErroCode": 0
+}
+

@@ -1,0 +1,78 @@
+192.168.1.15:8083/prospect/getallprospectcount
+
+Req
+
+{
+    "Limit":"0",
+    "Offset":"10",
+    "InsCompanyId":"OMAN",
+     "BranchCode": "01"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ProspectCount": 1,
+            "ProspectDetails": [
+                {
+                    "LeadId": 10005,
+                    "ClientRefNo": "C/1013/81",
+                    "BusinessType": "New Business\r\n",
+                    "BusinessTypeId": 3,
+                    "ClassDesc": "Engineering",
+                    "ClassId": 4,
+                    "PolicyType": "Civil Engineering Completed ri",
+                    "PolicyTypeId": 43,
+                    "LeadGenDate": "15/07/2022",
+                    "DueDate": "14/07/2022",
+                    "BrokenPolicy": "N",
+                    "Classification": "1",
+                    "ClassificationId": 1,
+                    "Source": "Friend",
+                    "SourceId": 4,
+                    "Referredby": null,
+                    "ReferredbyId": null,
+                    "Othertype": null,
+                    "OthertypeId": null,
+                    "Pos": "string",
+                    "PosId": 1,
+                    "ReferenceName": null,
+                    "AssigntoGroup": "lead",
+                    "AssigntoGroupId": 2,
+                    "AssigntoUser": "crmlead3",
+                    "AssigntoUserId": 4,
+                    "Remarks": "Remarks",
+                    "EntryDate": "01/07/2022",
+                    "Status": "Quote",
+                    "InsuranceId": "OMAN",
+                    "BranchCode": "01",
+                    "RegionCode": "06",
+                    "CreatedBy": "crmlead3",
+                    "UserType": "Lead",
+                    "ProspectCount": null,
+                    "ClientTypeId": null,
+                    "ClientName": "Nagarajan",
+                    "DateOfBirth": null,
+                    "IsGroupClientId": null,
+                    "Age": null,
+                    "UserNameWithMobile": null,
+                    "WillProvideRefId": null,
+                    "MobileNumber": null,
+                    "AlternativeNumber": null,
+                    "EmailId": null,
+                    "Location": null,
+                    "OtherContactDetails": null,
+                    "OldPolicyNo": null,
+                    "OldPolicyDetails": null
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}

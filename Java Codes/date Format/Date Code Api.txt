@@ -1,0 +1,102 @@
+@Override
+	public List<Error> validationTest(TestValidationReq req) throws ParseException {
+		List<Error> errors = new ArrayList<Error>();
+		try {
+			
+			////////Age Condition 
+			if (req.getDateOfBirth() == null || StringUtils.isBlank(req.getDateOfBirth().toString())) {
+				errors.add(new Error("01", "Date of Birth", "Please Enter Your Date of Birth"));
+			}
+			
+			else if(StringUtils.isNotBlank(req.getDateOfBirth().toString()  )  ) {
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy").withLocale(Locale.US);
+				SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); 
+				String dob = sdf.format( req.getDateOfBirth()) ;
+				LocalDate dateOfBirth = LocalDate.parse(dob, formatter);
+				Date d = new Date();
+				String today  = sdf.format(d);
+				LocalDate entryDate = LocalDate.parse(today, formatter);
+				Period period = Period.between(dateOfBirth, entryDate);
+				int age = period.getYears();
+				int i = age;
+				
+				if (i < 18) {
+					errors.add(new Error("01","Date of Birth", "You are not eligible for this Insurance Policy"));
+				} else
+					errors.add(new Error("01","Date of Birth","You are eligible for this Insurance Policy"));
+			}
+			//////// Start Date Condition
+			
+			if(req.getStartDate()==null || StringUtils.isBlank(req.getStartDate().toString()))
+			{
+				errors.add(new Error("02","Start Date", "Please Enter Your Policy Start Date"));
+			}
+			else if(StringUtils.isNotBlank(req.getStartDate().toString()  )  ) {
+				Date today = new Date();		
+				 Date date = req.getStartDate();
+				 if(date.before(today))		
+				errors.add(new Error("02","Start Date", "Please Enter Your Policy Start Date in future date of today date"));
+			
+			}
+			
+			////// End Date Condition 
+			
+			if(req.getEndDate()== null || StringUtils.isBlank(req.getEndDate().toString()))
+			{
+				errors.add(new Error("03","End Date", "Please Enter Your Policy End Date"));
+			}
+			else if(StringUtils.isNotBlank(req.getEndDate().toString()))
+			{
+				Date st = req.getStartDate();
+				if(req.getEndDate().before(st))
+				{
+					errors.add(new Error("03","End Date", "Please Enter Your Policy End Date after policy start date"));
+				}
+		
+			}
+			
+			////// Accident Date
+			
+			if(req.getAccidentDate()==null || StringUtils.isBlank(req.getAccidentDate().toString()))
+			{
+				errors.add(new Error("04","Accident Date", "Please Enter Your Accident Date"));
+			}
+			else if(StringUtils.isNotBlank(req.getAccidentDate().toString()))
+			{
+				Date today = new Date();
+				if(req.getAccidentDate().after(today))
+				{
+					errors.add(new Error("04","Accident Date", "Please Enter Your Accident Date after today"));
+				}
+				else if(req.getAccidentDate().before(req.getStartDate()))
+				{
+					errors.add(new Error("04","Accident Date", "Your Accident Date is before your policy date, so you are not eligible"));
+				}
+			}
+			
+			///// Claim Date
+			
+			if(req.getClaimDate()==null || StringUtils.isBlank(req.getClaimDate().toString()))
+			{
+				errors.add(new Error("05","Calim Date", "Please Enter Your Claim Date"));
+			}
+			else if(StringUtils.isNotBlank(req.getClaimDate().toString()))
+			{
+				Date aDate = req.getAccidentDate();
+				if(req.getClaimDate().before(aDate))
+				{
+				errors.add(new Error("05","Claim Date", "Please Enter Your Claim Date after your accident Date"));	
+				}
+				
+				else if(req.getClaimDate().before(req.getEndDate()))
+				{
+				errors.add(new Error("05","Claim Date", "Please Enter Your Claim Date before your policy End Date"));	
+				}
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+			log.info("Exception is -->"+e.getMessage());
+		}
+		return errors;
+	}
+

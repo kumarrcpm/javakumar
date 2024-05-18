@@ -1,0 +1,36 @@
+192.168.1.15:8083/dropdown/annualincome
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Below 1,20,000"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "1,20,001 to 3,00,000"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "6,00,001 to 12,00,000"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "12,00,001 to 25,00,000"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "25,00,001 to 50,00,000"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "or Above 50,00,000"
+        }
+    ],
+    "ErroCode": 0
+}

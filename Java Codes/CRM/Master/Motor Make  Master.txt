@@ -1,0 +1,195 @@
+
+Motor Make Master
+
+
+Insert
+
+192.168.1.15:8083/master/savemakemotor
+
+
+Req -->
+
+{
+
+        "Status": "Y",
+        "EffectiveDate": "30/06/2022",
+        "Remarks": "rdeswf",
+        "InsuranceId": "OMAN",
+        "MakeNameEn":"Bugatti",
+        "MakeId":101
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully ",
+        "SucessId": "101"
+    },
+    "ErroCode": 0
+}
+
+Get 
+
+192.168.1.15:8083/master/getmakeid
+
+Req -->
+
+{
+
+    "MakeId":"152",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "MAKEID": 152,
+        "MAKENAMEEN": "Bugatti",
+        "STATUS": "Y",
+        "ENTRY_DATE": "2022-06-30",
+        "EFFECTIVE_DATE": "2022-06-30",
+        "AMEND_ID": 0,
+        "REMARKS": null,
+        "InsuranceId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getallmotormake
+
+
+Req -->
+
+{
+
+    "InsuranceId":"OMAN",
+    "Limit":"0",
+    "Offset":"10"
+
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "MAKEID": 510,
+            "MAKENAMEEN": "ALFA ROMEO",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 445,
+            "MAKENAMEEN": "ARO",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 219,
+            "MAKENAMEEN": "ASIA",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 146,
+            "MAKENAMEEN": "ASTON MARTIN",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 21,
+            "MAKENAMEEN": "AUDI",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 31,
+            "MAKENAMEEN": "AUSTIN",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 22,
+            "MAKENAMEEN": "B.M.W.",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 751,
+            "MAKENAMEEN": "BAIC",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 33,
+            "MAKENAMEEN": "BENTLEY",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "MAKEID": 152,
+            "MAKENAMEEN": "Bugatti",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "InsuranceId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+}

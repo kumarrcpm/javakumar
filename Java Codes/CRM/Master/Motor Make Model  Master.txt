@@ -1,0 +1,313 @@
+Motor Make Model
+
+Get
+
+192.168.1.15:8083/master/getbymakeid
+
+Req -->
+
+{
+
+    "ModelId":"103103",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "MakeId": 31,
+        "ModelId": 103103,
+        "BodyId": 1,
+        "VehicleModelCode": 103103,
+        "Status": "Y",
+        "MakeNameEn": "AUSTIN",
+        "ModelNameEn": "PRINCESS",
+        "BodyNameEn": "SALOON",
+        "VehManfCountry": 1,
+        "VehCc": 0,
+        "VehWeight": 0,
+        "VehFueltype": 0,
+        "MakeNameAr": "??????",
+        "ModelNameAr": "??????",
+        "AmendId": 0,
+        "TplRate": 90,
+        "BaseRate": 3,
+        "NetRate": 2,
+        "EntryDate": "2022-06-30",
+        "EffectiveDate": "2022-06-30",
+        "Remarks": null,
+        "InsCompanyId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getallmodel
+
+Req -->
+
+{
+
+  
+    "Limit":"0",
+    "Offset":"10",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "MakeId": 5,
+            "ModelId": 300501,
+            "BodyId": 3,
+            "VehicleModelCode": 300501,
+            "Status": "Y",
+            "MakeNameEn": null,
+            "ModelNameEn": "ODYSSEY",
+            "BodyNameEn": "STATION WAGON",
+            "VehManfCountry": 5,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": null,
+            "ModelNameAr": "???????",
+            "AmendId": 0,
+            "TplRate": 130,
+            "BaseRate": 4,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 644,
+            "ModelId": 164401,
+            "BodyId": 901,
+            "VehicleModelCode": 164401,
+            "Status": "Y",
+            "MakeNameEn": "ACURA",
+            "ModelNameEn": "RSX",
+            "BodyNameEn": "SPORTS CAR",
+            "VehManfCountry": 5,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "??????",
+            "ModelNameAr": "???????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 644,
+            "ModelId": 264401,
+            "BodyId": 2,
+            "VehicleModelCode": 264401,
+            "Status": "Y",
+            "MakeNameEn": "ACURA",
+            "ModelNameEn": "MDX",
+            "BodyNameEn": "4 WHEEL DRIVE",
+            "VehManfCountry": 5,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "??????",
+            "ModelNameAr": "?? ?? ???",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 510,
+            "ModelId": 251001,
+            "BodyId": 2,
+            "VehicleModelCode": 251001,
+            "Status": "Y",
+            "MakeNameEn": "ALFA ROMEO",
+            "ModelNameEn": "STELVIO",
+            "BodyNameEn": "4 WHEEL DRIVE",
+            "VehManfCountry": 4,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "???? ?????",
+            "ModelNameAr": "??????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 445,
+            "ModelId": 244501,
+            "BodyId": 906,
+            "VehicleModelCode": 244501,
+            "Status": "Y",
+            "MakeNameEn": "ARO",
+            "ModelNameEn": " JEEP",
+            "BodyNameEn": "Military",
+            "VehManfCountry": 21,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "???",
+            "ModelNameAr": "  ???",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 219,
+            "ModelId": 221901,
+            "BodyId": 2,
+            "VehicleModelCode": 221901,
+            "Status": "Y",
+            "MakeNameEn": "ASIA",
+            "ModelNameEn": "ROCSTA",
+            "BodyNameEn": "4 WHEEL DRIVE",
+            "VehManfCountry": 13,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "????",
+            "ModelNameAr": "??????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 21,
+            "ModelId": 45,
+            "BodyId": 1,
+            "VehicleModelCode": 14521,
+            "Status": "Y",
+            "MakeNameEn": "AUDI",
+            "ModelNameEn": "S6",
+            "BodyNameEn": "SALOON",
+            "VehManfCountry": 0,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": null,
+            "ModelNameAr": "?? ?",
+            "AmendId": 2,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": null,
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 31,
+            "ModelId": 103101,
+            "BodyId": 1,
+            "VehicleModelCode": 103101,
+            "Status": "Y",
+            "MakeNameEn": "AUSTIN",
+            "ModelNameEn": "MONTEGO",
+            "BodyNameEn": "SALOON",
+            "VehManfCountry": 1,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "??????",
+            "ModelNameAr": "???????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 31,
+            "ModelId": 103102,
+            "BodyId": 1,
+            "VehicleModelCode": 103102,
+            "Status": "Y",
+            "MakeNameEn": "AUSTIN",
+            "ModelNameEn": "CARBODAIS",
+            "BodyNameEn": "SALOON",
+            "VehManfCountry": 1,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "??????",
+            "ModelNameAr": "????????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "MakeId": 31,
+            "ModelId": 103103,
+            "BodyId": 1,
+            "VehicleModelCode": 103103,
+            "Status": "Y",
+            "MakeNameEn": "AUSTIN",
+            "ModelNameEn": "PRINCESS",
+            "BodyNameEn": "SALOON",
+            "VehManfCountry": 1,
+            "VehCc": 0,
+            "VehWeight": 0,
+            "VehFueltype": 0,
+            "MakeNameAr": "??????",
+            "ModelNameAr": "??????",
+            "AmendId": 0,
+            "TplRate": 90,
+            "BaseRate": 3,
+            "NetRate": 2,
+            "EntryDate": "2022-06-30",
+            "EffectiveDate": "2022-06-30",
+            "Remarks": null,
+            "InsCompanyId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+}

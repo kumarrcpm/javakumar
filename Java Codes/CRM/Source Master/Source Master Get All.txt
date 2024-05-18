@@ -1,0 +1,70 @@
+192.168.1.15:8083/master/getallsource
+
+Req -->
+
+{
+
+    "Limit":"0",
+    "Offset":"10"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "SourceId": "2",
+            "SourceName": "Customer",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "SearchYn": "Y"
+        },
+        {
+            "SourceId": "3",
+            "SourceName": "Dealer",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "SearchYn": "N"
+        },
+        {
+            "SourceId": "4",
+            "SourceName": "Friend",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "SearchYn": "N"
+        },
+        {
+            "SourceId": "5",
+            "SourceName": "Other",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "SearchYn": "N"
+        },
+        {
+            "SourceId": "1",
+            "SourceName": "User",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "SearchYn": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

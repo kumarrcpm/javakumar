@@ -1,0 +1,833 @@
+CRM City Master
+
+//////Insert
+
+192.168.1.15:8083/api/master/save/city
+
+Request
+
+{
+    "CityName": "Chennai",
+    "StateCode": "67",
+    "Status": "Y",
+    "CoreAppCode": "50",
+    "EffectiveDate": "04/06/2022",
+    "EndDate": "31/04/2023",
+    "Remarks": "Kumar"
+}
+Response  ->>
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "CityCode": "Your City Code Number is = 43"
+    },
+    "ErroCode": 0
+}
+
+/////  If  enter same Core App Code output will be like this
+
+{
+    "Message": "Failed",
+    "IsError": true,
+    "ErrorMessage": [
+        {
+            "Code": "05",
+            "Field": "Core App Code",
+            "Message": "Please Enter New Core App Code 12 is exist already"
+        }
+    ],
+    "Result": null,
+    "ErroCode": 0
+}
+  
+///Get By City Code
+
+192.168.1.15:8083/api/master/get/city/34
+
+Response  -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "CityCode": "34",
+        "CityName": "Chennai",
+        "StateCode": "20",
+        "Status": "Y",
+        "CoreAppCode": "123",
+        "EntryDate": "29/04/2022",
+        "EffectiveDate": "01/05/2022",
+        "Remarks": "Kumar",
+        "EndDate": "01/05/2023"
+    },
+    "ErroCode": 0
+}
+
+
+///// Get By Active Cities
+
+192.168.1.15:8083/api/master/activecities
+
+Response -->
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CityCode": "2",
+            "CityName": "24PGNS(S)",
+            "StateCode": "36",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "3",
+            "CityName": "ADDANKI",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "4",
+            "CityName": "ADILABAD",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "5",
+            "CityName": "ADONI",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "6",
+            "CityName": "AGARTALA",
+            "StateCode": "32",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "7",
+            "CityName": "AGRA",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "8",
+            "CityName": "AHMED NAGAR",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "9",
+            "CityName": "AHMEDABAD",
+            "StateCode": "13",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "12",
+            "CityName": "AIZAWL",
+            "StateCode": "25",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "13",
+            "CityName": "AIZWAL",
+            "StateCode": "25",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "14",
+            "CityName": "AJMER",
+            "StateCode": "29",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "15",
+            "CityName": "AKBARPUR",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "16",
+            "CityName": "AKOLA",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "17",
+            "CityName": "ALAGAPPAPURAM",
+            "StateCode": "31",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "18",
+            "CityName": "ALAPPUZHA",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "19",
+            "CityName": "ALIBAG",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "20",
+            "CityName": "ALIGARH",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "21",
+            "CityName": "ALIPORE RTO",
+            "StateCode": "36",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "22",
+            "CityName": "ALLAGADDA",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "23",
+            "CityName": "ALLAHABAD",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "24",
+            "CityName": "ALLEPPY",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "25",
+            "CityName": "ALMORA",
+            "StateCode": "35",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "27",
+            "CityName": "ALUVA",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "28",
+            "CityName": "ALWAR",
+            "StateCode": "29",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "29",
+            "CityName": "AMADALAVALASA",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "30",
+            "CityName": "AMALAPURAM",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "31",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "32",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "33",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "34",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "36",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "37",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "1234",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "38",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "12",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        }
+    ],
+    "ErroCode": 0
+}///// Get All
+
+192.168.1.15:8083/api/master/get/cities
+
+Response  -->>
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CityCode": "2",
+            "CityName": "24PGNS(S)",
+            "StateCode": "36",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "3",
+            "CityName": "ADDANKI",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "4",
+            "CityName": "ADILABAD",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "5",
+            "CityName": "ADONI",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "6",
+            "CityName": "AGARTALA",
+            "StateCode": "32",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "7",
+            "CityName": "AGRA",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "8",
+            "CityName": "AHMED NAGAR",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "9",
+            "CityName": "AHMEDABAD",
+            "StateCode": "13",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "12",
+            "CityName": "AIZAWL",
+            "StateCode": "25",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "13",
+            "CityName": "AIZWAL",
+            "StateCode": "25",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "14",
+            "CityName": "AJMER",
+            "StateCode": "29",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "15",
+            "CityName": "AKBARPUR",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "16",
+            "CityName": "AKOLA",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "17",
+            "CityName": "ALAGAPPAPURAM",
+            "StateCode": "31",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "18",
+            "CityName": "ALAPPUZHA",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "19",
+            "CityName": "ALIBAG",
+            "StateCode": "22",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "20",
+            "CityName": "ALIGARH",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "21",
+            "CityName": "ALIPORE RTO",
+            "StateCode": "36",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "22",
+            "CityName": "ALLAGADDA",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "23",
+            "CityName": "ALLAHABAD",
+            "StateCode": "33",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "24",
+            "CityName": "ALLEPPY",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "25",
+            "CityName": "ALMORA",
+            "StateCode": "35",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "27",
+            "CityName": "ALUVA",
+            "StateCode": "19",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "28",
+            "CityName": "ALWAR",
+            "StateCode": "29",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "29",
+            "CityName": "AMADALAVALASA",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "30",
+            "CityName": "AMALAPURAM",
+            "StateCode": "2",
+            "Status": "Y",
+            "CoreAppCode": null,
+            "EntryDate": "",
+            "EffectiveDate": "",
+            "Remarks": null,
+            "EndDate": ""
+        },
+        {
+            "CityCode": "31",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "32",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "33",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "34",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "35",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "N",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "36",
+            "CityName": "Chennai",
+            "StateCode": "20",
+            "Status": "Y",
+            "CoreAppCode": "123",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "37",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "1234",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "38",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "12",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        }
+    ],
+    "ErroCode": 0
+}

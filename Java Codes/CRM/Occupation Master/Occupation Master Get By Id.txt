@@ -1,0 +1,29 @@
+192.168.1.15:8083/master/getoccupationbyid
+
+Req -->
+
+{
+
+"OccupationId":"1"
+
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "OccupationId": "1",
+        "OccupationName": "Architech GetAll",
+        "Status": "Y",
+        "EntryDate": "30/07/2022",
+        "EffectiveDate": "21/07/2022",
+        "AmendId": "0",
+        "Remarks": null
+    },
+    "ErroCode": 0
+}

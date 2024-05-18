@@ -1,0 +1,13 @@
+  
+select * from vis_travel_rating where type_id='1' and cover_id='2' and 1 between TRAVEL_START_DATE and TRAVEL_END_DATE and 5 between AGE_FROM AND AGE_TO and AGENCY_CODE='88888'
+
+vistravelr0_.type_id = '1'
+    AND vistravelr0_.cover_id = '2'
+    AND vistravelr0_.travel_start_date <= '1'
+    AND vistravelr0_.travel_end_date >= '1'
+    AND vistravelr0_.age_from <= '5'
+    AND vistravelr0_.age_to >= '5'
+    AND vistravelr0_.agency_code = '88888'
+
+
+findByTypeIdAndCoverIdAndTravelStartDateLessThanEqualAndTravelEndDateGreaterThanEqualAndAgeFromLessThanEqualAndAgeToGreaterThanEqualAndAgencyCode

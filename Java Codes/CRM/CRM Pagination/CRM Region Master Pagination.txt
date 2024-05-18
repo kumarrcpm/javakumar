@@ -1,0 +1,56 @@
+192.168.1.15:8083/api/master/getregionmaster
+
+Request -->
+
+{
+
+"Limit":"0",
+"Offset":"3"
+}
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Regioncode": "13",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "102",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        },
+        {
+            "Regioncode": "12",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "101",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        },
+        {
+            "Regioncode": "5",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": "31/12/2021"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,53 @@
+192.168.1.15:8083/api/master/getcitymaster
+
+Request -->
+
+{
+
+"Limit":"0",
+"Offset":"3"
+}
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CityCode": "44",
+            "CityName": "Chennai",
+            "StateCode": "69",
+            "Status": "Y",
+            "CoreAppCode": "51",
+            "EntryDate": "03/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "37",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "1234",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        },
+        {
+            "CityCode": "38",
+            "CityName": "Chennai",
+            "StateCode": "67",
+            "Status": "Y",
+            "CoreAppCode": "12",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "04/06/2022",
+            "Remarks": "Kumar",
+            "EndDate": "01/05/2023"
+        }
+    ],
+    "ErroCode": 0
+}

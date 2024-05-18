@@ -1,0 +1,54 @@
+Policy Add On Insert
+
+192.168.1.15:8083/master/savepolicyaddon
+
+
+Insert 
+Req -->
+
+{
+
+  "policyid ": 1,
+  "AddOnsOpted":"Kumar",
+  "AddOnsNotOpted":"Wqe"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+Update
+
+
+Req -->
+
+{
+
+  "policyid ": 1,
+  "AddOnsOpted":"Kumar",
+  "AddOnsNotOpted":"Wqe123",
+  "addOnid":1000
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

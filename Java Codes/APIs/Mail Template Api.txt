@@ -1,0 +1,25 @@
+
+Mail Template Get all -    http://192.168.1.15:8090/api/getallmailtemplatedetails
+
+Mail Template Get - http://192.168.1.15:8090/api/getmailtemplatedetails/5  --->  {sno}
+
+Mail Template save api - http://192.168.1.15:8090/api/savemailtemplatemaster
+
+Request : 
+{
+        "Sno": "",
+        "Mailrequired": "Test2",
+        "Mailsubject": "11/04/2022",
+        "Mailbody": "17/04/2022",
+        "Mailregards": "12/04/2022",
+        "Smsrequired": "Y",
+        "Smssubject": "Kumar",
+        "Smsbody": "Test",
+        "Smsregards": "test",
+        "Status": "Y",
+        "Remarks": "Kumar",
+        "Emailto": "abc@gmail.com",
+        "Emailcc": "bba@gmail.com",
+        "Usertype": "Normal",
+        "Smsto": "Kumar"
+    }

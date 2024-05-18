@@ -1,0 +1,15 @@
+Get All Api   -- >  http://192.168.1.15:8090/api/getallmotorareacoveragemaster
+
+Save Api       -->    http://192.168.1.15:8090/api/saveareacoveragemaster
+
+{
+  "AreaCoverCode": "3245235",
+  "AreaCoverDescEnglish": "Area",
+  "AreaCoverId": "100",
+  "BranchCode": "01",
+  "EffectiveDate": "13-04-22",
+  "Remarks": "Ok",
+  "Status": "Y"
+}
+
+Get Api   --->  http://192.168.1.15:8090/api/getmotorareacoveragemaster/17  -->  {areacoverId}

@@ -1,0 +1,53 @@
+192.168.1.15:8083/master/dropdown/occupation
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Architech DropDOwn"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Bankers"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Charted Accountant"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "Diplomat"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Doctor"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "Engineer"
+        },
+        {
+            "Code": "9",
+            "CodeDesc": "Manager"
+        },
+        {
+            "Code": "10",
+            "CodeDesc": "Nurse"
+        },
+        {
+            "Code": "12",
+            "CodeDesc": "OTHERS"
+        },
+        {
+            "Code": "11",
+            "CodeDesc": "Teacher"
+        }
+    ],
+    "ErroCode": 0
+}
+

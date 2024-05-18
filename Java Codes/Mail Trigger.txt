@@ -1,0 +1,4 @@
+SELECT 'fewfws@gmail.com' AS CC , 'awea@gmail.com' AS email_id ,
+  (SELECT INS_NAME FROM Insurance_Company_master WHERE ins_id = 'OMAN') AS FROM_COMPANY_NAME ,
+  ( SELECT INS_NAME  FROM Insurance_Company_master  WHERE ins_id = 'OMAN') AS TO_COMPANY_NAME  , CLIENT_REF_NO, USER_TYPE 
+, Created_By  FROM Lead_Details c1  WHERE c1.LEAD_ID='10005'

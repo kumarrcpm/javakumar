@@ -1,0 +1,28 @@
+192.168.1.15:8083/master/saveprospectpayment
+
+Req-->
+
+{
+  "BankName": "abcd",
+  "PaymentAmount": "Thousand",
+  "PaymentCollectedDate": "02/06/2022",
+  "PaymentDate": "03/06/2022",
+  "PaymentRefNo": "wregs",
+  "ProspectId": "1",
+  "ProspectType": "cash",
+  "ProspectTypeId": "1",
+  "Remarks": "ewqq"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully "
+    },
+    "ErroCode": 0
+}

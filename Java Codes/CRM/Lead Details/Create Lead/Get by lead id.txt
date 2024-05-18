@@ -1,0 +1,41 @@
+192.168.1.15:8083/api/get/lead/10005
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "LeadId": "10005",
+        "ClientId": "123",
+        "BusinessType": "Work2",
+        "BusinessTypeId": "1",
+        "ClassDesc": "Normal",
+        "ClassId": "123",
+        "PolicyType": "General",
+        "PolicyTypeId": "1",
+        "LeadGenDate": "28/05/2022",
+        "DueDate": "31/05/2022",
+        "BrokenPolicy": "2",
+        "Classification": "12",
+        "ClassificationId": "12",
+        "Source": "Internet",
+        "SourceId": "1",
+        "Referredby": "1243",
+        "ReferredbyId": "1243",
+        "Othertype": "",
+        "OthertypeId": "2",
+        "Pos": "Kumar",
+        "PosId": "12",
+        "ReferenceName": "Kumar",
+        "AssigntoGroup": "fdea",
+        "AssigntoGroupId": "12",
+        "AssigntoUser": "swfrdswf",
+        "AssigntoUserId": "21",
+        "Remarks": "qedf",
+        "EntryDate": "",
+        "Status": null
+    },
+    "ErroCode": 0
+}

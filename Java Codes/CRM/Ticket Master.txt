@@ -1,0 +1,185 @@
+Ticket Master Insert
+
+192.168.1.15:8083/api/ticketmaster
+
+Req -->
+
+{
+
+    "ClientRefNo":"C/1051/19",
+    "Issue":"Travel",
+    "IssueId":1,
+    "Remarks":"Test"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Registered Successful",
+        "SucessId": "TID-1001/40"
+    },
+    "ErroCode": 0
+}
+
+// Ticket Master Get
+
+
+192.168.1.15:8083/api/getticketmaster
+
+
+Req -->
+
+{
+
+    "TicketId":"TID-1004/01"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "TicketId": "TID-1004/01",
+        "ClientRefNo": "C/1051/19",
+        "ClientName": "Samilla",
+        "BranchCode": "01",
+        "RegionCode": "06",
+        "MobileNumber": "6576577777",
+        "EmailId": "ssamilla@gmail.com",
+        "EntryDate": "15/07/2022",
+        "Status": "Y",
+        "InsCompanyId": "OMAN",
+        "Issue": "Travel",
+        "Remarks": "Test",
+        "IssueId": 1
+    },
+    "ErroCode": 0
+}
+
+
+// Ticket Master GetAll
+
+192.168.1.15:8083/api/getallticketmaster
+
+
+Req -->
+
+{
+
+    "BranchCode":"01",
+    "RegionCode":"06",
+    "InsuranceId":"OMAN"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "TicketId": "TID-1002/56",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        },
+        {
+            "TicketId": "TID-1002/96",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        },
+        {
+            "TicketId": "TID-1003/78",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        },
+        {
+            "TicketId": "TID-1004/01",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        },
+        {
+            "TicketId": "TID-1005/51",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        },
+        {
+            "TicketId": "TID-1006/22",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1
+        }
+    ],
+    "ErroCode": 0
+}

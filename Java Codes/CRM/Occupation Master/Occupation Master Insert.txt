@@ -1,0 +1,54 @@
+192.168.1.15:8083/master/saveoccupation
+
+Req -->
+
+{
+  
+  "EffectiveDate": "07/10/2022",
+  
+  "OccupationName": "Test Occupation",
+  "Remarks": "Ok",
+  "Status": "Y"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully "
+    },
+    "ErroCode": 0
+}
+
+Update
+
+192.168.1.15:8083/master/saveoccupation
+
+
+Req -->
+
+
+{
+  "OccupationId":"14",
+  "EffectiveDate": "07/10/2022",
+  
+  "OccupationName": "Update Occupation",
+  "Remarks": "Ok",
+  "Status": "Y"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,27 @@
+192.168.1.15:8083/master/getsourcebyid
+
+Req -->
+
+{
+
+    "SourceId":"1"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "SourceId": "1",
+        "SourceName": "User",
+        "Status": "Y",
+        "EntryDate": "28/05/2022",
+        "EffectiveDate": "28/05/2022",
+        "AmendId": "0",
+        "Remarks": null,
+        "SearchYn": "Y"
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,38 @@
+192.168.1.15:8083/master/getendorsementdetails
+
+GEt Endorsement Details
+
+Req -->
+
+{
+  "EndorsementId": 1000,
+  "PolicyId": 1
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "EndorsementId": 1000,
+        "PolicyId": 1,
+        "EndorsementType": "string",
+        "EndorsementTypeId": 0,
+        "ReceivedDate": "21/08/2023",
+        "EndorsementStatus": "string",
+        "EndorsementStatusId": 0,
+        "EndorsementNumber": "string",
+        "EndorsementReason1": "string",
+        "EndorsementReason1Id": 0,
+        "EndorsementReason2": "string",
+        "EndorsementReason2Id": 0,
+        "EndorsementReason3": "string",
+        "EndorsementReason3Id": 0,
+        "EffectiveDate": "09/12/2022",
+        "EndorsementDescription": "string",
+        "EndorsementComment": "string"
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,29 @@
+192.168.1.15:8083/master/getpolicyaddon
+
+
+// Get Policy Add On
+
+Req -->
+
+
+{
+ "policyid ": 1,
+   "addOnid":1000
+
+}
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "addOnid": 1000,
+        "policyid ": 1,
+        "AddOnsOpted": "Kumar",
+        "AddOnsNotOpted": "Wqe123"
+    },
+    "ErroCode": 0
+}

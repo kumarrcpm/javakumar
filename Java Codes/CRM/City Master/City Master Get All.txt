@@ -1,0 +1,41 @@
+192.168.1.15:8083/master/getallcity
+
+Req -->
+
+{
+
+    "limit":"0",
+    "Offset":"2"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CityId": "1",
+            "CityName": "24PGNS(S) Test",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "1",
+            "Remarks": null,
+            "StateCode": "36"
+        },
+        {
+            "CityId": "2",
+            "CityName": "ADDANKI",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "2"
+        }
+    ],
+    "ErroCode": 0
+}

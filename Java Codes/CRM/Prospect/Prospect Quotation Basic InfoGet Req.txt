@@ -1,0 +1,32 @@
+192.168.1.15:8083/master/getbyquotationid
+
+Req -->
+
+{
+  "QuotationId": "10001"
+}
+
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "QuotationId": "10001",
+        "ProspectId": "1",
+        "Classs": "Update",
+        "PolicyType": "General",
+        "ClientName": "Kumar",
+        "OldPolicyNo": "1",
+        "PremiumCoverType": "Normal",
+        "PremiumCoverTypeId": "12",
+        "PolicyTerm": "Normal",
+        "PolicyTermId": "1",
+        "StartDate": "04/06/2022",
+        "ExpiryDate": "03/06/2022",
+        "EntryDate": "03/06/2022"
+    },
+    "ErroCode": 0
+}

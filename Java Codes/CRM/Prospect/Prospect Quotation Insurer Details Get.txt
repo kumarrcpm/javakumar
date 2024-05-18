@@ -1,0 +1,30 @@
+192.168.1.15:8083/master/getbyinsurerid
+
+Req->
+
+{
+  "InsurerDetailsId":1000,
+  "Insurer":"Kumar",
+  "InsurerId":1,
+  "ProspectId":1
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ProspectId": "1",
+        "InsurerDetailsId": "1000",
+        "Insurer": "Kumar",
+        "InsurerId": "1",
+        "InsurerBranch": "chennai",
+        "InsurerBranchId": "1",
+        "InsurancePlan": "Normal",
+        "EntryDate": "2022-06-03"
+    },
+    "ErroCode": 0
+}

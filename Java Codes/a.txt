@@ -1,0 +1,85 @@
+List
+
+Single Data 
+{
+"Name": "",
+"Mobile":"",
+}
+
+MobileDetailsSaveReq  req
+
+@JsonPropert("name")
+name 
+@JsonPropert("mobile")
+mobile
+
+List -- Array
+[
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+}
+]
+
+
+
+List<MobileDetailsSaveReq>  req
+
+
+@JsonPropert("name")
+name 
+@JsonPropert("mobile")
+mobile
+
+List -- Array
+MobileDetails: [
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+},
+{
+"Name": "",
+"Mobile":"",
+}
+]
+
+MobileDetailsInfoReq req
+
+@JsonPropert("MobileDetails")
+List<MobileDetailsSaveReq>  mobileDetails
+
+
+@JsonPropert("name")
+name 
+@JsonPropert("mobile")
+List<MobileDetailsSaveReq>  mobileDetails
+
+

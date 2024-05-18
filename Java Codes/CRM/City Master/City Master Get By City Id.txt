@@ -1,0 +1,27 @@
+192.168.1.15:8083/master/getcityid
+
+Req -->
+
+{
+
+    "CityId":"2"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "CityId": "2",
+        "CityName": "ADDANKI",
+        "Status": "Y",
+        "EntryDate": "28/05/2022",
+        "EffectiveDate": "28/05/2022",
+        "AmendId": "0",
+        "Remarks": null,
+        "StateCode": "2"
+    },
+    "ErroCode": 0
+}

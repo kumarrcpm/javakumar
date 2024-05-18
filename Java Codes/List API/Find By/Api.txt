@@ -1,0 +1,46 @@
+http://192.168.1.15:8084/api/getallaccidentinfofindA/6
+
+
+Response -- >
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Casenumber": "101",
+            "Surveyorname": "6",
+            "Calldate": "2022-04-23",
+            "Calltime": "e34w",
+            "Landmark": "sgbswg",
+            "Location": "EAgffe",
+            "Locationcoordinates": null,
+            "Cityid": "43",
+            "City": "wrgewrg",
+            "Accidentdescription": "wrgesgrfwsg",
+            "Amendid": 101,
+            "Entrydate": "2022-04-23",
+            "Status": "Y",
+            "Remarks": "wrgeswgfsfgr"
+        },
+        {
+            "Casenumber": "6",
+            "Surveyorname": "6",
+            "Calldate": "2022-04-22",
+            "Calltime": "e34w",
+            "Landmark": "sgbswg",
+            "Location": "EAgffe",
+            "Locationcoordinates": null,
+            "Cityid": "43",
+            "City": "wrgewrg",
+            "Accidentdescription": "wrgesgrfwsg",
+            "Amendid": 102,
+            "Entrydate": "2022-04-22",
+            "Status": "Y",
+            "Remarks": "wrgeswgfsfgr"
+        }
+    ],
+    "ErroCode": 0,
+    "AdditionalData": null
+}

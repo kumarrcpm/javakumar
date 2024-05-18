@@ -1,0 +1,120 @@
+Branch Master
+
+
+Insert
+
+192.168.1.15:8083/master/insertbranch
+
+
+Req -->
+
+        {
+        "RegionCode": "06",
+        "InsuranceId": "OMAN",
+        "BranchName": "Muscat",
+        "Address1": "sfrs",
+        "Address2": "sgrgsw",
+        "City": "fsf",
+        "Country": "UAE",
+        "Phone": "4654685",
+        "MobileNo": "45677785",
+        "Email": "dsdw@gmail.com",
+        "Status": "Y",
+        "Remarks": "aewf"
+        }
+		
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Insert Successful",
+        "SucessId": "03"
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getallbranch
+
+Req -->
+
+{
+
+    "BranchCode":"01",
+    "RegionCode":"06",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "InsCompanyId": "OMAN",
+            "BranchName": "Muscat",
+            "Address1": null,
+            "Address2": null,
+            "City": null,
+            "Country": null,
+            "Phone": null,
+            "MobileNo": null,
+            "Email": null,
+            "Status": "Y",
+            "EntryDate": null,
+            "Remarks": null
+        }
+    ],
+    "ErroCode": 0
+}
+
+Get
+192.168.1.15:8083/master/getbranchid
+
+
+Req -->
+
+{
+
+    "BranchCode":"01",
+    "RegionCode":"06",
+    "InsuranceId":"OMAN"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "BranchCode": "01",
+        "RegionCode": "06",
+        "InsCompanyId": "OMAN",
+        "BranchName": "Muscat",
+        "Address1": null,
+        "Address2": null,
+        "City": null,
+        "Country": null,
+        "Phone": null,
+        "MobileNo": null,
+        "Email": null,
+        "Status": "Y",
+        "EntryDate": null,
+        "Remarks": null
+    },
+    "ErroCode": 0
+}
+

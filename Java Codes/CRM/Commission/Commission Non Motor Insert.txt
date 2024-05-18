@@ -1,0 +1,78 @@
+192.168.1.15:8083/master/savecommissionnonmotor
+
+Req -->
+
+{
+  "Commgenerationdate": "06/06/2022",
+  "Commissionamount": 0,
+  "Commissionamountper": 0,
+  "Commissionbasepremium": 0,
+  "Commissiongst": 0,
+  "Commprocesseddate": "12/06/2022",
+  "Flatcommissionamount": 0,
+  "Flatpayoutamount": 0,
+  "Payoutamount": 0,
+  "Payoutamountper": 0,
+  "Payoutbasepremium": 0,
+  "Payoutgst": 0,
+  "Policyid": 1,
+  "Totalcommissionamount": 0,
+  "Totalcommissionwithgst": 0,
+  "Totalpayoutamount": 0,
+  "Totalpayoutwithgst": 0
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+Update
+
+Req -->
+
+
+{
+  "Commgenerationdate": "06/06/2022",
+  "Commissionamount": 0,
+  "Commissionamountper": 0,
+  "Commissionbasepremium": 0,
+  "Commissiongst": 0,
+  "Commprocesseddate": "12/06/2022",
+  "Flatcommissionamount": 0,
+  "Flatpayoutamount": 0,
+  "Payoutamount": 0,
+  "Payoutamountper": 0,
+  "Payoutbasepremium": 0,
+  "Payoutgst": 0,
+  "Policyid": 1,
+  "Totalcommissionamount": 0,
+  "Totalcommissionwithgst": 0,
+  "Totalpayoutamount": 0,
+  "Totalpayoutwithgst": 0,
+  "Commissionid":1000,
+  "Entrydate":"10/06/2022"
+
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

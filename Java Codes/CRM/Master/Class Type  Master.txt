@@ -1,0 +1,182 @@
+Class Type Master Insert
+
+192.168.1.15:8083/master/saveclasstype
+
+Req ->
+
+        {
+        "EffectiveDate":"12/10/2022",
+        "Remarks":"Test",
+        "InsuranceId":"OMAN",
+        "ClassName":"Life"
+        }
+		
+		
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "SucessId": "11"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+Get
+
+192.168.1.15:8083/master/getclasstypebyid
+
+
+Req -->
+
+
+{
+
+    "ClassId":"2",
+    "InsuranceId":"OMAN"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ClassId": "OMAN",
+        "AmendId": "0",
+        "ClassName": "Health",
+        "EntryDate": "30/05/2022",
+        "Status": "Y",
+        "EffectiveDate": "30/05/2022",
+        "Remarks": "OK",
+        "InsCompanyId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getallclasstype
+
+Req  -->
+
+{
+
+    "InsuranceId":"OMAN",
+    "Limit":"0",
+    "Offset":"10"
+
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Engineering",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Fire",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Health",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Liability",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Life",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Marine Cargo",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Marine Hull",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Miscellaneous",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "ClassId": "OMAN",
+            "AmendId": "0",
+            "ClassName": "Travel",
+            "EntryDate": "30/05/2022",
+            "Status": "Y",
+            "EffectiveDate": "30/05/2022",
+            "Remarks": "OK",
+            "InsCompanyId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+} 
+

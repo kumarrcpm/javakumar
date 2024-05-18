@@ -1,0 +1,67 @@
+192.168.1.15:8083/master/saveprospectvehicle
+
+Req ->
+
+{
+  "ChassisNumber": "wrw",
+  "ElectronicAccessoryValue": "string",
+  "EngineNumber": "string",
+  "Idv": "string",
+  "MakeModelVariant": "string",
+  "OtherthanElecAccValue": 1,
+  "OtherthanElecAccValueYN": "string",
+  "ProspectId": 1,
+  "RegistrationNumber": "string",
+  "CubicCapacity":3
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+Update
+
+
+Req -->
+
+
+{
+    "QuotationVehicleId":1000,
+  "ChassisNumber": "wrw",
+  "ElectronicAccessoryValue": "string",
+  "EngineNumber": "string",
+  "Idv": "string",
+  "MakeModelVariant": "string",
+  "OtherthanElecAccValue": 1,
+  "OtherthanElecAccValueYN": "string",
+  "ProspectId": 1,
+  "RegistrationNumber": "string",
+  "CubicCapacity":3,
+  "EntryDate":"04/06/2022"
+}
+
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}
+
+

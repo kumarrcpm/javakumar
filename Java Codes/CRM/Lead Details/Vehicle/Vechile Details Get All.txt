@@ -1,0 +1,44 @@
+192.168.1.15:8083/api/getallvehicledetails
+
+Req -->
+
+{
+
+  "Limit": "0",
+  "Offset":"1"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "VehChassisNo": "3",
+            "VehicleRegNo": "455",
+            "VehMakeId": "1",
+            "VehMake": "Tamil Nadu",
+            "VehModelId": "1",
+            "VehModel": "EV",
+            "VehBodytypeId": null,
+            "VehBodytype": "Steel",
+            "ColorId": null,
+            "ColorVariant": "Black",
+            "FuelTypeId": "1",
+            "FuelType": "EV",
+            "CC": "150",
+            "SeatingCapacity": "6",
+            "ManufactureYear": "2018",
+            "EngineNo": "123",
+            "VehRemarks": null,
+            "PlateNo": "56",
+            "PlateCharId": "516",
+            "PlateChar": "eawe",
+            "EntryDate": "02/06/2022"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,3900 @@
+192.168.1.15:8083/master/dropdown/city
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "24PGNS(S) Test"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "ADDANKI"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "ADILABAD"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "ADONI"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "AGARTALA"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "AGRA"
+        },
+        {
+            "Code": "7",
+            "CodeDesc": "AHMED NAGAR"
+        },
+        {
+            "Code": "8",
+            "CodeDesc": "AHMEDABAD"
+        },
+        {
+            "Code": "9",
+            "CodeDesc": "AIZAWL"
+        },
+        {
+            "Code": "10",
+            "CodeDesc": "AIZWAL"
+        },
+        {
+            "Code": "11",
+            "CodeDesc": "AJMER"
+        },
+        {
+            "Code": "12",
+            "CodeDesc": "AKBARPUR"
+        },
+        {
+            "Code": "13",
+            "CodeDesc": "AKOLA"
+        },
+        {
+            "Code": "14",
+            "CodeDesc": "ALAGAPPAPURAM"
+        },
+        {
+            "Code": "15",
+            "CodeDesc": "ALAPPUZHA"
+        },
+        {
+            "Code": "16",
+            "CodeDesc": "ALIBAG"
+        },
+        {
+            "Code": "17",
+            "CodeDesc": "ALIGARH"
+        },
+        {
+            "Code": "18",
+            "CodeDesc": "ALIPORE RTO"
+        },
+        {
+            "Code": "19",
+            "CodeDesc": "ALLAGADDA"
+        },
+        {
+            "Code": "20",
+            "CodeDesc": "ALLAHABAD"
+        },
+        {
+            "Code": "21",
+            "CodeDesc": "ALLEPPY"
+        },
+        {
+            "Code": "22",
+            "CodeDesc": "ALMORA"
+        },
+        {
+            "Code": "23",
+            "CodeDesc": "ALUVA"
+        },
+        {
+            "Code": "24",
+            "CodeDesc": "ALWAR"
+        },
+        {
+            "Code": "25",
+            "CodeDesc": "AMADALAVALASA"
+        },
+        {
+            "Code": "26",
+            "CodeDesc": "AMALAPURAM"
+        },
+        {
+            "Code": "27",
+            "CodeDesc": "AMBALA"
+        },
+        {
+            "Code": "28",
+            "CodeDesc": "AMBASAMUDRAM"
+        },
+        {
+            "Code": "29",
+            "CodeDesc": "AMBEDKAR NAGAR"
+        },
+        {
+            "Code": "30",
+            "CodeDesc": "AMBIKAPUR"
+        },
+        {
+            "Code": "31",
+            "CodeDesc": "AMRAVATI"
+        },
+        {
+            "Code": "32",
+            "CodeDesc": "AMRELI"
+        },
+        {
+            "Code": "33",
+            "CodeDesc": "AMRITSAR"
+        },
+        {
+            "Code": "34",
+            "CodeDesc": "AMROHA"
+        },
+        {
+            "Code": "35",
+            "CodeDesc": "ANAND"
+        },
+        {
+            "Code": "36",
+            "CodeDesc": "ANANDPUR"
+        },
+        {
+            "Code": "37",
+            "CodeDesc": "ANANTHAPUR"
+        },
+        {
+            "Code": "38",
+            "CodeDesc": "ANANTNAG"
+        },
+        {
+            "Code": "39",
+            "CodeDesc": "ANGUL"
+        },
+        {
+            "Code": "40",
+            "CodeDesc": "ANKLESHWAR"
+        },
+        {
+            "Code": "41",
+            "CodeDesc": "ANNAKAPALLE"
+        },
+        {
+            "Code": "42",
+            "CodeDesc": "ARAKKONAM"
+        },
+        {
+            "Code": "43",
+            "CodeDesc": "ARAMBAGH"
+        },
+        {
+            "Code": "44",
+            "CodeDesc": "ARARIA"
+        },
+        {
+            "Code": "45",
+            "CodeDesc": "ARASARADI"
+        },
+        {
+            "Code": "46",
+            "CodeDesc": "ARCOT"
+        },
+        {
+            "Code": "47",
+            "CodeDesc": "ARIYALUR"
+        },
+        {
+            "Code": "48",
+            "CodeDesc": "ARMOOR"
+        },
+        {
+            "Code": "49",
+            "CodeDesc": "ARNI"
+        },
+        {
+            "Code": "50",
+            "CodeDesc": "ARRAH"
+        },
+        {
+            "Code": "51",
+            "CodeDesc": "ARSIKERE"
+        },
+        {
+            "Code": "52",
+            "CodeDesc": "ARUNACHAL PRADESH"
+        },
+        {
+            "Code": "53",
+            "CodeDesc": "ARUPPUKOTTAI"
+        },
+        {
+            "Code": "54",
+            "CodeDesc": "Arwal"
+        },
+        {
+            "Code": "55",
+            "CodeDesc": "ASANSOL"
+        },
+        {
+            "Code": "56",
+            "CodeDesc": "ASEGAON"
+        },
+        {
+            "Code": "57",
+            "CodeDesc": "ASKA"
+        },
+        {
+            "Code": "58",
+            "CodeDesc": "ATHNI"
+        },
+        {
+            "Code": "59",
+            "CodeDesc": "ATTILI"
+        },
+        {
+            "Code": "60",
+            "CodeDesc": "AURAIYA"
+        },
+        {
+            "Code": "61",
+            "CodeDesc": "AURANGABAD"
+        },
+        {
+            "Code": "62",
+            "CodeDesc": "AURANGABAD(BH)"
+        },
+        {
+            "Code": "63",
+            "CodeDesc": "AVADI CAMP"
+        },
+        {
+            "Code": "64",
+            "CodeDesc": "AVANIGADDA"
+        },
+        {
+            "Code": "65",
+            "CodeDesc": "AZAMGARH"
+        },
+        {
+            "Code": "66",
+            "CodeDesc": "BADAGARA"
+        },
+        {
+            "Code": "67",
+            "CodeDesc": "BADHARWAH"
+        },
+        {
+            "Code": "68",
+            "CodeDesc": "BAGALKOT"
+        },
+        {
+            "Code": "69",
+            "CodeDesc": "BAGPAT"
+        },
+        {
+            "Code": "70",
+            "CodeDesc": "BAHARAICH"
+        },
+        {
+            "Code": "71",
+            "CodeDesc": "BAHRAICH"
+        },
+        {
+            "Code": "72",
+            "CodeDesc": "BAHROR"
+        },
+        {
+            "Code": "73",
+            "CodeDesc": "BAIDYANATH DEOGHAR"
+        },
+        {
+            "Code": "74",
+            "CodeDesc": "BAILHONGAL"
+        },
+        {
+            "Code": "75",
+            "CodeDesc": "BAKSHI NAGAR"
+        },
+        {
+            "Code": "76",
+            "CodeDesc": "BALAGHAT"
+        },
+        {
+            "Code": "77",
+            "CodeDesc": "BALANGIR"
+        },
+        {
+            "Code": "78",
+            "CodeDesc": "BALASORE"
+        },
+        {
+            "Code": "79",
+            "CodeDesc": "BALESWAR"
+        },
+        {
+            "Code": "80",
+            "CodeDesc": "BALLIA"
+        },
+        {
+            "Code": "81",
+            "CodeDesc": "BALRAMPUR"
+        },
+        {
+            "Code": "82",
+            "CodeDesc": "BALURGHAT"
+        },
+        {
+            "Code": "83",
+            "CodeDesc": "BALWAL"
+        },
+        {
+            "Code": "84",
+            "CodeDesc": "BANDA"
+        },
+        {
+            "Code": "85",
+            "CodeDesc": "BANGALORE"
+        },
+        {
+            "Code": "86",
+            "CodeDesc": "BANKA"
+        },
+        {
+            "Code": "87",
+            "CodeDesc": "BANKURA"
+        },
+        {
+            "Code": "88",
+            "CodeDesc": "BANSI"
+        },
+        {
+            "Code": "89",
+            "CodeDesc": "BANSWARA"
+        },
+        {
+            "Code": "90",
+            "CodeDesc": "BAPATLA"
+        },
+        {
+            "Code": "91",
+            "CodeDesc": "BARABANKI"
+        },
+        {
+            "Code": "92",
+            "CodeDesc": "BARAGARH"
+        },
+        {
+            "Code": "93",
+            "CodeDesc": "BARAMULLA"
+        },
+        {
+            "Code": "94",
+            "CodeDesc": "BARAN"
+        },
+        {
+            "Code": "95",
+            "CodeDesc": "BARASAT"
+        },
+        {
+            "Code": "96",
+            "CodeDesc": "BARAUNI"
+        },
+        {
+            "Code": "97",
+            "CodeDesc": "BARAUT"
+        },
+        {
+            "Code": "98",
+            "CodeDesc": "BARDOLI"
+        },
+        {
+            "Code": "99",
+            "CodeDesc": "BAREILLY"
+        },
+        {
+            "Code": "100",
+            "CodeDesc": "BARIPADA"
+        },
+        {
+            "Code": "101",
+            "CodeDesc": "BARKAKHANA"
+        },
+        {
+            "Code": "102",
+            "CodeDesc": "BARMER"
+        },
+        {
+            "Code": "103",
+            "CodeDesc": "BARNALA"
+        },
+        {
+            "Code": "104",
+            "CodeDesc": "BARPETA"
+        },
+        {
+            "Code": "105",
+            "CodeDesc": "BARSAR"
+        },
+        {
+            "Code": "106",
+            "CodeDesc": "BARUIPUR"
+        },
+        {
+            "Code": "107",
+            "CodeDesc": "BASIRIAT"
+        },
+        {
+            "Code": "108",
+            "CodeDesc": "BASTI"
+        },
+        {
+            "Code": "109",
+            "CodeDesc": "BATALA"
+        },
+        {
+            "Code": "110",
+            "CodeDesc": "BATHINDA"
+        },
+        {
+            "Code": "111",
+            "CodeDesc": "BAYANA"
+        },
+        {
+            "Code": "112",
+            "CodeDesc": "BEAWAR"
+        },
+        {
+            "Code": "113",
+            "CodeDesc": "BEED"
+        },
+        {
+            "Code": "114",
+            "CodeDesc": "BEGUSARAI"
+        },
+        {
+            "Code": "115",
+            "CodeDesc": "BELGAUM"
+        },
+        {
+            "Code": "116",
+            "CodeDesc": "BELLARY"
+        },
+        {
+            "Code": "117",
+            "CodeDesc": "BERHAMPORE"
+        },
+        {
+            "Code": "118",
+            "CodeDesc": "BERHAMPUR"
+        },
+        {
+            "Code": "119",
+            "CodeDesc": "BETTIAH"
+        },
+        {
+            "Code": "120",
+            "CodeDesc": "BETUL"
+        },
+        {
+            "Code": "121",
+            "CodeDesc": "Bhabhua"
+        },
+        {
+            "Code": "122",
+            "CodeDesc": "BHADRACHALAM"
+        },
+        {
+            "Code": "123",
+            "CodeDesc": "BHADRAK"
+        },
+        {
+            "Code": "124",
+            "CodeDesc": "BHADRAVATHI"
+        },
+        {
+            "Code": "125",
+            "CodeDesc": "BHAGALPUR"
+        },
+        {
+            "Code": "126",
+            "CodeDesc": "BHANDARA"
+        },
+        {
+            "Code": "127",
+            "CodeDesc": "BHANDRA"
+        },
+        {
+            "Code": "128",
+            "CodeDesc": "BHANJA NAGAR"
+        },
+        {
+            "Code": "129",
+            "CodeDesc": "BHARATPUR"
+        },
+        {
+            "Code": "130",
+            "CodeDesc": "BHARUCH"
+        },
+        {
+            "Code": "131",
+            "CodeDesc": "BHATINDA"
+        },
+        {
+            "Code": "132",
+            "CodeDesc": "BHAVANI"
+        },
+        {
+            "Code": "133",
+            "CodeDesc": "BHAVNAGAR"
+        },
+        {
+            "Code": "134",
+            "CodeDesc": "BHAWANI PATNA"
+        },
+        {
+            "Code": "135",
+            "CodeDesc": "BHAYANDAR"
+        },
+        {
+            "Code": "136",
+            "CodeDesc": "BHILAI"
+        },
+        {
+            "Code": "137",
+            "CodeDesc": "BHILWARA"
+        },
+        {
+            "Code": "138",
+            "CodeDesc": "BHIMAVARAM"
+        },
+        {
+            "Code": "139",
+            "CodeDesc": "BHIND"
+        },
+        {
+            "Code": "140",
+            "CodeDesc": "BHIWANDI"
+        },
+        {
+            "Code": "141",
+            "CodeDesc": "BHIWANI"
+        },
+        {
+            "Code": "142",
+            "CodeDesc": "BHOJPUR"
+        },
+        {
+            "Code": "143",
+            "CodeDesc": "BHONGIR"
+        },
+        {
+            "Code": "144",
+            "CodeDesc": "BHOPAL"
+        },
+        {
+            "Code": "145",
+            "CodeDesc": "BHUJ (Kutchh)"
+        },
+        {
+            "Code": "146",
+            "CodeDesc": "BHUSAWAL"
+        },
+        {
+            "Code": "147",
+            "CodeDesc": "BIDAR"
+        },
+        {
+            "Code": "148",
+            "CodeDesc": "BIHAR SHARIF"
+        },
+        {
+            "Code": "149",
+            "CodeDesc": "BIJAPUR"
+        },
+        {
+            "Code": "150",
+            "CodeDesc": "BIJNORE"
+        },
+        {
+            "Code": "151",
+            "CodeDesc": "BIKANER"
+        },
+        {
+            "Code": "152",
+            "CodeDesc": "BILASPUR"
+        },
+        {
+            "Code": "153",
+            "CodeDesc": "BILIMORA"
+        },
+        {
+            "Code": "154",
+            "CodeDesc": "BIRBHUM"
+        },
+        {
+            "Code": "155",
+            "CodeDesc": "BOBBILI"
+        },
+        {
+            "Code": "156",
+            "CodeDesc": "BOKARO"
+        },
+        {
+            "Code": "157",
+            "CodeDesc": "BONGAIGAON"
+        },
+        {
+            "Code": "158",
+            "CodeDesc": "BOTAD"
+        },
+        {
+            "Code": "159",
+            "CodeDesc": "BOUDH"
+        },
+        {
+            "Code": "160",
+            "CodeDesc": "BUBANESHWAR"
+        },
+        {
+            "Code": "161",
+            "CodeDesc": "BUCKINGHAMPET"
+        },
+        {
+            "Code": "162",
+            "CodeDesc": "BUDAUN"
+        },
+        {
+            "Code": "163",
+            "CodeDesc": "BUDGAM"
+        },
+        {
+            "Code": "164",
+            "CodeDesc": "BULANDSHAHR"
+        },
+        {
+            "Code": "165",
+            "CodeDesc": "BULANDSHAR"
+        },
+        {
+            "Code": "166",
+            "CodeDesc": "BULDANA"
+        },
+        {
+            "Code": "167",
+            "CodeDesc": "BUNDI"
+        },
+        {
+            "Code": "168",
+            "CodeDesc": "BURDWAN"
+        },
+        {
+            "Code": "169",
+            "CodeDesc": "BUXAR"
+        },
+        {
+            "Code": "170",
+            "CodeDesc": "CENTRAL DELHI"
+        },
+        {
+            "Code": "171",
+            "CodeDesc": "CHAKULIA"
+        },
+        {
+            "Code": "172",
+            "CodeDesc": "CHALISGAON"
+        },
+        {
+            "Code": "173",
+            "CodeDesc": "CHAMBA"
+        },
+        {
+            "Code": "174",
+            "CodeDesc": "CHAMPAWAT"
+        },
+        {
+            "Code": "175",
+            "CodeDesc": "CHAMPHAI"
+        },
+        {
+            "Code": "176",
+            "CodeDesc": "CHAMRAJNAGAR"
+        },
+        {
+            "Code": "177",
+            "CodeDesc": "CHANDIGARH"
+        },
+        {
+            "Code": "178",
+            "CodeDesc": "CHANDINI CHOUK"
+        },
+        {
+            "Code": "179",
+            "CodeDesc": "CHANDRAGIRI"
+        },
+        {
+            "Code": "180",
+            "CodeDesc": "CHANDRAPUR"
+        },
+        {
+            "Code": "181",
+            "CodeDesc": "CHANGANACHERRY"
+        },
+        {
+            "Code": "182",
+            "CodeDesc": "CHANGLANG"
+        },
+        {
+            "Code": "183",
+            "CodeDesc": "CHANNAPATNA"
+        },
+        {
+            "Code": "184",
+            "CodeDesc": "CHANNI HIMMAT"
+        },
+        {
+            "Code": "185",
+            "CodeDesc": "CHAPRA"
+        },
+        {
+            "Code": "186",
+            "CodeDesc": "CHATRA"
+        },
+        {
+            "Code": "187",
+            "CodeDesc": "CHENGALPATTU"
+        },
+        {
+            "Code": "188",
+            "CodeDesc": "CHENGANNUR"
+        },
+        {
+            "Code": "189",
+            "CodeDesc": "CHENNAI"
+        },
+        {
+            "Code": "190",
+            "CodeDesc": "CHHATARPUR"
+        },
+        {
+            "Code": "191",
+            "CodeDesc": "CHHATRAPUR"
+        },
+        {
+            "Code": "192",
+            "CodeDesc": "CHHINDWARA"
+        },
+        {
+            "Code": "193",
+            "CodeDesc": "CHICKMAGALUR"
+        },
+        {
+            "Code": "194",
+            "CodeDesc": "CHIDHAMBARAM"
+        },
+        {
+            "Code": "195",
+            "CodeDesc": "CHIKABALLAPUR"
+        },
+        {
+            "Code": "196",
+            "CodeDesc": "CHIKODI"
+        },
+        {
+            "Code": "197",
+            "CodeDesc": "CHILAKALURIPETA"
+        },
+        {
+            "Code": "198",
+            "CodeDesc": "CHINCHWAD"
+        },
+        {
+            "Code": "199",
+            "CodeDesc": "CHITRADURGA"
+        },
+        {
+            "Code": "200",
+            "CodeDesc": "CHITRAKOOT"
+        },
+        {
+            "Code": "201",
+            "CodeDesc": "CHITTOOR"
+        },
+        {
+            "Code": "202",
+            "CodeDesc": "CHITTORGARH"
+        },
+        {
+            "Code": "203",
+            "CodeDesc": "CHODAVARAM"
+        },
+        {
+            "Code": "204",
+            "CodeDesc": "CHURACHANDPUR"
+        },
+        {
+            "Code": "205",
+            "CodeDesc": "CHURU"
+        },
+        {
+            "Code": "206",
+            "CodeDesc": "COCHIN"
+        },
+        {
+            "Code": "207",
+            "CodeDesc": "COIMBATORE"
+        },
+        {
+            "Code": "208",
+            "CodeDesc": "CONTAI"
+        },
+        {
+            "Code": "209",
+            "CodeDesc": "COOCH BEHAR"
+        },
+        {
+            "Code": "210",
+            "CodeDesc": "COONOOR"
+        },
+        {
+            "Code": "211",
+            "CodeDesc": "CUDDALORE"
+        },
+        {
+            "Code": "212",
+            "CodeDesc": "CUDDAPAH"
+        },
+        {
+            "Code": "213",
+            "CodeDesc": "CUTTACK"
+        },
+        {
+            "Code": "214",
+            "CodeDesc": "daba"
+        },
+        {
+            "Code": "215",
+            "CodeDesc": "DABHOI"
+        },
+        {
+            "Code": "216",
+            "CodeDesc": "DADRA  HAVELI"
+        },
+        {
+            "Code": "217",
+            "CodeDesc": "DADRA AND NAGAR HAVELI"
+        },
+        {
+            "Code": "218",
+            "CodeDesc": "DAHOD"
+        },
+        {
+            "Code": "219",
+            "CodeDesc": "DAKSHINA KANNADA"
+        },
+        {
+            "Code": "220",
+            "CodeDesc": "DALSINGSARAI"
+        },
+        {
+            "Code": "221",
+            "CodeDesc": "DALTONGANJ"
+        },
+        {
+            "Code": "222",
+            "CodeDesc": "DAMAN"
+        },
+        {
+            "Code": "223",
+            "CodeDesc": "DAMOH"
+        },
+        {
+            "Code": "224",
+            "CodeDesc": "DARBHANGA"
+        },
+        {
+            "Code": "225",
+            "CodeDesc": "DARGAMITTA"
+        },
+        {
+            "Code": "226",
+            "CodeDesc": "DARJEELING"
+        },
+        {
+            "Code": "227",
+            "CodeDesc": "DARJILING"
+        },
+        {
+            "Code": "228",
+            "CodeDesc": "DARRANG"
+        },
+        {
+            "Code": "229",
+            "CodeDesc": "DASUYA"
+        },
+        {
+            "Code": "230",
+            "CodeDesc": "DATIA"
+        },
+        {
+            "Code": "231",
+            "CodeDesc": "DAUND"
+        },
+        {
+            "Code": "232",
+            "CodeDesc": "DAUSA"
+        },
+        {
+            "Code": "233",
+            "CodeDesc": "DAVANGARE"
+        },
+        {
+            "Code": "234",
+            "CodeDesc": "DAVANGERE"
+        },
+        {
+            "Code": "235",
+            "CodeDesc": "DEEG"
+        },
+        {
+            "Code": "236",
+            "CodeDesc": "DEHRA GOPIPUR"
+        },
+        {
+            "Code": "237",
+            "CodeDesc": "DEHRADUN"
+        },
+        {
+            "Code": "238",
+            "CodeDesc": "DEHRI-ON-SONE"
+        },
+        {
+            "Code": "239",
+            "CodeDesc": "DELHI"
+        },
+        {
+            "Code": "240",
+            "CodeDesc": "DEOGHAR"
+        },
+        {
+            "Code": "241",
+            "CodeDesc": "DEORIA"
+        },
+        {
+            "Code": "242",
+            "CodeDesc": "DEVAKOTTAI"
+        },
+        {
+            "Code": "243",
+            "CodeDesc": "DEVGADH"
+        },
+        {
+            "Code": "244",
+            "CodeDesc": "DEWAS"
+        },
+        {
+            "Code": "245",
+            "CodeDesc": "DHALAI"
+        },
+        {
+            "Code": "246",
+            "CodeDesc": "DHAMPUR"
+        },
+        {
+            "Code": "247",
+            "CodeDesc": "DHAMTARI"
+        },
+        {
+            "Code": "248",
+            "CodeDesc": "DHANBAD"
+        },
+        {
+            "Code": "249",
+            "CodeDesc": "DHAR"
+        },
+        {
+            "Code": "250",
+            "CodeDesc": "DHARAPURAM"
+        },
+        {
+            "Code": "251",
+            "CodeDesc": "DHARMA NAGAR"
+        },
+        {
+            "Code": "252",
+            "CodeDesc": "DHARMAPURI"
+        },
+        {
+            "Code": "253",
+            "CodeDesc": "DHARMASALA"
+        },
+        {
+            "Code": "254",
+            "CodeDesc": "DHARMAVARAM"
+        },
+        {
+            "Code": "255",
+            "CodeDesc": "DHARWAD"
+        },
+        {
+            "Code": "256",
+            "CodeDesc": "DHARWARD"
+        },
+        {
+            "Code": "257",
+            "CodeDesc": "DHENKANAL"
+        },
+        {
+            "Code": "258",
+            "CodeDesc": "DHOLKA"
+        },
+        {
+            "Code": "259",
+            "CodeDesc": "DHOLPUR"
+        },
+        {
+            "Code": "260",
+            "CodeDesc": "DHUBRI"
+        },
+        {
+            "Code": "261",
+            "CodeDesc": "DHUBULIA"
+        },
+        {
+            "Code": "262",
+            "CodeDesc": "DHULE"
+        },
+        {
+            "Code": "263",
+            "CodeDesc": "DIAMOND HARBOUR"
+        },
+        {
+            "Code": "264",
+            "CodeDesc": "DIBRUGARH"
+        },
+        {
+            "Code": "265",
+            "CodeDesc": "DIDWANA"
+        },
+        {
+            "Code": "266",
+            "CodeDesc": "DIMAPUR"
+        },
+        {
+            "Code": "267",
+            "CodeDesc": "DINAJPUR"
+        },
+        {
+            "Code": "268",
+            "CodeDesc": "DINDIGUL"
+        },
+        {
+            "Code": "269",
+            "CodeDesc": "DINDORI"
+        },
+        {
+            "Code": "270",
+            "CodeDesc": "DIU"
+        },
+        {
+            "Code": "271",
+            "CodeDesc": "DODA"
+        },
+        {
+            "Code": "272",
+            "CodeDesc": "DUMKA"
+        },
+        {
+            "Code": "273",
+            "CodeDesc": "DUNGARPUR"
+        },
+        {
+            "Code": "274",
+            "CodeDesc": "DURG"
+        },
+        {
+            "Code": "275",
+            "CodeDesc": "DURGAPUR"
+        },
+        {
+            "Code": "276",
+            "CodeDesc": "EAST CHAMPARAN"
+        },
+        {
+            "Code": "277",
+            "CodeDesc": "EAST GODAVARI"
+        },
+        {
+            "Code": "278",
+            "CodeDesc": "EAST KHASI HILLS"
+        },
+        {
+            "Code": "279",
+            "CodeDesc": "EAST SINGHBHUM"
+        },
+        {
+            "Code": "280",
+            "CodeDesc": "ELURU"
+        },
+        {
+            "Code": "281",
+            "CodeDesc": "ERNAKULAM"
+        },
+        {
+            "Code": "282",
+            "CodeDesc": "ERODE"
+        },
+        {
+            "Code": "283",
+            "CodeDesc": "ETAH"
+        },
+        {
+            "Code": "284",
+            "CodeDesc": "ETAWAH"
+        },
+        {
+            "Code": "285",
+            "CodeDesc": "FAIZABAD"
+        },
+        {
+            "Code": "286",
+            "CodeDesc": "FARIDABAD"
+        },
+        {
+            "Code": "287",
+            "CodeDesc": "FARIDKOT"
+        },
+        {
+            "Code": "288",
+            "CodeDesc": "FARRUKHABAD"
+        },
+        {
+            "Code": "289",
+            "CodeDesc": "FATEHABAD"
+        },
+        {
+            "Code": "290",
+            "CodeDesc": "FATEHGARH"
+        },
+        {
+            "Code": "291",
+            "CodeDesc": "FATEHPUR"
+        },
+        {
+            "Code": "292",
+            "CodeDesc": "FEROZEPUR"
+        },
+        {
+            "Code": "293",
+            "CodeDesc": "FIROZABAD"
+        },
+        {
+            "Code": "294",
+            "CodeDesc": "FIROZPUR"
+        },
+        {
+            "Code": "295",
+            "CodeDesc": "GADAG"
+        },
+        {
+            "Code": "296",
+            "CodeDesc": "GADCHIROLI"
+        },
+        {
+            "Code": "297",
+            "CodeDesc": "GADWAL"
+        },
+        {
+            "Code": "298",
+            "CodeDesc": "GANDHI NAGAR"
+        },
+        {
+            "Code": "299",
+            "CodeDesc": "GANGANAGAR"
+        },
+        {
+            "Code": "300",
+            "CodeDesc": "GANGAPUR RS"
+        },
+        {
+            "Code": "301",
+            "CodeDesc": "GANGTOK"
+        },
+        {
+            "Code": "302",
+            "CodeDesc": "GANJAM"
+        },
+        {
+            "Code": "303",
+            "CodeDesc": "GAUTAM BUDDHA NAGAR"
+        },
+        {
+            "Code": "304",
+            "CodeDesc": "GAYA"
+        },
+        {
+            "Code": "305",
+            "CodeDesc": "GHATSILA"
+        },
+        {
+            "Code": "306",
+            "CodeDesc": "GHAZIABAD"
+        },
+        {
+            "Code": "307",
+            "CodeDesc": "GHAZIPUR"
+        },
+        {
+            "Code": "308",
+            "CodeDesc": "GIRIDH"
+        },
+        {
+            "Code": "309",
+            "CodeDesc": "GIRIDIH"
+        },
+        {
+            "Code": "310",
+            "CodeDesc": "GOALPARA"
+        },
+        {
+            "Code": "311",
+            "CodeDesc": "GOBICHETTIPALAYAM"
+        },
+        {
+            "Code": "312",
+            "CodeDesc": "GOBINDPUR"
+        },
+        {
+            "Code": "313",
+            "CodeDesc": "GOKAK"
+        },
+        {
+            "Code": "314",
+            "CodeDesc": "GOLAGHAT"
+        },
+        {
+            "Code": "315",
+            "CodeDesc": "GOMOH"
+        },
+        {
+            "Code": "316",
+            "CodeDesc": "GONDA"
+        },
+        {
+            "Code": "317",
+            "CodeDesc": "GONDAL"
+        },
+        {
+            "Code": "318",
+            "CodeDesc": "GONDIA"
+        },
+        {
+            "Code": "319",
+            "CodeDesc": "GONDIA CIVIL LINES"
+        },
+        {
+            "Code": "320",
+            "CodeDesc": "GOPAL GANJ"
+        },
+        {
+            "Code": "321",
+            "CodeDesc": "GOPALGANJ"
+        },
+        {
+            "Code": "322",
+            "CodeDesc": "GOPESHWAR"
+        },
+        {
+            "Code": "323",
+            "CodeDesc": "GORAKHPUR"
+        },
+        {
+            "Code": "324",
+            "CodeDesc": "GUDIVADA"
+        },
+        {
+            "Code": "325",
+            "CodeDesc": "GUDUR"
+        },
+        {
+            "Code": "326",
+            "CodeDesc": "GULBARGA"
+        },
+        {
+            "Code": "327",
+            "CodeDesc": "GUMLA"
+        },
+        {
+            "Code": "328",
+            "CodeDesc": "GUNA"
+        },
+        {
+            "Code": "329",
+            "CodeDesc": "GUNTAKAL"
+        },
+        {
+            "Code": "330",
+            "CodeDesc": "GUNTUR"
+        },
+        {
+            "Code": "331",
+            "CodeDesc": "GURDASPUR"
+        },
+        {
+            "Code": "332",
+            "CodeDesc": "GURGAON"
+        },
+        {
+            "Code": "333",
+            "CodeDesc": "GURUDASPUR"
+        },
+        {
+            "Code": "334",
+            "CodeDesc": "GUWAHATI"
+        },
+        {
+            "Code": "335",
+            "CodeDesc": "GWALIOR"
+        },
+        {
+            "Code": "336",
+            "CodeDesc": "HAJIPUR"
+        },
+        {
+            "Code": "337",
+            "CodeDesc": "HALDWANI"
+        },
+        {
+            "Code": "338",
+            "CodeDesc": "HALFLONG"
+        },
+        {
+            "Code": "339",
+            "CodeDesc": "HAMIRPUR"
+        },
+        {
+            "Code": "340",
+            "CodeDesc": "HAMIRPUR(HP)"
+        },
+        {
+            "Code": "341",
+            "CodeDesc": "HAMPI POWER HO"
+        },
+        {
+            "Code": "342",
+            "CodeDesc": "HANAMKONDA"
+        },
+        {
+            "Code": "343",
+            "CodeDesc": "HANUMANGARH JN."
+        },
+        {
+            "Code": "344",
+            "CodeDesc": "HAPUR"
+        },
+        {
+            "Code": "345",
+            "CodeDesc": "HARAPANAHALLI"
+        },
+        {
+            "Code": "346",
+            "CodeDesc": "HARDOI"
+        },
+        {
+            "Code": "347",
+            "CodeDesc": "HASSAN"
+        },
+        {
+            "Code": "348",
+            "CodeDesc": "HATHRAS"
+        },
+        {
+            "Code": "349",
+            "CodeDesc": "HAVERI"
+        },
+        {
+            "Code": "350",
+            "CodeDesc": "HAZARIBAG"
+        },
+        {
+            "Code": "351",
+            "CodeDesc": "HAZARIBAGH"
+        },
+        {
+            "Code": "352",
+            "CodeDesc": "HIMAT NAGAR"
+        },
+        {
+            "Code": "353",
+            "CodeDesc": "HINDAUN"
+        },
+        {
+            "Code": "354",
+            "CodeDesc": "HINDUPUR"
+        },
+        {
+            "Code": "355",
+            "CodeDesc": "HISAR"
+        },
+        {
+            "Code": "356",
+            "CodeDesc": "HISSAR"
+        },
+        {
+            "Code": "357",
+            "CodeDesc": "HOOGHLY"
+        },
+        {
+            "Code": "358",
+            "CodeDesc": "HOSHANGABAD"
+        },
+        {
+            "Code": "359",
+            "CodeDesc": "HOSHIARPUR"
+        },
+        {
+            "Code": "360",
+            "CodeDesc": "HOSPET"
+        },
+        {
+            "Code": "361",
+            "CodeDesc": "HOSUR"
+        },
+        {
+            "Code": "362",
+            "CodeDesc": "HOWRAH"
+        },
+        {
+            "Code": "363",
+            "CodeDesc": "HUBLI"
+        },
+        {
+            "Code": "364",
+            "CodeDesc": "HUKKERI"
+        },
+        {
+            "Code": "365",
+            "CodeDesc": "HUZURABAD"
+        },
+        {
+            "Code": "366",
+            "CodeDesc": "HYDERABAD"
+        },
+        {
+            "Code": "367",
+            "CodeDesc": "IDUKKI"
+        },
+        {
+            "Code": "368",
+            "CodeDesc": "IMPHAL"
+        },
+        {
+            "Code": "369",
+            "CodeDesc": "IMPHAL EAST"
+        },
+        {
+            "Code": "370",
+            "CodeDesc": "IMPHAL WEST"
+        },
+        {
+            "Code": "371",
+            "CodeDesc": "INDI"
+        },
+        {
+            "Code": "372",
+            "CodeDesc": "INDORE"
+        },
+        {
+            "Code": "373",
+            "CodeDesc": "INDORE YESHWANT ROAD"
+        },
+        {
+            "Code": "374",
+            "CodeDesc": "IRINJALAKUDA"
+        },
+        {
+            "Code": "375",
+            "CodeDesc": "JABALPUR"
+        },
+        {
+            "Code": "376",
+            "CodeDesc": "JADCHERLA"
+        },
+        {
+            "Code": "377",
+            "CodeDesc": "JAGADALPUR"
+        },
+        {
+            "Code": "378",
+            "CodeDesc": "JAGATSINGHPUR"
+        },
+        {
+            "Code": "379",
+            "CodeDesc": "JAGIRROAD"
+        },
+        {
+            "Code": "380",
+            "CodeDesc": "JAGRAON"
+        },
+        {
+            "Code": "381",
+            "CodeDesc": "JAGTIAL"
+        },
+        {
+            "Code": "382",
+            "CodeDesc": "JAIPUR"
+        },
+        {
+            "Code": "383",
+            "CodeDesc": "JAISALMER"
+        },
+        {
+            "Code": "384",
+            "CodeDesc": "JAJPUR"
+        },
+        {
+            "Code": "385",
+            "CodeDesc": "JALANDHAR"
+        },
+        {
+            "Code": "386",
+            "CodeDesc": "JALESWAR"
+        },
+        {
+            "Code": "387",
+            "CodeDesc": "JALGAON"
+        },
+        {
+            "Code": "388",
+            "CodeDesc": "JALNA"
+        },
+        {
+            "Code": "389",
+            "CodeDesc": "JALORE"
+        },
+        {
+            "Code": "390",
+            "CodeDesc": "JALPAIGURI"
+        },
+        {
+            "Code": "391",
+            "CodeDesc": "JAMKHANDI"
+        },
+        {
+            "Code": "392",
+            "CodeDesc": "JAMMU"
+        },
+        {
+            "Code": "393",
+            "CodeDesc": "JAMMU TAWI"
+        },
+        {
+            "Code": "394",
+            "CodeDesc": "JAMNAGAR"
+        },
+        {
+            "Code": "395",
+            "CodeDesc": "JAMSHEDPUR"
+        },
+        {
+            "Code": "396",
+            "CodeDesc": "JAMTARA"
+        },
+        {
+            "Code": "397",
+            "CodeDesc": "Jamui"
+        },
+        {
+            "Code": "398",
+            "CodeDesc": "JANGAON"
+        },
+        {
+            "Code": "399",
+            "CodeDesc": "JANGAREDDY GUDEM"
+        },
+        {
+            "Code": "400",
+            "CodeDesc": "JANIPUR"
+        },
+        {
+            "Code": "401",
+            "CodeDesc": "JAUNPUR"
+        },
+        {
+            "Code": "402",
+            "CodeDesc": "JEHANABAD"
+        },
+        {
+            "Code": "403",
+            "CodeDesc": "JEYPURE"
+        },
+        {
+            "Code": "404",
+            "CodeDesc": "JHABUA"
+        },
+        {
+            "Code": "405",
+            "CodeDesc": "JHAJJAR"
+        },
+        {
+            "Code": "406",
+            "CodeDesc": "JHALAWAR"
+        },
+        {
+            "Code": "407",
+            "CodeDesc": "JHANSI"
+        },
+        {
+            "Code": "408",
+            "CodeDesc": "JHARGRAM"
+        },
+        {
+            "Code": "409",
+            "CodeDesc": "JHARSUGUDA"
+        },
+        {
+            "Code": "410",
+            "CodeDesc": "JHUJHUNU"
+        },
+        {
+            "Code": "411",
+            "CodeDesc": "JHUNJHUNU"
+        },
+        {
+            "Code": "412",
+            "CodeDesc": "JIND"
+        },
+        {
+            "Code": "413",
+            "CodeDesc": "JODHPUR"
+        },
+        {
+            "Code": "414",
+            "CodeDesc": "JORHAT"
+        },
+        {
+            "Code": "415",
+            "CodeDesc": "JUNAGADH"
+        },
+        {
+            "Code": "416",
+            "CodeDesc": "JYOTIBA PHULE NAGAR"
+        },
+        {
+            "Code": "417",
+            "CodeDesc": "K.V.RANGAREDDY"
+        },
+        {
+            "Code": "418",
+            "CodeDesc": "KACHCHH"
+        },
+        {
+            "Code": "419",
+            "CodeDesc": "KADAMPARAI"
+        },
+        {
+            "Code": "420",
+            "CodeDesc": "KAIMUR (BHABUA)"
+        },
+        {
+            "Code": "421",
+            "CodeDesc": "KAITHAL"
+        },
+        {
+            "Code": "422",
+            "CodeDesc": "KAKINADA"
+        },
+        {
+            "Code": "423",
+            "CodeDesc": "KALAHANDI"
+        },
+        {
+            "Code": "424",
+            "CodeDesc": "KALOL"
+        },
+        {
+            "Code": "425",
+            "CodeDesc": "KALYAN"
+        },
+        {
+            "Code": "426",
+            "CodeDesc": "KAMAREDDY"
+        },
+        {
+            "Code": "427",
+            "CodeDesc": "KAMREJ"
+        },
+        {
+            "Code": "428",
+            "CodeDesc": "KAMRUP"
+        },
+        {
+            "Code": "429",
+            "CodeDesc": "KANCHIPURAM"
+        },
+        {
+            "Code": "430",
+            "CodeDesc": "KANDI"
+        },
+        {
+            "Code": "431",
+            "CodeDesc": "KANDUKURU"
+        },
+        {
+            "Code": "432",
+            "CodeDesc": "KANGRA"
+        },
+        {
+            "Code": "433",
+            "CodeDesc": "KANHANGAD"
+        },
+        {
+            "Code": "434",
+            "CodeDesc": "KANIGIRI"
+        },
+        {
+            "Code": "435",
+            "CodeDesc": "KANJIRAPALLY"
+        },
+        {
+            "Code": "436",
+            "CodeDesc": "KANKAVALI"
+        },
+        {
+            "Code": "437",
+            "CodeDesc": "KANKER"
+        },
+        {
+            "Code": "438",
+            "CodeDesc": "KANKROLI"
+        },
+        {
+            "Code": "439",
+            "CodeDesc": "KANNUR"
+        },
+        {
+            "Code": "440",
+            "CodeDesc": "KANPUR"
+        },
+        {
+            "Code": "441",
+            "CodeDesc": "KANPUR DEHAT"
+        },
+        {
+            "Code": "442",
+            "CodeDesc": "KANPUR NAGAR"
+        },
+        {
+            "Code": "443",
+            "CodeDesc": "KANYAKUMARI"
+        },
+        {
+            "Code": "444",
+            "CodeDesc": "KAPURTHALA"
+        },
+        {
+            "Code": "445",
+            "CodeDesc": "KARAD"
+        },
+        {
+            "Code": "446",
+            "CodeDesc": "KARAIKAL"
+        },
+        {
+            "Code": "447",
+            "CodeDesc": "KARAULI"
+        },
+        {
+            "Code": "448",
+            "CodeDesc": "KARBI ANGLONG"
+        },
+        {
+            "Code": "449",
+            "CodeDesc": "KARIM GANJ"
+        },
+        {
+            "Code": "450",
+            "CodeDesc": "KARIM NAGAR"
+        },
+        {
+            "Code": "451",
+            "CodeDesc": "KARKALA"
+        },
+        {
+            "Code": "452",
+            "CodeDesc": "KARNAL"
+        },
+        {
+            "Code": "453",
+            "CodeDesc": "KARUNAGAPALLY"
+        },
+        {
+            "Code": "454",
+            "CodeDesc": "KARUR"
+        },
+        {
+            "Code": "455",
+            "CodeDesc": "KARWAR"
+        },
+        {
+            "Code": "456",
+            "CodeDesc": "KASARAGODE"
+        },
+        {
+            "Code": "457",
+            "CodeDesc": "KASARGOD"
+        },
+        {
+            "Code": "458",
+            "CodeDesc": "KASARGODE"
+        },
+        {
+            "Code": "459",
+            "CodeDesc": "KATHUA"
+        },
+        {
+            "Code": "460",
+            "CodeDesc": "KATIHAR"
+        },
+        {
+            "Code": "461",
+            "CodeDesc": "KATNI"
+        },
+        {
+            "Code": "462",
+            "CodeDesc": "KATTAPPANA"
+        },
+        {
+            "Code": "463",
+            "CodeDesc": "KATWA"
+        },
+        {
+            "Code": "464",
+            "CodeDesc": "KAVALI"
+        },
+        {
+            "Code": "465",
+            "CodeDesc": "KAYAMGULAM"
+        },
+        {
+            "Code": "466",
+            "CodeDesc": "KENDRAPARA"
+        },
+        {
+            "Code": "467",
+            "CodeDesc": "KENDUJHAR"
+        },
+        {
+            "Code": "468",
+            "CodeDesc": "KEONJHAR GARH"
+        },
+        {
+            "Code": "469",
+            "CodeDesc": "KHAMBHALIA"
+        },
+        {
+            "Code": "470",
+            "CodeDesc": "KHAMGAON"
+        },
+        {
+            "Code": "471",
+            "CodeDesc": "KHAMMAM"
+        },
+        {
+            "Code": "472",
+            "CodeDesc": "KHANDWA"
+        },
+        {
+            "Code": "473",
+            "CodeDesc": "KHANNA"
+        },
+        {
+            "Code": "474",
+            "CodeDesc": "KHARGONE"
+        },
+        {
+            "Code": "475",
+            "CodeDesc": "KHEDA"
+        },
+        {
+            "Code": "476",
+            "CodeDesc": "KHERI"
+        },
+        {
+            "Code": "477",
+            "CodeDesc": "KHORDA"
+        },
+        {
+            "Code": "478",
+            "CodeDesc": "KHURDA"
+        },
+        {
+            "Code": "479",
+            "CodeDesc": "KHURJA"
+        },
+        {
+            "Code": "480",
+            "CodeDesc": "Kishanganj"
+        },
+        {
+            "Code": "481",
+            "CodeDesc": "Kochas"
+        },
+        {
+            "Code": "482",
+            "CodeDesc": "KODARMA"
+        },
+        {
+            "Code": "483",
+            "CodeDesc": "KODERMA"
+        },
+        {
+            "Code": "484",
+            "CodeDesc": "KOHIMA"
+        },
+        {
+            "Code": "485",
+            "CodeDesc": "KOKRAJHAR"
+        },
+        {
+            "Code": "486",
+            "CodeDesc": "KOLAR"
+        },
+        {
+            "Code": "487",
+            "CodeDesc": "KOLHAPUR"
+        },
+        {
+            "Code": "488",
+            "CodeDesc": "KOLKATA"
+        },
+        {
+            "Code": "489",
+            "CodeDesc": "Kolkatta"
+        },
+        {
+            "Code": "490",
+            "CodeDesc": "KOLLAM"
+        },
+        {
+            "Code": "491",
+            "CodeDesc": "KOLLEGAL"
+        },
+        {
+            "Code": "492",
+            "CodeDesc": "KOPPA"
+        },
+        {
+            "Code": "493",
+            "CodeDesc": "KOPPAL"
+        },
+        {
+            "Code": "494",
+            "CodeDesc": "KORAPUT"
+        },
+        {
+            "Code": "495",
+            "CodeDesc": "KORBA"
+        },
+        {
+            "Code": "496",
+            "CodeDesc": "KOTA"
+        },
+        {
+            "Code": "497",
+            "CodeDesc": "KOTAGIRI"
+        },
+        {
+            "Code": "498",
+            "CodeDesc": "KOTHAGUDEM"
+        },
+        {
+            "Code": "499",
+            "CodeDesc": "KOTHAPETA"
+        },
+        {
+            "Code": "500",
+            "CodeDesc": "KOTTARAKARA"
+        },
+        {
+            "Code": "501",
+            "CodeDesc": "KOTTAYAM"
+        },
+        {
+            "Code": "502",
+            "CodeDesc": "KOVILPATTI"
+        },
+        {
+            "Code": "503",
+            "CodeDesc": "KOZHIKODE"
+        },
+        {
+            "Code": "504",
+            "CodeDesc": "KRISHNA"
+        },
+        {
+            "Code": "505",
+            "CodeDesc": "KRISHNAGAR"
+        },
+        {
+            "Code": "506",
+            "CodeDesc": "KRISHNAGIRI"
+        },
+        {
+            "Code": "507",
+            "CodeDesc": "KUDAL"
+        },
+        {
+            "Code": "508",
+            "CodeDesc": "Kudra"
+        },
+        {
+            "Code": "509",
+            "CodeDesc": "KULITTALAI"
+        },
+        {
+            "Code": "510",
+            "CodeDesc": "KULLU"
+        },
+        {
+            "Code": "511",
+            "CodeDesc": "KULSHEKAR"
+        },
+        {
+            "Code": "512",
+            "CodeDesc": "KUMBAKONAM"
+        },
+        {
+            "Code": "513",
+            "CodeDesc": "KUMTA"
+        },
+        {
+            "Code": "514",
+            "CodeDesc": "KUNDAPURA"
+        },
+        {
+            "Code": "515",
+            "CodeDesc": "KUNNAMKULAM"
+        },
+        {
+            "Code": "516",
+            "CodeDesc": "KUNRAGHAT"
+        },
+        {
+            "Code": "517",
+            "CodeDesc": "KURNOOL"
+        },
+        {
+            "Code": "518",
+            "CodeDesc": "KURUKSHATRA"
+        },
+        {
+            "Code": "519",
+            "CodeDesc": "KURUKSHETRA"
+        },
+        {
+            "Code": "520",
+            "CodeDesc": "KURUNG KUMEY"
+        },
+        {
+            "Code": "521",
+            "CodeDesc": "KUSHINAGAR"
+        },
+        {
+            "Code": "522",
+            "CodeDesc": "LAHERIASARAI"
+        },
+        {
+            "Code": "523",
+            "CodeDesc": "LAKHIMPUR"
+        },
+        {
+            "Code": "524",
+            "CodeDesc": "LAKHISARAI"
+        },
+        {
+            "Code": "525",
+            "CodeDesc": "LAKSHADWEEP"
+        },
+        {
+            "Code": "526",
+            "CodeDesc": "LALGANJ"
+        },
+        {
+            "Code": "527",
+            "CodeDesc": "LALGUDI"
+        },
+        {
+            "Code": "528",
+            "CodeDesc": "LALITPUR"
+        },
+        {
+            "Code": "529",
+            "CodeDesc": "LANSDOWNE"
+        },
+        {
+            "Code": "530",
+            "CodeDesc": "LASHKAR"
+        },
+        {
+            "Code": "531",
+            "CodeDesc": "LATEHAR"
+        },
+        {
+            "Code": "532",
+            "CodeDesc": "LATUR"
+        },
+        {
+            "Code": "533",
+            "CodeDesc": "LEH"
+        },
+        {
+            "Code": "534",
+            "CodeDesc": "LEIKAI"
+        },
+        {
+            "Code": "535",
+            "CodeDesc": "LOHARDAGA"
+        },
+        {
+            "Code": "536",
+            "CodeDesc": "LONGLENG"
+        },
+        {
+            "Code": "537",
+            "CodeDesc": "LOWER SUBANSIRI"
+        },
+        {
+            "Code": "538",
+            "CodeDesc": "LUCKNOW"
+        },
+        {
+            "Code": "539",
+            "CodeDesc": "LUDHIANA"
+        },
+        {
+            "Code": "540",
+            "CodeDesc": "LUNGLEI"
+        },
+        {
+            "Code": "541",
+            "CodeDesc": "MACHILIPATNAM"
+        },
+        {
+            "Code": "542",
+            "CodeDesc": "MADANAGANJ"
+        },
+        {
+            "Code": "543",
+            "CodeDesc": "MADANAPALLE"
+        },
+        {
+            "Code": "544",
+            "CodeDesc": "MADHAPUR"
+        },
+        {
+            "Code": "545",
+            "CodeDesc": "MADHEPURA"
+        },
+        {
+            "Code": "546",
+            "CodeDesc": "MADHUBANI"
+        },
+        {
+            "Code": "547",
+            "CodeDesc": "MADIKERE"
+        },
+        {
+            "Code": "548",
+            "CodeDesc": "MADURAI"
+        },
+        {
+            "Code": "549",
+            "CodeDesc": "MAHABUB NAGAR"
+        },
+        {
+            "Code": "550",
+            "CodeDesc": "MAHABUBABAD"
+        },
+        {
+            "Code": "551",
+            "CodeDesc": "MAHABUBNAGAR"
+        },
+        {
+            "Code": "552",
+            "CodeDesc": "MAHESANA"
+        },
+        {
+            "Code": "553",
+            "CodeDesc": "MAINPURI"
+        },
+        {
+            "Code": "554",
+            "CodeDesc": "MAKRANA"
+        },
+        {
+            "Code": "555",
+            "CodeDesc": "MALAPPURAM"
+        },
+        {
+            "Code": "556",
+            "CodeDesc": "MALAPURAM"
+        },
+        {
+            "Code": "557",
+            "CodeDesc": "MALDA"
+        },
+        {
+            "Code": "558",
+            "CodeDesc": "MALEGAON TOWN"
+        },
+        {
+            "Code": "559",
+            "CodeDesc": "MALL"
+        },
+        {
+            "Code": "560",
+            "CodeDesc": "MALVAN"
+        },
+        {
+            "Code": "561",
+            "CodeDesc": "MANAMADURAI"
+        },
+        {
+            "Code": "562",
+            "CodeDesc": "MANCHERYAL"
+        },
+        {
+            "Code": "563",
+            "CodeDesc": "MANDAPETA"
+        },
+        {
+            "Code": "564",
+            "CodeDesc": "MANDI"
+        },
+        {
+            "Code": "565",
+            "CodeDesc": "MANDLA"
+        },
+        {
+            "Code": "566",
+            "CodeDesc": "MANDSAUR"
+        },
+        {
+            "Code": "567",
+            "CodeDesc": "MANDVI (Kutchh)"
+        },
+        {
+            "Code": "568",
+            "CodeDesc": "MANDYA"
+        },
+        {
+            "Code": "569",
+            "CodeDesc": "MANGALAGIRI"
+        },
+        {
+            "Code": "570",
+            "CodeDesc": "MANGALDAI"
+        },
+        {
+            "Code": "571",
+            "CodeDesc": "MANGALORE"
+        },
+        {
+            "Code": "572",
+            "CodeDesc": "MANIPAL"
+        },
+        {
+            "Code": "573",
+            "CodeDesc": "MANJERI"
+        },
+        {
+            "Code": "574",
+            "CodeDesc": "MANNARGUDI"
+        },
+        {
+            "Code": "575",
+            "CodeDesc": "MARHOURAH"
+        },
+        {
+            "Code": "576",
+            "CodeDesc": "MARKAPUR"
+        },
+        {
+            "Code": "577",
+            "CodeDesc": "MARWAR JN"
+        },
+        {
+            "Code": "578",
+            "CodeDesc": "MATHERAN"
+        },
+        {
+            "Code": "579",
+            "CodeDesc": "MATHURA"
+        },
+        {
+            "Code": "580",
+            "CodeDesc": "MAU"
+        },
+        {
+            "Code": "581",
+            "CodeDesc": "MAU NATH BHANJAN"
+        },
+        {
+            "Code": "582",
+            "CodeDesc": "MAVELIKARA"
+        },
+        {
+            "Code": "583",
+            "CodeDesc": "MAVLI JN"
+        },
+        {
+            "Code": "584",
+            "CodeDesc": "MAYILADUTHURAI"
+        },
+        {
+            "Code": "585",
+            "CodeDesc": "MAYURBHANJ"
+        },
+        {
+            "Code": "586",
+            "CodeDesc": "MEDAK"
+        },
+        {
+            "Code": "587",
+            "CodeDesc": "MEDAK DIST"
+        },
+        {
+            "Code": "588",
+            "CodeDesc": "MEERUT"
+        },
+        {
+            "Code": "589",
+            "CodeDesc": "MELAKAVERI"
+        },
+        {
+            "Code": "590",
+            "CodeDesc": "MELUR"
+        },
+        {
+            "Code": "591",
+            "CodeDesc": "METTUPALAYAM"
+        },
+        {
+            "Code": "592",
+            "CodeDesc": "MIDNAPORE"
+        },
+        {
+            "Code": "593",
+            "CodeDesc": "MIRAJ"
+        },
+        {
+            "Code": "594",
+            "CodeDesc": "MIRYALAGUDA"
+        },
+        {
+            "Code": "595",
+            "CodeDesc": "MIRZAPUR"
+        },
+        {
+            "Code": "596",
+            "CodeDesc": "MODASA"
+        },
+        {
+            "Code": "597",
+            "CodeDesc": "MOGA"
+        },
+        {
+            "Code": "598",
+            "CodeDesc": "MOHALI"
+        },
+        {
+            "Code": "599",
+            "CodeDesc": "Mohania"
+        },
+        {
+            "Code": "600",
+            "CodeDesc": "MONGHYR"
+        },
+        {
+            "Code": "601",
+            "CodeDesc": "MORADABAD"
+        },
+        {
+            "Code": "602",
+            "CodeDesc": "MORBI"
+        },
+        {
+            "Code": "603",
+            "CodeDesc": "MORENA"
+        },
+        {
+            "Code": "604",
+            "CodeDesc": "MOTIHARI"
+        },
+        {
+            "Code": "605",
+            "CodeDesc": "MUDDEBIHAL"
+        },
+        {
+            "Code": "606",
+            "CodeDesc": "MUKTSAR"
+        },
+        {
+            "Code": "607",
+            "CodeDesc": "MUMBAI"
+        },
+        {
+            "Code": "608",
+            "CodeDesc": "Munger"
+        },
+        {
+            "Code": "609",
+            "CodeDesc": "MURSHIDABAD"
+        },
+        {
+            "Code": "610",
+            "CodeDesc": "MUSABANI"
+        },
+        {
+            "Code": "611",
+            "CodeDesc": "MUVATTUPUZHA"
+        },
+        {
+            "Code": "612",
+            "CodeDesc": "MUZAFFAR NAGAR"
+        },
+        {
+            "Code": "613",
+            "CodeDesc": "MUZAFFARNAGAR"
+        },
+        {
+            "Code": "614",
+            "CodeDesc": "MUZAFFARPUR"
+        },
+        {
+            "Code": "615",
+            "CodeDesc": "MYSORE"
+        },
+        {
+            "Code": "616",
+            "CodeDesc": "NABADWIP"
+        },
+        {
+            "Code": "617",
+            "CodeDesc": "NABARANGAPUR"
+        },
+        {
+            "Code": "618",
+            "CodeDesc": "NADIA"
+        },
+        {
+            "Code": "619",
+            "CodeDesc": "NADIAD"
+        },
+        {
+            "Code": "620",
+            "CodeDesc": "NAGAON"
+        },
+        {
+            "Code": "621",
+            "CodeDesc": "NAGAPATTINAM"
+        },
+        {
+            "Code": "622",
+            "CodeDesc": "NAGAUR"
+        },
+        {
+            "Code": "623",
+            "CodeDesc": "NAGERCOIL"
+        },
+        {
+            "Code": "624",
+            "CodeDesc": "NAGPUR"
+        },
+        {
+            "Code": "625",
+            "CodeDesc": "NAHAN"
+        },
+        {
+            "Code": "626",
+            "CodeDesc": "NAINITAL"
+        },
+        {
+            "Code": "627",
+            "CodeDesc": "NALANDA"
+        },
+        {
+            "Code": "628",
+            "CodeDesc": "NALBARI"
+        },
+        {
+            "Code": "629",
+            "CodeDesc": "NALGONDA"
+        },
+        {
+            "Code": "630",
+            "CodeDesc": "NAMAKKAL"
+        },
+        {
+            "Code": "631",
+            "CodeDesc": "NANDED"
+        },
+        {
+            "Code": "632",
+            "CodeDesc": "NANDURBAR"
+        },
+        {
+            "Code": "633",
+            "CodeDesc": "NANDYAL"
+        },
+        {
+            "Code": "634",
+            "CodeDesc": "NANJANGUD"
+        },
+        {
+            "Code": "635",
+            "CodeDesc": "NARASARAOPETA"
+        },
+        {
+            "Code": "636",
+            "CodeDesc": "NARASIMHAPUR"
+        },
+        {
+            "Code": "637",
+            "CodeDesc": "NARGUND"
+        },
+        {
+            "Code": "638",
+            "CodeDesc": "NARMADA"
+        },
+        {
+            "Code": "639",
+            "CodeDesc": "NARNAUL"
+        },
+        {
+            "Code": "640",
+            "CodeDesc": "NARSINGHPUR"
+        },
+        {
+            "Code": "641",
+            "CodeDesc": "NARSIPATNAM"
+        },
+        {
+            "Code": "642",
+            "CodeDesc": "NASHIK"
+        },
+        {
+            "Code": "643",
+            "CodeDesc": "NASIK"
+        },
+        {
+            "Code": "644",
+            "CodeDesc": "NASIRABAD"
+        },
+        {
+            "Code": "645",
+            "CodeDesc": "NAVI MUMBAI"
+        },
+        {
+            "Code": "646",
+            "CodeDesc": "NAVSARI"
+        },
+        {
+            "Code": "647",
+            "CodeDesc": "NAWABGANJ"
+        },
+        {
+            "Code": "648",
+            "CodeDesc": "NAWADAH"
+        },
+        {
+            "Code": "649",
+            "CodeDesc": "NAYAGARH"
+        },
+        {
+            "Code": "650",
+            "CodeDesc": "NEEMUCH"
+        },
+        {
+            "Code": "651",
+            "CodeDesc": "NELLORE"
+        },
+        {
+            "Code": "652",
+            "CodeDesc": "NEW BOMBAY"
+        },
+        {
+            "Code": "653",
+            "CodeDesc": "NEW PLOT JAMMU"
+        },
+        {
+            "Code": "654",
+            "CodeDesc": "NICOBAR"
+        },
+        {
+            "Code": "655",
+            "CodeDesc": "NIM-K-ATHANA"
+        },
+        {
+            "Code": "656",
+            "CodeDesc": "NIZAMBAD"
+        },
+        {
+            "Code": "657",
+            "CodeDesc": "NOIDA"
+        },
+        {
+            "Code": "658",
+            "CodeDesc": "NORTH 24 PARGANAS"
+        },
+        {
+            "Code": "659",
+            "CodeDesc": "NORTH DINAJPUR"
+        },
+        {
+            "Code": "660",
+            "CodeDesc": "NORTH GOA"
+        },
+        {
+            "Code": "661",
+            "CodeDesc": "NORTH LAKHIMPUR"
+        },
+        {
+            "Code": "662",
+            "CodeDesc": "NORTH SIKKIM"
+        },
+        {
+            "Code": "663",
+            "CodeDesc": "NORTH TRIPURA"
+        },
+        {
+            "Code": "664",
+            "CodeDesc": "NORTH WEST DELHI"
+        },
+        {
+            "Code": "665",
+            "CodeDesc": "NOWGONG"
+        },
+        {
+            "Code": "666",
+            "CodeDesc": "NUZVID"
+        },
+        {
+            "Code": "667",
+            "CodeDesc": "OLAVAKKOT"
+        },
+        {
+            "Code": "668",
+            "CodeDesc": "ONGOLE"
+        },
+        {
+            "Code": "669",
+            "CodeDesc": "ORAI"
+        },
+        {
+            "Code": "670",
+            "CodeDesc": "OSMANABAD"
+        },
+        {
+            "Code": "671",
+            "CodeDesc": "OTTAPALAM"
+        },
+        {
+            "Code": "672",
+            "CodeDesc": "PADRAUNA"
+        },
+        {
+            "Code": "673",
+            "CodeDesc": "PALAI"
+        },
+        {
+            "Code": "674",
+            "CodeDesc": "PALAKKAD"
+        },
+        {
+            "Code": "675",
+            "CodeDesc": "PALAKOLE"
+        },
+        {
+            "Code": "676",
+            "CodeDesc": "PALAMPUR"
+        },
+        {
+            "Code": "677",
+            "CodeDesc": "PALANI"
+        },
+        {
+            "Code": "678",
+            "CodeDesc": "PALANPUR"
+        },
+        {
+            "Code": "679",
+            "CodeDesc": "PALAYANKOTTAI"
+        },
+        {
+            "Code": "680",
+            "CodeDesc": "PALGHAR"
+        },
+        {
+            "Code": "681",
+            "CodeDesc": "PALI"
+        },
+        {
+            "Code": "682",
+            "CodeDesc": "PALMANER"
+        },
+        {
+            "Code": "683",
+            "CodeDesc": "PANCH MAHALS"
+        },
+        {
+            "Code": "684",
+            "CodeDesc": "PANCHKULA"
+        },
+        {
+            "Code": "685",
+            "CodeDesc": "PANCHMAHAL"
+        },
+        {
+            "Code": "686",
+            "CodeDesc": "PANDHARPUR"
+        },
+        {
+            "Code": "687",
+            "CodeDesc": "PANIPAT"
+        },
+        {
+            "Code": "688",
+            "CodeDesc": "PANNA"
+        },
+        {
+            "Code": "689",
+            "CodeDesc": "PANVEL"
+        },
+        {
+            "Code": "690",
+            "CodeDesc": "PAPANASAM"
+        },
+        {
+            "Code": "691",
+            "CodeDesc": "PARALAKHEMUNDI"
+        },
+        {
+            "Code": "692",
+            "CodeDesc": "PARAMAKUDI"
+        },
+        {
+            "Code": "693",
+            "CodeDesc": "PARATWADA"
+        },
+        {
+            "Code": "694",
+            "CodeDesc": "PARBHANI"
+        },
+        {
+            "Code": "695",
+            "CodeDesc": "PARKAL"
+        },
+        {
+            "Code": "696",
+            "CodeDesc": "PARLI"
+        },
+        {
+            "Code": "697",
+            "CodeDesc": "PARVATHIPURAM"
+        },
+        {
+            "Code": "698",
+            "CodeDesc": "PATAMDA"
+        },
+        {
+            "Code": "699",
+            "CodeDesc": "PATAN"
+        },
+        {
+            "Code": "700",
+            "CodeDesc": "PATHANAMTHITTA"
+        },
+        {
+            "Code": "701",
+            "CodeDesc": "PATIALA"
+        },
+        {
+            "Code": "702",
+            "CodeDesc": "PATNA"
+        },
+        {
+            "Code": "703",
+            "CodeDesc": "PATTUKOTTAI"
+        },
+        {
+            "Code": "704",
+            "CodeDesc": "PAURI"
+        },
+        {
+            "Code": "705",
+            "CodeDesc": "PAURI GARHWAL"
+        },
+        {
+            "Code": "706",
+            "CodeDesc": "PEDDAPALLI"
+        },
+        {
+            "Code": "707",
+            "CodeDesc": "PERIYAKULAM"
+        },
+        {
+            "Code": "708",
+            "CodeDesc": "PERUMBAVOOR"
+        },
+        {
+            "Code": "709",
+            "CodeDesc": "PHAGWARA"
+        },
+        {
+            "Code": "710",
+            "CodeDesc": "PHULBANI"
+        },
+        {
+            "Code": "711",
+            "CodeDesc": "PILIBHIT"
+        },
+        {
+            "Code": "712",
+            "CodeDesc": "PITHORAGARH"
+        },
+        {
+            "Code": "713",
+            "CodeDesc": "POLLACHI"
+        },
+        {
+            "Code": "714",
+            "CodeDesc": "PONANI"
+        },
+        {
+            "Code": "715",
+            "CodeDesc": "POONCH"
+        },
+        {
+            "Code": "716",
+            "CodeDesc": "PORBANDER"
+        },
+        {
+            "Code": "717",
+            "CodeDesc": "PORT BLAIR"
+        },
+        {
+            "Code": "718",
+            "CodeDesc": "PRAKASAM"
+        },
+        {
+            "Code": "719",
+            "CodeDesc": "PRATAPGARH"
+        },
+        {
+            "Code": "720",
+            "CodeDesc": "PREM NAGAR, DODA"
+        },
+        {
+            "Code": "721",
+            "CodeDesc": "PRODDATUR"
+        },
+        {
+            "Code": "722",
+            "CodeDesc": "PUDUKKOTTAI"
+        },
+        {
+            "Code": "723",
+            "CodeDesc": "PUNALUR"
+        },
+        {
+            "Code": "724",
+            "CodeDesc": "PUNE"
+        },
+        {
+            "Code": "725",
+            "CodeDesc": "PURI"
+        },
+        {
+            "Code": "726",
+            "CodeDesc": "PURNEA"
+        },
+        {
+            "Code": "727",
+            "CodeDesc": "PURULIA"
+        },
+        {
+            "Code": "728",
+            "CodeDesc": "PURULIYA"
+        },
+        {
+            "Code": "729",
+            "CodeDesc": "PUTTUR"
+        },
+        {
+            "Code": "730",
+            "CodeDesc": "QUILANDI"
+        },
+        {
+            "Code": "731",
+            "CodeDesc": "RADHAKISHOREPUR"
+        },
+        {
+            "Code": "732",
+            "CodeDesc": "RAE BARELI"
+        },
+        {
+            "Code": "733",
+            "CodeDesc": "RAGHUNATHAGANJ"
+        },
+        {
+            "Code": "734",
+            "CodeDesc": "RAIBAG"
+        },
+        {
+            "Code": "735",
+            "CodeDesc": "RAICHUR"
+        },
+        {
+            "Code": "736",
+            "CodeDesc": "RAIGAD"
+        },
+        {
+            "Code": "737",
+            "CodeDesc": "RAIGARH"
+        },
+        {
+            "Code": "738",
+            "CodeDesc": "RAIGARH(MH)"
+        },
+        {
+            "Code": "739",
+            "CodeDesc": "RAIPUR"
+        },
+        {
+            "Code": "740",
+            "CodeDesc": "RAIRANGAPU"
+        },
+        {
+            "Code": "741",
+            "CodeDesc": "RAISEN"
+        },
+        {
+            "Code": "742",
+            "CodeDesc": "RAJAHMUNDRY"
+        },
+        {
+            "Code": "743",
+            "CodeDesc": "RAJAMPET"
+        },
+        {
+            "Code": "744",
+            "CodeDesc": "RAJAURI"
+        },
+        {
+            "Code": "745",
+            "CodeDesc": "RAJGARH"
+        },
+        {
+            "Code": "746",
+            "CodeDesc": "RAJKOT"
+        },
+        {
+            "Code": "747",
+            "CodeDesc": "RAJNANDGAON"
+        },
+        {
+            "Code": "748",
+            "CodeDesc": "RAJOURI"
+        },
+        {
+            "Code": "749",
+            "CodeDesc": "RAJPARDI"
+        },
+        {
+            "Code": "750",
+            "CodeDesc": "RAJPIPLA"
+        },
+        {
+            "Code": "751",
+            "CodeDesc": "RAJPURA"
+        },
+        {
+            "Code": "752",
+            "CodeDesc": "RAJSAMAND"
+        },
+        {
+            "Code": "753",
+            "CodeDesc": "RAMACHANDRAPURAM"
+        },
+        {
+            "Code": "754",
+            "CodeDesc": "RAMANATHAPURAM"
+        },
+        {
+            "Code": "755",
+            "CodeDesc": "RAMDURG"
+        },
+        {
+            "Code": "756",
+            "CodeDesc": "RAMGARH"
+        },
+        {
+            "Code": "757",
+            "CodeDesc": "RAMPUR"
+        },
+        {
+            "Code": "758",
+            "CodeDesc": "RAMPUR BUSHAHR"
+        },
+        {
+            "Code": "759",
+            "CodeDesc": "RAMPURHAT"
+        },
+        {
+            "Code": "760",
+            "CodeDesc": "RANAGHAT"
+        },
+        {
+            "Code": "761",
+            "CodeDesc": "RANCHI"
+        },
+        {
+            "Code": "762",
+            "CodeDesc": "RANEBENNUR"
+        },
+        {
+            "Code": "763",
+            "CodeDesc": "RANIGANJ"
+        },
+        {
+            "Code": "764",
+            "CodeDesc": "RANIKHET"
+        },
+        {
+            "Code": "765",
+            "CodeDesc": "RANIPET"
+        },
+        {
+            "Code": "766",
+            "CodeDesc": "RASRA"
+        },
+        {
+            "Code": "767",
+            "CodeDesc": "RATANGARH"
+        },
+        {
+            "Code": "768",
+            "CodeDesc": "RATHLAM"
+        },
+        {
+            "Code": "769",
+            "CodeDesc": "RATLAM"
+        },
+        {
+            "Code": "770",
+            "CodeDesc": "RATNAGIRI"
+        },
+        {
+            "Code": "771",
+            "CodeDesc": "RAWAT BHATA"
+        },
+        {
+            "Code": "772",
+            "CodeDesc": "RAYAGADA"
+        },
+        {
+            "Code": "773",
+            "CodeDesc": "RAZOLE"
+        },
+        {
+            "Code": "774",
+            "CodeDesc": "REHARI COLONY "
+        },
+        {
+            "Code": "775",
+            "CodeDesc": "REKONG PEO"
+        },
+        {
+            "Code": "776",
+            "CodeDesc": "REPALLE"
+        },
+        {
+            "Code": "777",
+            "CodeDesc": "RESIDENCY ROAD, JAMMU"
+        },
+        {
+            "Code": "778",
+            "CodeDesc": "REWA"
+        },
+        {
+            "Code": "779",
+            "CodeDesc": "REWARI"
+        },
+        {
+            "Code": "780",
+            "CodeDesc": "ROHTAK"
+        },
+        {
+            "Code": "781",
+            "CodeDesc": "Rohtas"
+        },
+        {
+            "Code": "782",
+            "CodeDesc": "ROPAR"
+        },
+        {
+            "Code": "783",
+            "CodeDesc": "ROURKELA"
+        },
+        {
+            "Code": "784",
+            "CodeDesc": "SAGAR"
+        },
+        {
+            "Code": "785",
+            "CodeDesc": "SAHAHJAHANPUR"
+        },
+        {
+            "Code": "786",
+            "CodeDesc": "SAHARANPUR"
+        },
+        {
+            "Code": "787",
+            "CodeDesc": "SAHARSA"
+        },
+        {
+            "Code": "788",
+            "CodeDesc": "SAHIBGANJ"
+        },
+        {
+            "Code": "789",
+            "CodeDesc": "SAINIK COLONEY"
+        },
+        {
+            "Code": "790",
+            "CodeDesc": "SALEM"
+        },
+        {
+            "Code": "791",
+            "CodeDesc": "SAMALKOT"
+        },
+        {
+            "Code": "792",
+            "CodeDesc": "SAMASTIPUR"
+        },
+        {
+            "Code": "793",
+            "CodeDesc": "SAMBALPUR"
+        },
+        {
+            "Code": "794",
+            "CodeDesc": "SAMBHAR LAKE"
+        },
+        {
+            "Code": "795",
+            "CodeDesc": "SANDILA"
+        },
+        {
+            "Code": "796",
+            "CodeDesc": "SANGA REDDY"
+        },
+        {
+            "Code": "797",
+            "CodeDesc": "SANGLI"
+        },
+        {
+            "Code": "798",
+            "CodeDesc": "SANGRUR"
+        },
+        {
+            "Code": "799",
+            "CodeDesc": "SANKARANKOIL"
+        },
+        {
+            "Code": "800",
+            "CodeDesc": "SANT KABIR NAGAR"
+        },
+        {
+            "Code": "801",
+            "CodeDesc": "SARAN"
+        },
+        {
+            "Code": "802",
+            "CodeDesc": "SASARAM"
+        },
+        {
+            "Code": "803",
+            "CodeDesc": "SATARA"
+        },
+        {
+            "Code": "804",
+            "CodeDesc": "SATNA"
+        },
+        {
+            "Code": "805",
+            "CodeDesc": "SATTENAPALLE"
+        },
+        {
+            "Code": "806",
+            "CodeDesc": "SAWAI MADHOPUR"
+        },
+        {
+            "Code": "807",
+            "CodeDesc": "SAWANTWADI"
+        },
+        {
+            "Code": "808",
+            "CodeDesc": "SEHORE"
+        },
+        {
+            "Code": "809",
+            "CodeDesc": "SENAPATI"
+        },
+        {
+            "Code": "810",
+            "CodeDesc": "Seoni city"
+        },
+        {
+            "Code": "811",
+            "CodeDesc": "SERAIKELA-KHARSAWAN"
+        },
+        {
+            "Code": "812",
+            "CodeDesc": "SHAHABAD"
+        },
+        {
+            "Code": "813",
+            "CodeDesc": "SHAHDOL"
+        },
+        {
+            "Code": "814",
+            "CodeDesc": "SHAHJAHANPUR"
+        },
+        {
+            "Code": "815",
+            "CodeDesc": "SHAHPURA"
+        },
+        {
+            "Code": "816",
+            "CodeDesc": "SHAJAPUR"
+        },
+        {
+            "Code": "817",
+            "CodeDesc": "SHAMLI"
+        },
+        {
+            "Code": "818",
+            "CodeDesc": "SHASTRI NAGAR"
+        },
+        {
+            "Code": "819",
+            "CodeDesc": "Sheikhpura"
+        },
+        {
+            "Code": "820",
+            "CodeDesc": "Sheohar"
+        },
+        {
+            "Code": "821",
+            "CodeDesc": "SHERTALLY"
+        },
+        {
+            "Code": "822",
+            "CodeDesc": "SHILLONG"
+        },
+        {
+            "Code": "823",
+            "CodeDesc": "SHIMLA"
+        },
+        {
+            "Code": "824",
+            "CodeDesc": "SHIMOGA"
+        },
+        {
+            "Code": "825",
+            "CodeDesc": "SHIVPURI"
+        },
+        {
+            "Code": "826",
+            "CodeDesc": "SHOLAVANDAN"
+        },
+        {
+            "Code": "827",
+            "CodeDesc": "SHORAPUR"
+        },
+        {
+            "Code": "828",
+            "CodeDesc": "SHRIRAMPUR"
+        },
+        {
+            "Code": "829",
+            "CodeDesc": "SHRIVAIKUNTAM"
+        },
+        {
+            "Code": "830",
+            "CodeDesc": "SIBSAGAR"
+        },
+        {
+            "Code": "831",
+            "CodeDesc": "SIDDIPET"
+        },
+        {
+            "Code": "832",
+            "CodeDesc": "SIDHI"
+        },
+        {
+            "Code": "833",
+            "CodeDesc": "SIKAR"
+        },
+        {
+            "Code": "834",
+            "CodeDesc": "SILCHAR"
+        },
+        {
+            "Code": "835",
+            "CodeDesc": "SILIGURI"
+        },
+        {
+            "Code": "836",
+            "CodeDesc": "SIMDEGA"
+        },
+        {
+            "Code": "837",
+            "CodeDesc": "SIMLA"
+        },
+        {
+            "Code": "838",
+            "CodeDesc": "SINDHUDURG"
+        },
+        {
+            "Code": "839",
+            "CodeDesc": "SINDRI"
+        },
+        {
+            "Code": "840",
+            "CodeDesc": "SIRKALI"
+        },
+        {
+            "Code": "841",
+            "CodeDesc": "SIROHI"
+        },
+        {
+            "Code": "842",
+            "CodeDesc": "SIRSA"
+        },
+        {
+            "Code": "843",
+            "CodeDesc": "SIRSI"
+        },
+        {
+            "Code": "844",
+            "CodeDesc": "SITAMARHI"
+        },
+        {
+            "Code": "845",
+            "CodeDesc": "SITAPUR"
+        },
+        {
+            "Code": "846",
+            "CodeDesc": "SIVAGANGA"
+        },
+        {
+            "Code": "847",
+            "CodeDesc": "SIWAN"
+        },
+        {
+            "Code": "848",
+            "CodeDesc": "SOLA HOUSING BOARD COL"
+        },
+        {
+            "Code": "849",
+            "CodeDesc": "SOLAN"
+        },
+        {
+            "Code": "850",
+            "CodeDesc": "SOLAPUR"
+        },
+        {
+            "Code": "851",
+            "CodeDesc": "SONBHADRA"
+        },
+        {
+            "Code": "852",
+            "CodeDesc": "SONEPAT"
+        },
+        {
+            "Code": "853",
+            "CodeDesc": "SONITPUR"
+        },
+        {
+            "Code": "854",
+            "CodeDesc": "SOUTH ANDAMAN"
+        },
+        {
+            "Code": "855",
+            "CodeDesc": "SOUTH DINAJPUR"
+        },
+        {
+            "Code": "856",
+            "CodeDesc": "SOUTH GOA"
+        },
+        {
+            "Code": "857",
+            "CodeDesc": "SOUTH TRIPURA"
+        },
+        {
+            "Code": "858",
+            "CodeDesc": "SOUTH WEST DELHI"
+        },
+        {
+            "Code": "859",
+            "CodeDesc": "SRI GANGANAGAR(HO)"
+        },
+        {
+            "Code": "860",
+            "CodeDesc": "SRI MADHOPUR"
+        },
+        {
+            "Code": "861",
+            "CodeDesc": "SRIKAKULAM"
+        },
+        {
+            "Code": "862",
+            "CodeDesc": "SRIKALAHASTI"
+        },
+        {
+            "Code": "863",
+            "CodeDesc": "SRINAGAR"
+        },
+        {
+            "Code": "864",
+            "CodeDesc": "SRIRANGAM"
+        },
+        {
+            "Code": "865",
+            "CodeDesc": "SRIRANGAPATNA"
+        },
+        {
+            "Code": "866",
+            "CodeDesc": "SRIVALLIPUTTR"
+        },
+        {
+            "Code": "867",
+            "CodeDesc": "SULLIAH"
+        },
+        {
+            "Code": "868",
+            "CodeDesc": "SULTANPUR"
+        },
+        {
+            "Code": "869",
+            "CodeDesc": "SUNDARGARH"
+        },
+        {
+            "Code": "870",
+            "CodeDesc": "Supaul"
+        },
+        {
+            "Code": "871",
+            "CodeDesc": "SURAT"
+        },
+        {
+            "Code": "872",
+            "CodeDesc": "SURENDRA NAGAR"
+        },
+        {
+            "Code": "873",
+            "CodeDesc": "SURENDRANAGAR"
+        },
+        {
+            "Code": "874",
+            "CodeDesc": "SURI"
+        },
+        {
+            "Code": "875",
+            "CodeDesc": "TADEPALLIGUDEM"
+        },
+        {
+            "Code": "876",
+            "CodeDesc": "TALIPARAMBA"
+        },
+        {
+            "Code": "877",
+            "CodeDesc": "TALLAKULAM"
+        },
+        {
+            "Code": "878",
+            "CodeDesc": "TAMENGLONG"
+        },
+        {
+            "Code": "879",
+            "CodeDesc": "TAMLUK"
+        },
+        {
+            "Code": "880",
+            "CodeDesc": "TANUKU"
+        },
+        {
+            "Code": "881",
+            "CodeDesc": "TARN TARAN"
+        },
+        {
+            "Code": "882",
+            "CodeDesc": "TAWANG"
+        },
+        {
+            "Code": "883",
+            "CodeDesc": "TEHRI"
+        },
+        {
+            "Code": "884",
+            "CodeDesc": "TEHRI GARHWAL"
+        },
+        {
+            "Code": "885",
+            "CodeDesc": "TEKKALI"
+        },
+        {
+            "Code": "886",
+            "CodeDesc": "TELLICHERRY"
+        },
+        {
+            "Code": "887",
+            "CodeDesc": "TENALI"
+        },
+        {
+            "Code": "888",
+            "CodeDesc": "TENKASI"
+        },
+        {
+            "Code": "889",
+            "CodeDesc": "TEZPUR"
+        },
+        {
+            "Code": "890",
+            "CodeDesc": "THANE"
+        },
+        {
+            "Code": "891",
+            "CodeDesc": "Thane West (Mumbai)"
+        },
+        {
+            "Code": "892",
+            "CodeDesc": "THANJAVUR"
+        },
+        {
+            "Code": "893",
+            "CodeDesc": "THARIYODE"
+        },
+        {
+            "Code": "894",
+            "CodeDesc": "THENI"
+        },
+        {
+            "Code": "895",
+            "CodeDesc": "THIRUVANANTHAPURAM"
+        },
+        {
+            "Code": "896",
+            "CodeDesc": "THIRUVARUR"
+        },
+        {
+            "Code": "897",
+            "CodeDesc": "THODUPUZHA"
+        },
+        {
+            "Code": "898",
+            "CodeDesc": "THOUBAL"
+        },
+        {
+            "Code": "899",
+            "CodeDesc": "THRISSUR"
+        },
+        {
+            "Code": "900",
+            "CodeDesc": "THUCKLAY"
+        },
+        {
+            "Code": "901",
+            "CodeDesc": "TIKAMGARH"
+        },
+        {
+            "Code": "902",
+            "CodeDesc": "TILAKWADI"
+        },
+        {
+            "Code": "903",
+            "CodeDesc": "TINDIVANAM"
+        },
+        {
+            "Code": "904",
+            "CodeDesc": "TINSUKIA"
+        },
+        {
+            "Code": "905",
+            "CodeDesc": "TIPTUR"
+        },
+        {
+            "Code": "906",
+            "CodeDesc": "TIRAP"
+        },
+        {
+            "Code": "907",
+            "CodeDesc": "TIRUCHENDUR"
+        },
+        {
+            "Code": "908",
+            "CodeDesc": "TIRUCHIRAPPALLI"
+        },
+        {
+            "Code": "909",
+            "CodeDesc": "TIRUKKOYILUR"
+        },
+        {
+            "Code": "910",
+            "CodeDesc": "TIRUNELVELI"
+        },
+        {
+            "Code": "911",
+            "CodeDesc": "TIRUPATHI"
+        },
+        {
+            "Code": "912",
+            "CodeDesc": "TIRUPATTUR"
+        },
+        {
+            "Code": "913",
+            "CodeDesc": "TIRUPUR"
+        },
+        {
+            "Code": "914",
+            "CodeDesc": "TIRUR"
+        },
+        {
+            "Code": "915",
+            "CodeDesc": "TIRUVALLA"
+        },
+        {
+            "Code": "916",
+            "CodeDesc": "TIRUVALLUR"
+        },
+        {
+            "Code": "917",
+            "CodeDesc": "TIRUVANNAMALAI"
+        },
+        {
+            "Code": "918",
+            "CodeDesc": "TONK"
+        },
+        {
+            "Code": "919",
+            "CodeDesc": "TRIVANDRUM"
+        },
+        {
+            "Code": "920",
+            "CodeDesc": "TUMKUR"
+        },
+        {
+            "Code": "921",
+            "CodeDesc": "TURA"
+        },
+        {
+            "Code": "922",
+            "CodeDesc": "TURAIYUR"
+        },
+        {
+            "Code": "923",
+            "CodeDesc": "TUTICORIN"
+        },
+        {
+            "Code": "924",
+            "CodeDesc": "TUTUCORIN"
+        },
+        {
+            "Code": "925",
+            "CodeDesc": "UDAGAMANDALAM"
+        },
+        {
+            "Code": "926",
+            "CodeDesc": "UDAIPUR"
+        },
+        {
+            "Code": "927",
+            "CodeDesc": "UDAMALPET"
+        },
+        {
+            "Code": "928",
+            "CodeDesc": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Code": "929",
+            "CodeDesc": "UDHAMPUR"
+        },
+        {
+            "Code": "930",
+            "CodeDesc": "UDUPI"
+        },
+        {
+            "Code": "931",
+            "CodeDesc": "UJJAIN"
+        },
+        {
+            "Code": "932",
+            "CodeDesc": "ULHAS NAGAR"
+        },
+        {
+            "Code": "933",
+            "CodeDesc": "ULUNDURPET"
+        },
+        {
+            "Code": "934",
+            "CodeDesc": "UNA"
+        },
+        {
+            "Code": "935",
+            "CodeDesc": "UNION TERRITORY "
+        },
+        {
+            "Code": "936",
+            "CodeDesc": "UNNAO"
+        },
+        {
+            "Code": "937",
+            "CodeDesc": "UTTARA KANNADA"
+        },
+        {
+            "Code": "938",
+            "CodeDesc": "VADAKKANCHERI"
+        },
+        {
+            "Code": "939",
+            "CodeDesc": "VADODARA"
+        },
+        {
+            "Code": "940",
+            "CodeDesc": "VAIKOM"
+        },
+        {
+            "Code": "941",
+            "CodeDesc": "Vaishali"
+        },
+        {
+            "Code": "942",
+            "CodeDesc": "VALSAD"
+        },
+        {
+            "Code": "943",
+            "CodeDesc": "VARANASI"
+        },
+        {
+            "Code": "944",
+            "CodeDesc": "VELLORE"
+        },
+        {
+            "Code": "945",
+            "CodeDesc": "VENGURLA"
+        },
+        {
+            "Code": "946",
+            "CodeDesc": "VERAVAL"
+        },
+        {
+            "Code": "947",
+            "CodeDesc": "VIDISHA"
+        },
+        {
+            "Code": "948",
+            "CodeDesc": "VIJAPUR"
+        },
+        {
+            "Code": "949",
+            "CodeDesc": "VIJAYAWADA"
+        },
+        {
+            "Code": "950",
+            "CodeDesc": "VIKARABAD"
+        },
+        {
+            "Code": "951",
+            "CodeDesc": "VILLUPURAM"
+        },
+        {
+            "Code": "952",
+            "CodeDesc": "VIRUDHUNAGAR"
+        },
+        {
+            "Code": "953",
+            "CodeDesc": "VISAKHAPATNAM"
+        },
+        {
+            "Code": "954",
+            "CodeDesc": "VISNAGAR"
+        },
+        {
+            "Code": "955",
+            "CodeDesc": "VIZIANAGARAM"
+        },
+        {
+            "Code": "956",
+            "CodeDesc": "VRIDDACHALAM"
+        },
+        {
+            "Code": "957",
+            "CodeDesc": "WANAPARTHY"
+        },
+        {
+            "Code": "958",
+            "CodeDesc": "WARANGAL"
+        },
+        {
+            "Code": "959",
+            "CodeDesc": "WARDHA"
+        },
+        {
+            "Code": "960",
+            "CodeDesc": "WASHIM"
+        },
+        {
+            "Code": "961",
+            "CodeDesc": "WAYANAD"
+        },
+        {
+            "Code": "962",
+            "CodeDesc": "WEST CHAMPARAN"
+        },
+        {
+            "Code": "963",
+            "CodeDesc": "WEST GODAVARI"
+        },
+        {
+            "Code": "964",
+            "CodeDesc": "WEST KAMENG"
+        },
+        {
+            "Code": "965",
+            "CodeDesc": "WEST MIDNAPORE"
+        },
+        {
+            "Code": "966",
+            "CodeDesc": "WEST SIANG"
+        },
+        {
+            "Code": "967",
+            "CodeDesc": "WEST TRIPURA"
+        },
+        {
+            "Code": "968",
+            "CodeDesc": "YADGIRI"
+        },
+        {
+            "Code": "969",
+            "CodeDesc": "YAMUNA NAGAR"
+        },
+        {
+            "Code": "970",
+            "CodeDesc": "YEOTMAL"
+        },
+        {
+            "Code": "971",
+            "CodeDesc": "ZAHIRABAD"
+        },
+        {
+            "Code": "972",
+            "CodeDesc": "ZAMANIA"
+        }
+    ],
+    "ErroCode": 0
+}

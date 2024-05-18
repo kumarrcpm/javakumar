@@ -1,0 +1,60 @@
+192.168.1.15:8083/master/saveendorsementpayment
+
+Endorsement Payment Insert
+
+Req -->
+
+{
+  "BankName": "string",
+  "EndorsementId": 1000,
+  "PaymentAmount": 1000,
+  "PaymentCollectedDate": "06/06/2022",
+  "PaymentDate": "06/06/2022",
+  "PaymentRefNo": "string",
+  "PaymentType": "string",
+  "PaymentTypeId": 0,
+  "Remarks": "string"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+Update 
+
+
+Req -->
+
+{
+  "BankName": "string",
+  "EndorsementId": 1000,
+  "PaymentAmount": 1000,
+  "PaymentCollectedDate": "06/06/2022",
+  "PaymentDate": "06/06/2022",
+  "PaymentRefNo": "string2",
+  "PaymentType": "string2",
+  "PaymentTypeId": 0,
+  "Remarks": "string",
+  "EndorsementPaymentId":1001
+  
+}
+
+
+Res -->
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,31 @@
+192.168.1.15:8083/master/getendorsementfinancial
+
+Req -->
+
+
+
+{
+  "EndorsementId": 1000,
+  "EndorsmentFinancialId":1000
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "EndorsementId": 1000,
+        "EndorsmentFinancialId": 1000,
+        "StartDate": "11/06/2022",
+        "ExpiryDate": "21/06/2022",
+        "SumInsured": 0.0,
+        "CommissionBasePremium": 0.0,
+        "OtherPremium": 0.0,
+        "TotalPremium": 0.0,
+        "Gst": 0.0,
+        "PremiumWithGst": 10.0
+    },
+    "ErroCode": 0
+}

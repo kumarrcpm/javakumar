@@ -1,0 +1,50 @@
+192.168.1.15:8083/api/getalllead
+
+Req-->
+{
+
+    "Limit":"0",
+    "Offset":1
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "LeadId": "10001",
+            "ClientRefNo": "C/1001/23",
+            "BusinessType": null,
+            "BusinessTypeId": null,
+            "ClassDesc": null,
+            "ClassId": null,
+            "PolicyType": null,
+            "PolicyTypeId": null,
+            "LeadGenDate": "",
+            "DueDate": "",
+            "BrokenPolicy": null,
+            "Classification": null,
+            "ClassificationId": null,
+            "Source": null,
+            "SourceId": null,
+            "Referredby": null,
+            "ReferredbyId": null,
+            "Othertype": null,
+            "OthertypeId": null,
+            "Pos": null,
+            "PosId": null,
+            "ReferenceName": null,
+            "AssigntoGroup": null,
+            "AssigntoGroupId": null,
+            "AssigntoUser": null,
+            "AssigntoUserId": null,
+            "Remarks": null,
+            "EntryDate": "",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

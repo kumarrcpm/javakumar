@@ -1,0 +1,83 @@
+192.168.1.15:8083/master/savevehicledetails
+
+
+Req -->
+
+{
+  "CC": "150",
+  "ColorId": "1",
+  "ColorVariant": "Black",
+  "EngineNo": "123",
+  "FuelType": "EV",
+  "FuelTypeId": "1",
+  "ManufactureYear": "2018",
+  "PlateChar": "eawe",
+  "PlateCharId": "516",
+  "PlateNo": "56",
+  "SeatingCapacity": "6",
+  "VehBodytype": "Steel",
+  "VehBodytypeId": "1",
+  "VehMake": "Tamil Nadu",
+  "VehMakeId": "1",
+  "VehModel": "EV",
+  "VehModelId": "1",
+  "VehRemarks": "Battery",
+  "VehicleRegNo": "454",
+  "VehChassisNo":"2"
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+Update 
+
+192.168.1.15:8083/master/savevehicledetails
+
+Req -->
+
+{
+  "CC": "150",
+  "ColorId": "1",
+  "ColorVariant": "Black",
+  "EngineNo": "123",
+  "Fueltype": "EV",
+  "FueltypeId": "1",
+  "ManufactureYear": "2018",
+  "PlateChar": "eawe",
+  "PlateCharId": "516",
+  "PlateNo": "56",
+  "SeatingCapacity": "6",
+  "VehBodytype": "Steel",
+  "VehBodytypeId": "1",
+  "VehMake": "Tamil Nadu",
+  "VehMakeId": "1",
+  "VehModel": "EV",
+  "VehModelId": "1",
+  "VehRemarks": "Battery",
+  "VehicleRegNo": "455",
+  "VehChassisNo":"2"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

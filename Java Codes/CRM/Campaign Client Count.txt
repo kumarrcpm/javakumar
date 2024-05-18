@@ -1,0 +1,120 @@
+192.168.1.15:8083/api/getallcampaigndetails
+
+Req -->
+
+{
+"CampaignId":"camp-1005"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ClientCount": 7,
+        "CampaignRes": [
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745756",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "8798788",
+                "ClientRefNo": "C/1049/29",
+                "LeadId": "16972",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            },
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745756",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "8798788",
+                "ClientRefNo": "C/1049/29",
+                "LeadId": "17078",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            },
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745756",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "8798788",
+                "ClientRefNo": "C/1049/29",
+                "LeadId": "17195",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            },
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745776",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "87987889",
+                "ClientRefNo": "C/1050/59",
+                "LeadId": "17251",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            },
+            {
+                "ClientName": null,
+                "MobileNumber": "547848889",
+                "EmailId": "frew@gmail.com",
+                "Occupation": "string",
+                "Crno": null,
+                "ClientRefNo": null,
+                "LeadId": null,
+                "CampaignId": "camp-1005",
+                "ClientType": null,
+                "Title": null,
+                "ClientTypeId": null,
+                "TitleId": null
+            },
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745787",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "stdegeddd",
+                "ClientRefNo": "C/1047/14",
+                "LeadId": "16709",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            },
+            {
+                "ClientName": "Kumar",
+                "MobileNumber": "8845745786",
+                "EmailId": "kumar@gmail.com",
+                "Occupation": "Developer",
+                "Crno": "dft",
+                "ClientRefNo": "C/1048/34",
+                "LeadId": "16859",
+                "CampaignId": "camp-1005",
+                "ClientType": "Individual",
+                "Title": "Mr",
+                "ClientTypeId": 1,
+                "TitleId": "1"
+            }
+        ]
+    },
+    "ErroCode": 0
+}

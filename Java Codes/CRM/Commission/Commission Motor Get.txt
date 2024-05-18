@@ -1,0 +1,47 @@
+192.168.1.15:8083/master/getcommissionmotor
+
+Req -->
+
+{
+  "CommissionId":1000,
+  "PolicyId":1
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "COMMISSIONID": 1000,
+        "AMENDID": 1,
+        "POLICYID": 1,
+        "COMMPROCESSEDDATE": "05/06/2022",
+        "COMMGENERATIONDATE": "06/06/2022",
+        "ENTRYDATE": "19/06/2022",
+        "INSOWNDAMAGEADDONPER": 0.0,
+        "INSOWNDAMAGEADDONAMOUNT": 0.0,
+        "INSTHIRDPARTYPER": 0.0,
+        "INSTHIRDPARTYAMOUNT": 0.0,
+        "INSNETPER": 0.0,
+        "INSNETAMOUNT": 0.0,
+        "INSFLAT": 0.0,
+        "INSTOTAL": 0.0,
+        "INSGSTPER": 0.0,
+        "INSGSTAMOUNT": 0.0,
+        "INSTOTALWITHGST": 0.0,
+        "PAYOUTOWNDAMAGEADDONPER": 0.0,
+        "PAYOUTOWNDAMAGEADDONAMOUNT": 0.0,
+        "PAYOUTTHIRDPARTYPER": 0.0,
+        "PAYOUTTHIRDPARTYAMOUNT": 0.0,
+        "PAYOUTNETPER": 0.0,
+        "PAYOUTNETAMOUNT": 0.0,
+        "PAYOUTFLAT": 0.0,
+        "PAYOUTTOTAL": 0.0,
+        "PAYOUTGSTPER": 0.0,
+        "PAYOUTGSTAMOUNT": 0.0,
+        "PAYOUTTOTALWITHGST": 0.0
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,94 @@
+192.168.1.15:8083/master/savecommissionmotor
+
+Req -->
+
+{
+  "COMMGENERATIONDATE": "07/06/2022",
+  "COMMPROCESSEDDATE": "06/06/2022",
+  "INSFLAT": 0,
+  "INSGSTAMOUNT": 0,
+  "INSGSTPER": 0,
+  "INSNETAMOUNT": 0,
+  "INSNETPER": 0,
+  "INSOWNDAMAGEADDONAMOUNT": 0,
+  "INSOWNDAMAGEADDONPER": 0,
+  "INSTHIRDPARTYAMOUNT": 0,
+  "INSTHIRDPARTYPER": 0,
+  "INSTOTAL": 0,
+  "INSTOTALWITHGST": 0,
+  "PAYOUTFLAT": 0,
+  "PAYOUTGSTAMOUNT": 0,
+  "PAYOUTGSTPER": 0,
+  "PAYOUTNETAMOUNT": 0,
+  "PAYOUTNETPER": 0,
+  "PAYOUTOWNDAMAGEADDONAMOUNT": 0,
+  "PAYOUTOWNDAMAGEADDONPER": 0,
+  "PAYOUTTHIRDPARTYAMOUNT": 0,
+  "PAYOUTTHIRDPARTYPER": 0,
+  "PAYOUTTOTAL": 0,
+  "PAYOUTTOTALWITHGST": 0,
+  "POLICYID": 1
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+Update
+
+
+Req -->
+
+{
+  "COMMGENERATIONDATE": "07/06/2022",
+  "COMMPROCESSEDDATE": "06/06/2022",
+  "INSFLAT": 0,
+  "INSGSTAMOUNT": 0,
+  "INSGSTPER": 0,
+  "INSNETAMOUNT": 0,
+  "INSNETPER": 0,
+  "INSOWNDAMAGEADDONAMOUNT": 0,
+  "INSOWNDAMAGEADDONPER": 0,
+  "INSTHIRDPARTYAMOUNT": 0,
+  "INSTHIRDPARTYPER": 0,
+  "INSTOTAL": 0,
+  "INSTOTALWITHGST": 0,
+  "PAYOUTFLAT": 0,
+  "PAYOUTGSTAMOUNT": 0,
+  "PAYOUTGSTPER": 0,
+  "PAYOUTNETAMOUNT": 0,
+  "PAYOUTNETPER": 0,
+  "PAYOUTOWNDAMAGEADDONAMOUNT": 0,
+  "PAYOUTOWNDAMAGEADDONPER": 0,
+  "PAYOUTTHIRDPARTYAMOUNT": 0,
+  "PAYOUTTHIRDPARTYPER": 0,
+  "PAYOUTTOTAL": 0,
+  "PAYOUTTOTALWITHGST": 0,
+  "POLICYID": 1,
+  "COMMISSIONID":1000,
+   "ENTRYDATE":"20/06/2022"
+}
+
+
+
+Res -->
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

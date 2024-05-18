@@ -1,0 +1,62 @@
+192.168.1.15:8083/master/saveendorsementfinancial
+
+Endorsement Financial
+
+
+Req -->
+
+
+{
+  "CommissionBasePremium": 0,
+  "EndorsementId": 1000,
+  "ExpiryDate": "22/06/2022",
+  "Gst": 0,
+  "OtherPremium": 0,
+  "PremiumWithGst": 0,
+  "StartDate": "12/06/2022",
+  "SumInsured": 0,
+  "TotalPremium": 0
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+Update 
+
+
+Req -->
+
+{
+  "CommissionBasePremium": 0,
+  "EndorsementId": 1000,
+  "ExpiryDate": "22/06/2022",
+  "Gst": 0,
+  "OtherPremium": 0,
+  "PremiumWithGst": 10,
+  "StartDate": "12/06/2022",
+  "SumInsured": 0,
+  "TotalPremium": 0,
+  "EndorsmentFinancialId":1000
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

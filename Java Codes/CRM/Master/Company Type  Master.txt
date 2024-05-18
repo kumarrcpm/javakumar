@@ -1,0 +1,114 @@
+Company Type Master
+CompanyType Master Insert
+
+192.168.1.15:8083/master/insertcompanytype
+
+Req -->
+
+{
+"Sno":"6",
+"InsuranceId":"OMAN",
+"CompanyType":"Mid",
+"Status":"Y",
+"Remarks":"Test"
+
+
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successful",
+        "SucessId": "6"
+    },
+    "ErroCode": 0
+}
+
+
+Get
+
+192.168.1.15:8083/master/getcompanytypeid
+
+
+Req -->
+
+{
+
+    "Sno":"2",
+    "InsuranceId":"OMAN"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Sno": 2,
+        "InsCompanyId": "OMAN",
+        "CompanyType": "Medium",
+        "Status": "Y",
+        "EntryDate": null,
+        "Remarks": null
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getallcompanytype
+
+Req -->
+
+{
+
+    "InsuranceId":"OMAN"
+
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Sno": 1,
+            "InsCompanyId": "OMAN",
+            "CompanyType": "Large",
+            "Status": "Y",
+            "EntryDate": null,
+            "Remarks": null
+        },
+        {
+            "Sno": 2,
+            "InsCompanyId": "OMAN",
+            "CompanyType": "Medium",
+            "Status": "Y",
+            "EntryDate": null,
+            "Remarks": null
+        },
+        {
+            "Sno": 3,
+            "InsCompanyId": "OMAN",
+            "CompanyType": "Small",
+            "Status": "Y",
+            "EntryDate": null,
+            "Remarks": null
+        }
+    ],
+    "ErroCode": 0
+}
+
+

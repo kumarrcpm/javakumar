@@ -1,0 +1,73 @@
+192.168.1.15:8083/api/getallreferenceclients
+
+Req -->
+
+
+    {
+        "InsuranceId":"OMAN",
+        "BranchCode":"01",
+        "Limit":"0",
+        "Offset":"10"
+    }
+	
+	
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        },
+        {
+            "YourReferenceName": "Kumar",
+            "YourReferenceMobile": "9856849565",
+            "YourReferenceMailid": "kumar@gmail.com"
+        }
+    ],
+    "ErroCode": 0
+}

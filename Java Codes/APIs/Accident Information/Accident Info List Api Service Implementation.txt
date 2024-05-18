@@ -1,0 +1,126 @@
+////////// Validation 
+	@Override
+	public List<Error> validateAccidentInfo(List<AccidentInfoSaveReq> req) {
+		// TODO Auto-generated method stub
+		List<Error> errors = new ArrayList<Error>();
+		try {
+			int row = 0;
+
+			for (AccidentInfoSaveReq data : req) {
+				row = row + 1;
+
+				if (data.getCasenumber() == null || StringUtils.isBlank(data.getCasenumber())) {
+					errors.add(new Error("01", "Case Number", "Please Enter Case Number in Row :" + row));
+				}
+				if (data.getCasenumber() == null || StringUtils.isBlank(data.getCasenumber())) {
+					errors.add(new Error("01", "Case Number", "Please Enter Case Number  in Row :"+ row));
+				} else if (data.getCasenumber().length() > 50) {
+					errors.add(new Error("01", "Case Number", "Please Enter Case Number within 50 Characaters in Row :"+ row));
+				}
+				if (data.getSurveyorname() == null || StringUtils.isBlank(data.getSurveyorname())) {
+					errors.add(new Error("02", "Survey or Name", "Please Enter Survey or name in Row :"+ row));
+				} else if (data.getSurveyorname().length() > 100) {
+					errors.add(new Error("02", "Survey or Name", "Please Enter Survey or name within 200 Characters in Row :"+ row));
+				}
+				if (data.getCalldate() == null || StringUtils.isBlank(data.getCalldate().toString())) {
+					errors.add(new Error("03", "Call Date", "Please Enter Your Call Date in Row :"+ row));
+				}
+				if (data.getCalltime() == null || StringUtils.isBlank(data.getCalltime())) {
+					errors.add(new Error("04", "Call Time", "Please Enter Your Call Time in Row :"+ row));
+				} else if (data.getCalltime().length() > 20) {
+					errors.add(new Error("04", "Call Time", "Please Enter Your Call Time within 20 Characters in Row :"+ row));
+				}
+				if (data.getLandmark() == null || StringUtils.isBlank(data.getLandmark())) {
+					errors.add(new Error("05", "Land Mark", "Please Enter Your Land Mark in Row :"+ row));
+				} else if (data.getLandmark().length() > 100) {
+					errors.add(new Error("05", "Land Mark", "Please Enter Your Land Mark within 100 Characters in Row :"+ row));
+				}
+				if (data.getLocation() == null || StringUtils.isBlank(data.getLocation())) {
+					errors.add(new Error("06", "Location", "Please Enter Your Location in Row :"+ row));
+				} else if (data.getLocation().length() > 100) {
+					errors.add(new Error("06", "Location", "Please Enter Your Location within 100 Characters in Row :"+ row));
+				}
+				if (data.getLocationcoordinates() == null || StringUtils.isBlank(data.getLocationcoordinates())) {
+					errors.add(new Error("07", "Location coordinates", "Please Enter Your Locationcoordinates in Row :"+ row));
+				} else if (data.getLocationcoordinates().length() > 250) {
+					errors.add(new Error("07", "Location coordinates",
+							"Please Enter Your Location coordinates within 250 Characters in Row :"+ row));
+				}
+				if (data.getCityid() == null || StringUtils.isBlank(data.getCityid())) {
+					errors.add(new Error("08", "City Id", "Please Enter Your City Id in Row :"+ row));
+				} else if (data.getCityid().length() > 50) {
+					errors.add(new Error("08", "City Id", "Please Enter Your City Id within 50 Characters in Row :"+ row));
+				}
+				if (data.getCity() == null || StringUtils.isBlank(data.getCity())) {
+					errors.add(new Error("09", "City", "Please Enter Your City in Row :"+ row));
+				} else if (data.getCity().length() > 200) {
+					errors.add(new Error("09", "City", "Please Enter Your City within 200 Characters in Row :"+ row));
+				}
+				if (data.getAccidentdescription() == null || StringUtils.isBlank(data.getAccidentdescription())) {
+					errors.add(new Error("10", "Accidentdescription", "Please Enter Your Accidentdescription in Row :"+ row));
+				} else if (data.getAccidentdescription().length() > 500) {
+					errors.add(new Error("10", "Accidentdescription",
+							"Please Enter Your Accidentdescription within 500 Characters in Row :"+ row));
+				}
+				if (data.getAmendid() == null || StringUtils.isBlank(data.getAmendid().toString())) {
+					errors.add(new Error("11", "Amendid", "Please Enter Your Amendid in Row :"+ row));
+				}
+				if (data.getEntrydate() == null || StringUtils.isBlank(data.getEntrydate().toString())) {
+					errors.add(new Error("12", "Entrydate", "Please Enter Your Entrydate in Row :"+row));
+				}
+				if (data.getStatus() == null || StringUtils.isBlank(data.getStatus())) {
+					errors.add(new Error("13", "Status", "Please Enter Your Status in Row :"+row));
+				} else if (data.getStatus().length() > 1) {
+					errors.add(new Error("13", "Status", "Please Enter Your Status within 1 Characters in Row :"+row));
+				}
+				if (data.getRemarks() == null || StringUtils.isBlank(data.getRemarks())) {
+					errors.add(new Error("14", "Remarks", "Please Enter Your Remarks in Row :"+row));
+				} else if (data.getRemarks().length() > 500) {
+					errors.add(new Error("14", "Remarks", "Please Enter Your Remarks within 500 Characters in Row :"+row));
+				}
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			log.info("Exception is -->" + e.getMessage());
+		}
+
+		return errors;
+	}
+
+///////// Save
+	@Override
+	@Transactional
+	public SuccessRes saveAccidentInfo(List<AccidentInfoSaveReq> req) {
+		// TODO Auto-generated method stub
+		SuccessRes res = new SuccessRes();
+		ModelMapper mapper = new ModelMapper();
+		AccidentInfo entity = new AccidentInfo();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		try {
+			for (AccidentInfoSaveReq data : req) {
+				entity.setAccidentdescription(data.getAccidentdescription());
+				entity.setAmendid(data.getAmendid());
+				entity.setCalldate(data.getCalldate());
+				entity.setCalltime(data.getCalltime());
+				entity.setCasenumber(data.getCasenumber());
+				entity.setCity(data.getCity());
+				entity.setCityid(data.getCityid());
+				entity.setEntrydate(data.getEntrydate());
+				entity.setLandmark(data.getLandmark());
+				entity.setLocation(data.getLocation());
+				entity.setRemarks(data.getRemarks());
+				entity.setStatus(data.getStatus());
+				entity.setSurveyorname(data.getSurveyorname());
+				repository.save(entity);
+				log.info("Saved Details is ---> " + json.toJson(entity));
+			}
+		} catch (Exception ex) {
+			log.error(ex);
+			return null;
+		}
+		return res;
+
+	}
+
+}

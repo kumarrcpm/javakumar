@@ -1,0 +1,113 @@
+192.168.1.15:8083/dropdown/campaigntemplatetype
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Name"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Mobile Number"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Mail Id"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Date Of Birth"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "Annual Income"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "Occupation"
+        },
+        {
+            "Code": "7",
+            "CodeDesc": "Age"
+        },
+        {
+            "Code": "8",
+            "CodeDesc": "Address 1"
+        },
+        {
+            "Code": "9",
+            "CodeDesc": "Address 2"
+        },
+        {
+            "Code": "10",
+            "CodeDesc": "Gender"
+        },
+        {
+            "Code": "11",
+            "CodeDesc": "Param 1"
+        },
+        {
+            "Code": "12",
+            "CodeDesc": "Param 2"
+        },
+        {
+            "Code": "13",
+            "CodeDesc": "Param 3"
+        },
+        {
+            "Code": "14",
+            "CodeDesc": "Param 4"
+        },
+        {
+            "Code": "15",
+            "CodeDesc": "Param 5"
+        },
+        {
+            "Code": "16",
+            "CodeDesc": "Param 6"
+        },
+        {
+            "Code": "17",
+            "CodeDesc": "Param 7"
+        },
+        {
+            "Code": "18",
+            "CodeDesc": "Param 8"
+        },
+        {
+            "Code": "19",
+            "CodeDesc": "Param 9"
+        },
+        {
+            "Code": "20",
+            "CodeDesc": "Param 10"
+        },
+        {
+            "Code": "21",
+            "CodeDesc": "Param 11"
+        },
+        {
+            "Code": "22",
+            "CodeDesc": "Param 12"
+        },
+        {
+            "Code": "23",
+            "CodeDesc": "Param 13"
+        },
+        {
+            "Code": "24",
+            "CodeDesc": "Param 14"
+        },
+        {
+            "Code": "25",
+            "CodeDesc": "Param 15"
+        }
+    ],
+    "ErroCode": 0
+}

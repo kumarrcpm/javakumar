@@ -1,0 +1,295 @@
+/////////// Insert
+
+192.168.1.15:8083/api/master/save/product
+
+Request -->
+
+{
+    "InsuranceId":"123",
+    "ProductName":"AA",
+    "ProductCode":"11",
+    "CoreAppCode":"100",
+    "BranchCode":"1",
+    "DisplayOrder":"12",
+    "PaymentYn":"Yes",
+    "PaymentRedirUrl":"https",
+    "AppLoginUrl":"htpps",
+    "Status":"Y"
+
+}
+
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "ProductId": "71"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+//////// Update For Payment URL for the same product id
+
+192.168.1.15:8083/api/master/save/product
+
+Request --->
+
+{
+    "ProductId":"70",
+    "InsuranceId":"123",
+    "ProductName":"AA",
+    "ProductCode":"11",
+    "CoreAppCode":"101",
+    "BranchCode":"1",
+    "DisplayOrder":"12",
+    "PaymentYn":"Yes",
+    "PaymentRedirUrl":"https update",
+    "AppLoginUrl":"htpps",
+    "Status":"Y"
+
+}
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully ",
+        "ProductId": "70"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+
+
+///////// Get By Product Id
+
+192.168.1.15:8083/api/master/get/product/71
+
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ProductId": "71",
+        "InsuranceId": "123",
+        "ProductName": "AA",
+        "ProductCode": "11",
+        "CoreAppCode": "100",
+        "BranchCode": "1",
+        "DisplayOrder": "12",
+        "PaymentYn": "Yes",
+        "PaymentRedirUrl": "https",
+        "AppLoginUrl": "htpps",
+        "Status": "Y",
+        "EntryDate": "05/05/2022",
+        "ExpiryDate": "31/12/2050",
+        "Remarks": ""
+    },
+    "ErroCode": 0
+}
+////////////Get By Active Status
+
+192.168.1.15:8083/api/master/activeproducts
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ProductId": "67",
+            "InsuranceId": "100001",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "02/08/2021",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "68",
+            "InsuranceId": "100002",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "02/08/2021",
+            "ExpiryDate": "",
+            "Remarks": "Tex"
+        },
+        {
+            "ProductId": "69",
+            "InsuranceId": "100003",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "18/12/2021",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "70",
+            "InsuranceId": "100002",
+            "ProductName": "Claim",
+            "ProductCode": "70",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "13/01/2022",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "71",
+            "InsuranceId": "123",
+            "ProductName": "AA",
+            "ProductCode": "11",
+            "CoreAppCode": "100",
+            "BranchCode": "1",
+            "DisplayOrder": "12",
+            "PaymentYn": "Yes",
+            "PaymentRedirUrl": "https",
+            "AppLoginUrl": "htpps",
+            "Status": "Y",
+            "EntryDate": "05/05/2022",
+            "ExpiryDate": "31/12/2050",
+            "Remarks": ""
+        }
+    ],
+    "ErroCode": 0
+}
+
+/////// Get All
+
+192.168.1.15:8083/api/master/get/products
+
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ProductId": "67",
+            "InsuranceId": "100001",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "02/08/2021",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "68",
+            "InsuranceId": "100002",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "02/08/2021",
+            "ExpiryDate": "",
+            "Remarks": "Tex"
+        },
+        {
+            "ProductId": "69",
+            "InsuranceId": "100003",
+            "ProductName": "Claim",
+            "ProductCode": "66",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "18/12/2021",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "70",
+            "InsuranceId": "100002",
+            "ProductName": "Claim",
+            "ProductCode": "70",
+            "CoreAppCode": "",
+            "BranchCode": "01",
+            "DisplayOrder": "",
+            "PaymentYn": "",
+            "PaymentRedirUrl": "",
+            "AppLoginUrl": "",
+            "Status": "Y",
+            "EntryDate": "13/01/2022",
+            "ExpiryDate": "",
+            "Remarks": ""
+        },
+        {
+            "ProductId": "71",
+            "InsuranceId": "123",
+            "ProductName": "AA",
+            "ProductCode": "11",
+            "CoreAppCode": "100",
+            "BranchCode": "1",
+            "DisplayOrder": "12",
+            "PaymentYn": "Yes",
+            "PaymentRedirUrl": "https",
+            "AppLoginUrl": "htpps",
+            "Status": "Y",
+            "EntryDate": "05/05/2022",
+            "ExpiryDate": "31/12/2050",
+            "Remarks": ""
+        }
+    ],
+    "ErroCode": 0
+}

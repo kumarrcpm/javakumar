@@ -1,0 +1,31 @@
+192.168.1.15:8083/master/getbyprospectid
+
+
+Req-->
+{
+
+  "ProspectId": "1"
+
+}
+
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ProspectId": "1",
+        "PaymentType": "cash",
+        "PaymentTypeId": "1",
+        "PaymentRefNo": "wregs",
+        "BankName": "abcd",
+        "PaymentDate": "03/06/2022",
+        "PaymentAmount": "Thousand",
+        "Remarks": null,
+        "PaymentCollectedDate": "02/06/2022",
+        "EntryDate": "02/06/2022"
+    },
+    "ErroCode": 0
+}

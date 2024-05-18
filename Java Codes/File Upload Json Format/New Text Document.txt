@@ -1,0 +1,10 @@
+{"ProductId":"80",
+      "UploadedFileName":"Sample Excel",
+"FileUploadType":"Save_Lead",
+"FileUploadTypeId":"105",
+"CreatedBy":"Samilla" ,
+"UploadedTranId":"" ,
+"InsuranceId":"100002",
+"BranchCode":"09",
+"RegionCode":"09"
+}

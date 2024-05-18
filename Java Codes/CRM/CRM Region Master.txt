@@ -1,0 +1,414 @@
+/////// Insert
+
+192.168.1.15:8083/api/master/save/region
+
+Request --> 
+
+{
+"RegionName": "Chennai",
+"Status":"Y",
+"CoreAppCode":"101",
+"CountryName":"India",
+"Country":"10",
+"EndDate":"30/06/2023",
+"EffectiveDate":"10/10/2022"
+
+
+}
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "RegionCode": "12"
+    },
+    "ErroCode": 0
+}
+
+////////If same core app code means response like this
+
+{
+    "Message": "Failed",
+    "IsError": true,
+    "ErrorMessage": [
+        {
+            "Code": "06",
+            "Field": "Core App Code",
+            "Message": "Please Enter New Core App Code 101 is exist already"
+        }
+    ],
+    "Result": null,
+    "ErroCode": 0
+}
+/////// Get By Region Code
+
+192.168.1.15:8083/api/master/get/region/6
+
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Regioncode": "6",
+        "Regionname": "Moshi",
+        "Status": "Y",
+        "Coreappcode": "",
+        "Countryname": "",
+        "Country": "",
+        "Enddate": "",
+        "Effectivedate": "31/12/2021",
+        "Remarks": "",
+        "Entrydate": ""
+    },
+    "ErroCode": 0
+}//////// Get By Active Region
+
+192.168.1.15:8083/api/master/activeregions
+
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Regioncode": "1",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "2",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "3",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "4",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "5",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": "31/12/2021"
+        },
+        {
+            "Regioncode": "6",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "7",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "8",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "9",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "10",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "11",
+            "Regionname": "",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "12",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "101",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        },
+        {
+            "Regioncode": "13",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "102",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        }
+    ],
+    "ErroCode": 0
+}
+
+////// Get All
+
+192.168.1.15:8083/api/master/get/regions
+
+Response -->
+
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Regioncode": "1",
+            "Regionname": "North",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "2",
+            "Regionname": "South",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "3",
+            "Regionname": "East",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "4",
+            "Regionname": "West",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "5",
+            "Regionname": "North-South",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": "31/12/2021"
+        },
+        {
+            "Regioncode": "6",
+            "Regionname": "Moshi",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "7",
+            "Regionname": "Arusha",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "8",
+            "Regionname": "Mwanza",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "9",
+            "Regionname": "Dodoma",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "10",
+            "Regionname": "Mbeya",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "11",
+            "Regionname": "Zanzibar",
+            "Status": "Y",
+            "Coreappcode": "",
+            "Countryname": "",
+            "Country": "",
+            "Enddate": "",
+            "Effectivedate": "31/12/2021",
+            "Remarks": "",
+            "Entrydate": ""
+        },
+        {
+            "Regioncode": "12",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "101",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        },
+        {
+            "Regioncode": "13",
+            "Regionname": "Chennai",
+            "Status": "Y",
+            "Coreappcode": "102",
+            "Countryname": "India",
+            "Country": "10.0",
+            "Enddate": "30/06/2023",
+            "Effectivedate": "10/10/2022",
+            "Remarks": "",
+            "Entrydate": "04/05/2022"
+        }
+    ],
+    "ErroCode": 0
+}

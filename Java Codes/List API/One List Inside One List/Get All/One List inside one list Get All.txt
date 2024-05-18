@@ -1,0 +1,131 @@
+http://192.168.1.15:8084/api/getallaccidentinfostest
+
+Request -- >
+
+Response   -->
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "SequenceNumber": "5",
+            "VehicleId": "6",
+            "ActArabic": null,
+            "ActEnglish": null,
+            "Remarks": "Kumar",
+            "CaseNumber": "12",
+            "AmendId": "12",
+            "EntryDate": null,
+            "Status": "G",
+            "CityDetails": null,
+            "AccidentInformation": []
+        },
+        {
+            "SequenceNumber": "4",
+            "VehicleId": "55",
+            "ActArabic": "AAA",
+            "ActEnglish": "BBB",
+            "Remarks": "test",
+            "CaseNumber": "103",
+            "AmendId": "103",
+            "EntryDate": "2022-04-20",
+            "Status": "Y",
+            "CityDetails": null,
+            "AccidentInformation": [
+                {
+                    "VehCode": "23",
+                    "AccDate": "vsdvss"
+                },
+                {
+                    "VehCode": "23",
+                    "AccDate": "vsdvss"
+                }
+            ]
+        },
+        {
+            "SequenceNumber": "3",
+            "VehicleId": "55",
+            "ActArabic": "AAA",
+            "ActEnglish": "BBB",
+            "Remarks": "test",
+            "CaseNumber": "102",
+            "AmendId": "102",
+            "EntryDate": "2022-04-20",
+            "Status": "Y",
+            "CityDetails": null,
+            "AccidentInformation": [
+                {
+                    "VehCode": "43",
+                    "AccDate": "wgwfwsfw"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wrgesgrfwsg"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wgwfwsfw"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wrgesgrfwsg"
+                }
+            ]
+        },
+        {
+            "SequenceNumber": "2",
+            "VehicleId": "55",
+            "ActArabic": "AAA",
+            "ActEnglish": "BBB",
+            "Remarks": "test",
+            "CaseNumber": "100",
+            "AmendId": "100",
+            "EntryDate": "2022-04-20",
+            "Status": "Y",
+            "CityDetails": null,
+            "AccidentInformation": [
+                {
+                    "VehCode": "23",
+                    "AccDate": "vsdvss"
+                },
+                {
+                    "VehCode": "23",
+                    "AccDate": "vsdvss"
+                }
+            ]
+        },
+        {
+            "SequenceNumber": "1",
+            "VehicleId": "55",
+            "ActArabic": "AAA",
+            "ActEnglish": "BBB",
+            "Remarks": "test",
+            "CaseNumber": "101",
+            "AmendId": "101",
+            "EntryDate": "2022-04-20",
+            "Status": "Y",
+            "CityDetails": null,
+            "AccidentInformation": [
+                {
+                    "VehCode": "43",
+                    "AccDate": "wrgesgrfwsg"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wgwfwsfw"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wrgesgrfwsg"
+                },
+                {
+                    "VehCode": "43",
+                    "AccDate": "wgwfwsfw"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0,
+    "AdditionalData": null
+}

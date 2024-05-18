@@ -1,0 +1,24 @@
+192.168.1.15:8083/dropdown/businesstype
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Renewal"
+        },
+        {
+            "Code": "1",
+            "CodeDesc": "NEW Business"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "RollOver"
+        }
+    ],
+    "ErroCode": 0
+}

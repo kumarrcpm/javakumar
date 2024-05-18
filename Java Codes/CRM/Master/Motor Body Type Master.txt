@@ -1,0 +1,204 @@
+Motor Body Type Master
+
+Get 
+
+192.168.1.15:8083/master/getbodyid
+
+Req -->
+
+{
+
+    "BodyId":"38",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "BODYID": 38,
+        "BODYNAMEEN": "BULLDOZER",
+        "STATUS": "Y",
+        "ENTRY_DATE": "2022-06-30",
+        "EFFECTIVE_DATE": "2022-06-30",
+        "AMEND_ID": 0,
+        "REMARKS": null,
+        "COMPANYID": "OMAN",
+        "SEATING_CAPACITY": 0,
+        "TONNAGE": 0,
+        "CYLINDERS": 0,
+        "InsuranceId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+
+Get All
+192.168.1.15:8083/master/getallmotorbodytype
+
+
+Req -->
+
+{
+
+    "InsuranceId":"OMAN",
+    "Limit":"0",
+    "Offset":"10"
+
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "BODYID": 91,
+            "BODYNAMEEN": "6 WHEEL DRIVE",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 39,
+            "BODYNAMEEN": "AIRCRAFT TRACTOR",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 35,
+            "BODYNAMEEN": "AMBULANCE",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 89,
+            "BODYNAMEEN": "AMPHIBIOUS BUS",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 69,
+            "BODYNAMEEN": "Articulated",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 75,
+            "BODYNAMEEN": "BEACH CLEANER",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 84,
+            "BODYNAMEEN": "BEACH CLEANER TRAILER",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 909,
+            "BODYNAMEEN": "BIKE WITH FOUR WHEELS",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 13,
+            "BODYNAMEEN": "BITUMEN TANKER",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "BODYID": 38,
+            "BODYNAMEEN": "BULLDOZER",
+            "STATUS": "Y",
+            "ENTRY_DATE": "2022-06-30",
+            "EFFECTIVE_DATE": "2022-06-30",
+            "AMEND_ID": 0,
+            "REMARKS": null,
+            "COMPANYID": "OMAN",
+            "SEATING_CAPACITY": 0,
+            "TONNAGE": 0,
+            "CYLINDERS": 0,
+            "InsuranceId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+}

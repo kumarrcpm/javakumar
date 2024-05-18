@@ -1,0 +1,78 @@
+192.168.1.15:8083/api/search/leadcount
+
+Req -->
+
+{
+"InsCompanyId":"OMAN",
+"SearchValue":"11686",
+"BranchCode":"01"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "LeadCount": 1,
+            "LeadDetails": [
+                {
+                    "LeadId": 11686,
+                    "ClientRefNo": "C/1006/96",
+                    "BusinessType": null,
+                    "BusinessTypeId": null,
+                    "ClassDesc": null,
+                    "ClassId": null,
+                    "PolicyType": null,
+                    "PolicyTypeId": null,
+                    "LeadGenDate": "02/07/2022",
+                    "DueDate": null,
+                    "BrokenPolicy": null,
+                    "Classification": null,
+                    "ClassificationId": null,
+                    "Source": null,
+                    "SourceId": null,
+                    "Referredby": null,
+                    "ReferredbyId": null,
+                    "Othertype": null,
+                    "OthertypeId": null,
+                    "Pos": null,
+                    "PosId": null,
+                    "ReferenceName": null,
+                    "AssigntoGroup": null,
+                    "AssigntoGroupId": null,
+                    "AssigntoUser": null,
+                    "AssigntoUserId": null,
+                    "Remarks": null,
+                    "EntryDate": "02/07/2022",
+                    "Status": "Enquiry",
+                    "InsuranceId": "OMAN",
+                    "BranchCode": "01",
+                    "RegionCode": null,
+                    "CreatedBy": "crmlead6",
+                    "UserType": "Lead",
+                    "ProspectCount": null,
+                    "ClientTypeId": null,
+                    "ClientName": "Kumar",
+                    "DateOfBirth": null,
+                    "IsGroupClientId": null,
+                    "Age": null,
+                    "UserNameWithMobile": "Kumar-null",
+                    "WillProvideRefId": null,
+                    "MobileNumber": null,
+                    "AlternativeNumber": null,
+                    "EmailId": null,
+                    "Location": null,
+                    "OtherContactDetails": null,
+                    "OldPolicyNo": null,
+                    "OldPolicyDetails": null
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}

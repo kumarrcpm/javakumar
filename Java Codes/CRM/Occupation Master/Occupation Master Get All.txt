@@ -1,0 +1,111 @@
+192.168.1.15:8083/master/getalloccupation
+
+Req -->
+
+{
+
+"Limit":"0",
+"Offset":"10"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "OccupationId": "1",
+            "OccupationName": "Architech GetAll",
+            "Status": "Y",
+            "EntryDate": "30/07/2022",
+            "EffectiveDate": "21/07/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "2",
+            "OccupationName": "Bankers",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "3",
+            "OccupationName": "Charted Accountant",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "5",
+            "OccupationName": "Diplomat",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "4",
+            "OccupationName": "Doctor",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "6",
+            "OccupationName": "Engineer",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "9",
+            "OccupationName": "Manager",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "10",
+            "OccupationName": "Nurse",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "12",
+            "OccupationName": "OTHERS",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        },
+        {
+            "OccupationId": "11",
+            "OccupationName": "Teacher",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,78 @@
+192.168.1.15:8083/master/saveendorsement
+
+Endorsement General Details Insert
+
+Req -->
+
+{
+  "EffectiveDate": "10/12/2022",
+  "EndorsementComment": "string",
+  "EndorsementDescription": "string",
+  "EndorsementNumber": "string",
+  "EndorsementReason1": "string",
+  "EndorsementReason1Id": 0,
+  "EndorsementReason2": "string",
+  "EndorsementReason2Id": 0,
+  "EndorsementReason3": "string",
+  "EndorsementReason3Id": 0,
+  "EndorsementStatus": "string",
+  "EndorsementStatusId": 0,
+  "EndorsementType": "string",
+  "EndorsementTypeId": 0,
+  "PolicyId": 1,
+  "ReceivedDate": "22/20/2022"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+Up date
+
+
+Req -->
+
+{
+  "EffectiveDate": "10/12/2022",
+  "EndorsementComment": "string",
+  "EndorsementDescription": "string",
+  "EndorsementNumber": "string",
+  "EndorsementReason1": "string",
+  "EndorsementReason1Id": 0,
+  "EndorsementReason2": "string",
+  "EndorsementReason2Id": 0,
+  "EndorsementReason3": "string",
+  "EndorsementReason3Id": 0,
+  "EndorsementStatus": "string1",
+  "EndorsementStatusId": 0,
+  "EndorsementType": "string1",
+  "EndorsementTypeId": 0,
+  "PolicyId": 1,
+  "ReceivedDate": "22/20/2022",
+  "EndorsementId":1001
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

@@ -1,0 +1,29 @@
+192.168.1.15:8083/dropdown/titletypes
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "4",
+            "CodeDesc": "M/s"
+        },
+        {
+            "Code": "1",
+            "CodeDesc": "Mr"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Mrs"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Ms"
+        }
+    ],
+    "ErroCode": 0
+}

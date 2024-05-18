@@ -1,0 +1,70 @@
+http://192.168.1.15:8084/api/saveaccidentinfo
+
+Request -- >
+
+
+[
+{
+"Casenumber":"1",
+"Surveyorname":"1",
+"Calldate":"22/04/2022",
+"Calltime":"3049",
+"Landmark":"wfrswf",
+"Location":"vsdvs",
+"Locationcoordinates":"few",
+"Cityid":"23",
+"City":"vsd",
+"Accidentdescription":"vsdvss",
+"Amendid":"0",
+"Entrydate":"22/04/2022",
+"Status":"Y",
+"Remarks":"sdsds"
+},
+{
+"Casenumber":"2",
+"Surveyorname":"2",
+"Calldate":"22/04/2022",
+"Calltime":"e34w",
+"Landmark":"sgbswg",
+"Location":"EAgffe",
+"Locationcoordinates":"sgvwsrgf",
+"Cityid":"43",
+"City":"wrgewrg",
+"Accidentdescription":"wrgesgrfwsg",
+"Amendid":"0",
+"Entrydate":"22/04/2022",
+"Status":"Y",
+"Remarks":"wrgeswgfsfgr"
+},
+{
+"Casenumber":"3",
+"Surveyorname":"fwe",
+"Calldate":"22/04/2022",
+"Calltime":"rwgw",
+"Landmark":"gwerfw",
+"Location":"wergwe",
+"Locationcoordinates":"rwgewg",
+"Cityid":"43",
+"City":"wfwf",
+"Accidentdescription":"wgwfwsfw",
+"Amendid":"0",
+"Entrydate":"22/04/2022",
+"Status":"Y",
+"Remarks":"gwsg"
+}
+]
+
+
+Response -- >  
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": null
+    },
+    "ErroCode": 0,
+    "AdditionalData": null
+}
+

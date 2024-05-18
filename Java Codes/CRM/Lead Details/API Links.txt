@@ -1,0 +1,172 @@
+192.168.1.15:8083/api/saveoldpolicydetails
+
+Insert
+
+Req -->
+
+{
+  "OldCommisBasePremium": "516",
+  "OldDiscountPercent": "12",
+  "OldExpiryDate": "12/05/2022",
+  "OldGst": "12",
+  "OldOtherPremium": "51",
+  "OldPolicyAddiInfo": "15",
+  "OldPolicyNo": "125",
+  "OldStartDate": "01/05/2022",
+  "OldSumInsured": "22",
+  "OldTotalPremium": "56",
+  "OldTotalpremiumWithgst": "2116",
+  "OldnoClaimBonus": "21"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+
+// Update
+
+{
+  "OldCommisBasePremium": "516",
+  "OldDiscountPercent": "12",
+  "OldExpiryDate": "12/05/2022",
+  "OldGst": "12",
+  "OldOtherPremium": "51",
+  "OldPolicyAddiInfo": "15",
+  "OldPolicyNo": "125",
+  "OldStartDate": "01/05/2022",
+  "OldSumInsured": "22",
+  "OldTotalPremium": "56",
+  "OldTotalpremiumWithgst": "2116",
+  "OldnoClaimBonus": "21"
+}
+
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+///////////////// Vehicel
+
+Insert
+
+192.168.1.15:8083/api/savevehicledetails
+
+Req -->
+
+{
+  "CC": "150",
+  "ColorId": "1",
+  "ColorVariant": "Black",
+  "EngineNo": "123",
+  "Fueltype": "EV",
+  "FueltypeId": "1",
+  "ManufactureYear": "2018",
+  "PlateChar": "eawe",
+  "PlateCharId": "516",
+  "PlateNo": "56",
+  "SeatingCapacity": "6",
+  "VehBodytype": "Steel",
+  "VehBodytypeId": "1",
+  "VehMake": "Tamil Nadu",
+  "VehMakeId": "1",
+  "VehModel": "EV",
+  "VehModelId": "1",
+  "VehRemarks": "Battery",
+  "VehicleRegNo": "455",
+  "VehChassisNo":"3"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+/// Update
+
+Req-->
+
+{
+  "CC": "150",
+  "ColorId": "1",
+  "ColorVariant": "Black",
+  "EngineNo": "123",
+  "Fueltype": "EV",
+  "FueltypeId": "1",
+  "ManufactureYear": "2018",
+  "PlateChar": "eawe",
+  "PlateCharId": "516",
+  "PlateNo": "56",
+  "SeatingCapacity": "6",
+  "VehBodytype": "Steel",
+  "VehBodytypeId": "1",
+  "VehMake": "Tamil Nadu",
+  "VehMakeId": "1",
+  "VehModel": "EV",
+  "VehModelId": "1",
+  "VehRemarks": "Battery",
+  "VehicleRegNo": "455",
+  "VehChassisNo":"3"
+}
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+Policy Nominee Details Get By Policy And Nominee Id
+
+192.168.1.15:8083/master/getbynomineeid
+
+Req-->
+
+{
+  "NomineeId":1000,
+  "PolicyId":1
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "NomineeId": 1000,
+        "PolicyId ": 1,
+        "Name": "Kumar",
+        "Relation": "Son-In-Law",
+        "RelationId ": 2,
+        "DOB  ": "05/10/2006",
+        "Gender": "Male",
+        "GenderId": 1,
+        "Benefit": 10.0
+    },
+    "ErroCode": 0
+}

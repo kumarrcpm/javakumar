@@ -1,0 +1,206 @@
+City Master
+
+
+Get All
+
+192.168.1.15:8083/master/getallcity
+
+Req -->
+
+{
+
+    "InsuranceId":"OMAN",
+    "Limit":"0",
+    "Offset":"10"
+
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CityId": "OMAN",
+            "CityName": "24PGNS(S)",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "36",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "ADDANKI",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "2",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "ADILABAD",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "2",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "ADONI",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "2",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AGARTALA",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "32",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AGRA",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "33",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AHMED NAGAR",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "22",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AHMEDABAD",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "13",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AIZAWL",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "25",
+            "InsCompanyId": "OMAN"
+        },
+        {
+            "CityId": "OMAN",
+            "CityName": "AIZWAL",
+            "Status": "Y",
+            "EntryDate": "30/06/2022",
+            "EffectiveDate": "30/06/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "StateCode": "25",
+            "InsCompanyId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+Get By City Id
+
+192.168.1.15:8083/master/getcityid
+
+
+Req -->
+
+{
+
+    "CityId":"1",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "CityId": "OMAN",
+        "CityName": "24PGNS(S)",
+        "Status": "Y",
+        "EntryDate": "30/06/2022",
+        "EffectiveDate": "30/06/2022",
+        "AmendId": "0",
+        "Remarks": null,
+        "StateCode": "36",
+        "InsCompanyId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+
+Insert
+
+
+192.168.1.15:8083/master/savecity
+
+Req -->
+
+        {
+        "CityName":"Rajapalayam",
+        "Status":"Y",
+        "EffectiveDate":"12/10/2022",
+        "Remarks":"Test",
+        "StateCode":31,
+        "InsuranceId":"OMAN"
+        }
+		
+		
+		
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "SucessId": "1010"
+    },
+    "ErroCode": 0
+}

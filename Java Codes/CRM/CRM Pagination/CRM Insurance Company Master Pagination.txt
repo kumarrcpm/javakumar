@@ -1,0 +1,83 @@
+192.168.1.15:8083/api/master/getinsurancemaster
+
+Request -->
+
+{
+
+"Limit":"0",
+"Offset":"3"
+}
+
+Response  -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "InsuranceId": "100005",
+            "InsName": "Reliance Insurance Co. Tanzania Ltd",
+            "InsAddress": "Reliance House 3rd & 4th Floor, Plot No 356 United Nation Road Upanga",
+            "InsCountry": "212",
+            "InsCity": "600028",
+            "InsZipCode": "600028",
+            "InsPhone": "+255 22 212 0088-90",
+            "InsEmail": "insure@reliance.co.tz",
+            "InsWebsite": "www.reliance.co.tz",
+            "InsImageLogo": "we",
+            "InsCoreAppCode": "100",
+            "Status": "Y",
+            "EntryDate": "05/05/2022",
+            "ExpiryDate": "31/12/2050",
+            "Remarks": "qweff",
+            "InsRegionCode": "21",
+            "Latitue": "-6.776012",
+            "Longtitue": "39.178326",
+            "EffectiveDate": "31/12/2022"
+        },
+        {
+            "InsuranceId": "100004",
+            "InsName": "Reliance Insurance Co. Tanzania Ltd",
+            "InsAddress": "Reliance House 3rd & 4th Floor, Plot No 356 United Nation Road Upanga",
+            "InsCountry": "",
+            "InsCity": "",
+            "InsZipCode": "",
+            "InsPhone": "+255 22 212 0088-90",
+            "InsEmail": "insure@reliance.co.tz",
+            "InsWebsite": "www.reliance.co.tz",
+            "InsImageLogo": "",
+            "InsCoreAppCode": "",
+            "Status": "Y",
+            "EntryDate": "24/08/2021",
+            "ExpiryDate": "",
+            "Remarks": "",
+            "InsRegionCode": "",
+            "Latitue": "-6.776012",
+            "Longtitue": "39.178326",
+            "EffectiveDate": "31/12/2021"
+        },
+        {
+            "InsuranceId": "100003",
+            "InsName": "Alliance Insurance Uganda",
+            "InsAddress": "9 Yusuf Lule Road, Kampala, Uganda",
+            "InsCountry": "",
+            "InsCity": "",
+            "InsZipCode": "9600",
+            "InsPhone": "+255 022 2780020",
+            "InsEmail": "info@aar.co.tz",
+            "InsWebsite": "http://aar-insurance.com",
+            "InsImageLogo": "",
+            "InsCoreAppCode": "",
+            "Status": "Y",
+            "EntryDate": "23/08/2021",
+            "ExpiryDate": "",
+            "Remarks": "",
+            "InsRegionCode": "",
+            "Latitue": "-6.776012",
+            "Longtitue": "39.178326",
+            "EffectiveDate": "31/12/2021"
+        }
+    ],
+    "ErroCode": 0
+}

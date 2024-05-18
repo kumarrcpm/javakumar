@@ -1,0 +1,107 @@
+192.168.1.15:8083/master/savepolicyadditional
+
+Policy Additional Details Insert
+
+Req -->
+
+{
+
+   "PolicyId":1,
+  "IssueDate":"05/06/2022",
+  "Source":"Ad",
+  "SourceId" :1,
+  "POS"    :"Ads",
+  "POSId" :1,
+  "User" :"Kumar",   
+  "UserId" :1,
+  "Location" :"Chennai",
+  "PreviousPolicyNo":"qweew",
+  "PreviousInsurer" :"KAfems",
+  "PreviousInsurerId" :243,
+  "PreviousInsurancePlan":"Genral",
+  "PreviousSource" :"Friend",
+  "PreviousSourceId" :1,
+  "PreviousPOS":"wse",
+  "PreviousPOSId" :32,
+  "CommissionGeneration":"wfw",
+  "CommissionGenerationId" :234,
+  "DeductibleDetails":"rw4rwfr",
+  "PolicyAdditionalInformation" :"w4e3w",
+  "FileType" :"fwfw",
+  "FileTypeId" :2,
+  "ReferenceNumber":"Efwfw", 
+  "OtherReferenceNumber" :"fwf",
+  "PolicyReceivedYN":"Y",
+  "PolicyVerifiedYN" :"Ew",
+  "PolicyVerifiedBy" :"Egw",
+  "PolicyCancelledYn" :"Ew",
+  "PolicyCancelledYnBy" :"ew",
+  "PolicyStatus" :"Active",
+  "PolicyStatusId" :1
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+Update -->
+
+{
+    "AdditionalDetailsId":1000,
+   "PolicyId":1,
+  "IssueDate":"05/06/2022",
+  "Source":"Friend",
+  "SourceId" :1,
+  "POS"    :"Ads",
+  "POSId" :1,
+  "User" :"Kumar",   
+  "UserId" :1,
+  "Location" :"Chennai",
+  "PreviousPolicyNo":"qweew",
+  "PreviousInsurer" :"KAfems",
+  "PreviousInsurerId" :243,
+  "PreviousInsurancePlan":"Genral",
+  "PreviousSource" :"Friend",
+  "PreviousSourceId" :1,
+  "PreviousPOS":"wse",
+  "PreviousPOSId" :32,
+  "CommissionGeneration":"wfw",
+  "CommissionGenerationId" :234,
+  "DeductibleDetails":"rw4rwfr",
+  "PolicyAdditionalInformation" :"w4e3w",
+  "FileType" :"fwfw",
+  "FileTypeId" :2,
+  "ReferenceNumber":"Efwfw", 
+  "OtherReferenceNumber" :"fwf",
+  "PolicyReceivedYN":"Y",
+  "PolicyVerifiedYN" :"Ew",
+  "PolicyVerifiedBy" :"Egw",
+  "PolicyCancelledYn" :"Ew",
+  "PolicyCancelledYnBy" :"ew",
+  "PolicyStatus" :"Active",
+  "PolicyStatusId" :1,
+  "EntryDate":"06/06/2022"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

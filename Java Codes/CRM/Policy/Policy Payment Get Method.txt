@@ -1,0 +1,35 @@
+Policy Payment Get Method
+
+192.168.1.15:8083/master/getpolicypayment
+
+
+Req -->
+
+{
+  "PolicyId ": 1,
+  "Paymentdetailsid":1
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Paymentdetailsid": 1,
+        "PolicyId ": 1,
+        "PaymentType": "Cash",
+        "PaymentTypeId ": 0,
+        "PaymentDate": "03/06/2022",
+        "PaymentRefNo": "one",
+        "PolicyPaymentDetailId": 1000,
+        "BankName": "kkkk",
+        "PaymentAmount": " Five Hundred",
+        "Remarks": "ew",
+        "PaymentCollectedDate": "04/06/2022",
+        "EntryDate": "03/06/2022"
+    },
+    "ErroCode": 0
+}

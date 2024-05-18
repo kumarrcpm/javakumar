@@ -1,0 +1,163 @@
+Get Tracking
+
+192.168.1.15:8083/api/gettracking
+
+Req -->
+
+
+{
+    "ClientRefNo":"C/1001/23"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "TrackingId": "220727064416195",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": null,
+            "ProspectId": null,
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727065357612",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": null,
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727065735161",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": "16367",
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727070841962",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": "16367",
+            "PolicyId": "1006"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+GetAll Tracking
+
+192.168.1.15:8083/api/getalltracking
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "TrackingId": "220727064416195",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": null,
+            "ProspectId": null,
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727065357612",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": null,
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727065551235",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "06",
+            "ClientRefNo": "01",
+            "LeadId": null,
+            "ProspectId": null,
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727065735161",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": "16367",
+            "PolicyId": null
+        },
+        {
+            "TrackingId": "220727070841962",
+            "InsCompanyId": "OMAN",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "Status": "Y",
+            "EntryDate": "27/07/2022",
+            "CreatedBy": "Kumar",
+            "ClientName": "Sami",
+            "ClientRefNo": "C/1001/23",
+            "LeadId": "16367",
+            "ProspectId": "16367",
+            "PolicyId": "1006"
+        }
+    ],
+    "ErroCode": 0
+}

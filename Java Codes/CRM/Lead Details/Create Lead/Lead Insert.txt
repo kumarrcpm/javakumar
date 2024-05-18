@@ -1,0 +1,100 @@
+192.168.1.15:8083/api/savelead
+
+Req -->
+
+{
+"ClientId":"123",
+"BusinessType":"Work2",
+"BusinessTypeId":"01",
+"ClassDesc":"Normal",
+"ClassId":"123",
+"PolicyType":"General",
+"PolicyTypeId":"01",
+"LeadGenDate":"28/05/2022",
+"DueDate":"31/05/2022",
+"BrokenPolicy":"2",
+"Classification":"aaa",
+"ClassificationId":"12",
+"Source":"Internet",
+"SourceId":"01",
+"Referredby":"Kumar",
+"ReferredbyId":"1243",
+"Othertype":"",
+"OthertypeId":"2",
+"Pos":"Kumar",
+"PosId":"12",
+"ReferenceName":"Kumar",
+"AssigntoGroup":"fdea",
+"AssigntoGroupId":"12",
+"AssigntoUser":"swfrdswf",
+"AssigntoUserId":"21",
+"Remarks":"qedf",
+"Status":"Y"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "LeadId": "10012"
+    },
+    "ErroCode": 0
+}
+192.168.1.15:8083/api/savelead
+
+Req-->
+
+{
+"LeadId":"10011",
+"ClientId":"123",
+"BusinessType":"Work2",
+"BusinessTypeId":"01",
+"ClassDesc":"Normal",
+"ClassId":"123",
+"PolicyType":"General",
+"PolicyTypeId":"01",
+"LeadGenDate":"28/05/2022",
+"DueDate":"31/05/2022",
+"BrokenPolicy":"2",
+"Classification":"aaa",
+"ClassificationId":"12",
+"Source":"Internet",
+"SourceId":"01",
+"Referredby":"Kumar",
+"ReferredbyId":"1243",
+"Othertype":"",
+"OthertypeId":"2",
+"Pos":"Kumar",
+"PosId":"12",
+"ReferenceName":"Kumar",
+"AssigntoGroup":"fdea",
+"AssigntoGroupId":"12",
+"AssigntoUser":"swfrdswf",
+"AssigntoUserId":"21",
+"Remarks":"qedf",
+"Status":"Y"
+
+}
+
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully ",
+        "LeadId": "10011"
+    },
+    "ErroCode": 0
+}
+
+

@@ -1,0 +1,45 @@
+Request --->  http://192.168.1.15:8084/api/getactinfoinlist/2
+
+Response -- >
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "SequenceNumber": "2",
+        "VehicleId": "55",
+        "ActArabic": "AAA",
+        "ActEnglish": "BBB",
+        "Remarks": "test",
+        "CaseNumber": "10034",
+        "AmendId": "0",
+        "EntryDate": "20/04/2022",
+        "Status": "Y",
+        "CityDetails": null,
+        "AccidentInformation": [
+            {
+                "VehCode": "10034",
+                "AccDate": "2022-04-01"
+            },
+            {
+                "VehCode": "10034",
+                "AccDate": "2022-04-01"
+            },
+            {
+                "VehCode": "10034",
+                "AccDate": "2022-04-01"
+            },
+            {
+                "VehCode": "10034",
+                "AccDate": "2022-04-01"
+            },
+            {
+                "VehCode": "10034",
+                "AccDate": "2022-01-04"
+            }
+        ]
+    },
+    "ErroCode": 0,
+    "AdditionalData": null
+}

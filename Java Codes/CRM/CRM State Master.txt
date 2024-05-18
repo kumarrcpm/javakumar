@@ -1,0 +1,919 @@
+CRM State Master
+
+//////////Validation and Save
+
+192.168.1.15:8083/api/master/save/state
+
+{
+"StateName":"tamilnadu",
+"Status":"Y",
+"CoreAppCode":"0110",
+"EffectiveDate":"01/06/2022",
+"EndDate":"02/06/2022",
+"Remarks":"Kumar"
+}
+
+Response
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully ",
+        "StateCode": " Your State Code Number is = 61"
+    },
+    "ErroCode": 0
+}
+
+///////Duplicate Core App Code Not Entry 
+
+192.168.1.15:8083/api/master/save/state
+
+Request -->
+
+{
+"StateName":"tamilnadu",
+"Status":"Y",
+"CoreAppCode":"0105",
+"EffectiveDate":"01/06/2022",
+"EndDate":"02/06/2022",
+"Remarks":"Kumar"
+}
+
+Response -->
+
+{
+    "Message": "Failed",
+    "IsError": true,
+    "ErrorMessage": [
+        {
+            "Code": "06",
+            "Field": "Core App Code",
+            "Message": "Please Enter New Core App Code 0105 is exist already"
+        }
+    ],
+    "Result": null,
+    "ErroCode": 0
+}
+
+
+////// Get By State Code
+
+192.168.1.15:8083/api/master/get/state/60
+
+Response  -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "StateCode": "60",
+        "StateName": "tamilnadu",
+        "Status": "Y",
+        "CoreAppCode": "0106",
+        "EntryDate": "02/05/2022",
+        "EffectiveDate": "01/06/2022",
+        "EndDate": "01/06/2022",
+        "Remarks": "Kumar"
+    },
+    "ErroCode": 0
+}
+
+//////Get By Status
+
+192.168.1.15:8083/api/master/activestates
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "StateCode": "60",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0106",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "59",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "58",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "57",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "56",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "55",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "54",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "53",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "52",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "51",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "50",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "49",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "48",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "47",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "01/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "46",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "111"
+        },
+        {
+            "StateCode": "45",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "44",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "43",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "29/04/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "42",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "29/04/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "41",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "29/04/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "40",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "29/04/2022",
+            "Remarks": "Kumar"
+        }
+    ],
+    "ErroCode": 0
+}
+////////////Get All
+
+192.168.1.15:8083/api/master/get/states
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "StateCode": "60",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0106",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "59",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "58",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "57",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "02/05/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "56",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "55",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0105",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "54",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "53",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "52",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "51",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0100",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "50",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "49",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "48",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "47",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/06/2022",
+            "EndDate": "02/06/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "46",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "111"
+        },
+        {
+            "StateCode": "45",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "44",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "30/04/2022",
+            "EffectiveDate": "01/05/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "43",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "42",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "41",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "40",
+            "StateName": "tamilnadu",
+            "Status": "Y",
+            "CoreAppCode": "0080",
+            "EntryDate": "29/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "39",
+            "StateName": "VANANCHAL PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "25/06/2019",
+            "EffectiveDate": "25/06/2019",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "38",
+            "StateName": "TELANGANA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "37",
+            "StateName": "PONDICHERRY",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "36",
+            "StateName": "WEST BENGAL",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "35",
+            "StateName": "UTTARANCHAL",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "34",
+            "StateName": "UTTARAKHAND",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "33",
+            "StateName": "UTTAR PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "32",
+            "StateName": "TRIPURA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "31",
+            "StateName": "TAMIL NADU",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "30",
+            "StateName": "SIKKIM",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "29",
+            "StateName": "RAJASTHAN",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "28",
+            "StateName": "PUNJAB",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "27",
+            "StateName": "ORISSA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "26",
+            "StateName": "NAGALAND",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "25",
+            "StateName": "MIZORAM",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "24",
+            "StateName": "MEGHALAYA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "23",
+            "StateName": "MANIPUR",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "22",
+            "StateName": "MAHARASHTRA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "21",
+            "StateName": "MADHYA PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "20",
+            "StateName": "tamilnadu",
+            "Status": "N",
+            "CoreAppCode": "000",
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "30/04/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "19",
+            "StateName": "KERALA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "18",
+            "StateName": "KARNATAKA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "17",
+            "StateName": "JHARKHAND",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "16",
+            "StateName": "JAMMU AND KASHMIR",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "15",
+            "StateName": "HIMACHAL PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "14",
+            "StateName": "HARYANA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "13",
+            "StateName": "GUJARAT",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "12",
+            "StateName": "GOA",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "11",
+            "StateName": "DELHI",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "10",
+            "StateName": "tamilnadu",
+            "Status": "N",
+            "CoreAppCode": "0080",
+            "EntryDate": "28/04/2022",
+            "EffectiveDate": "29/04/2022",
+            "EndDate": "01/05/2022",
+            "Remarks": "Kumar"
+        },
+        {
+            "StateCode": "9",
+            "StateName": "DADRA  HAVELI",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "8",
+            "StateName": "CHATTISGARH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "7",
+            "StateName": "CHANDIGARH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "6",
+            "StateName": "BIHAR",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "5",
+            "StateName": "ASSAM",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "4",
+            "StateName": "ARUNACHAL PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "3",
+            "StateName": "ANDAMAN AND NICOBAR",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "2",
+            "StateName": "ANDHRA PRADESH",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        },
+        {
+            "StateCode": "1",
+            "StateName": "ANDAMAN  ISLAND",
+            "Status": "N",
+            "CoreAppCode": null,
+            "EntryDate": "16/06/2017",
+            "EffectiveDate": "01/07/2017",
+            "EndDate": "30/06/2020",
+            "Remarks": null
+        }
+    ],
+    "ErroCode": 0
+}

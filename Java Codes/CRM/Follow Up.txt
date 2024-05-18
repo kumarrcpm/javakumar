@@ -1,0 +1,69 @@
+192.168.1.15:8083/api/followupdetails
+
+Req -->
+
+{
+
+    "ClientRefNo":"C/1034/02",
+    "Limit":"0",
+    "Offset":"2"
+    
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Followupid": 1000,
+            "Clientid": "C/1034/02",
+            "Companyid": "OMAN",
+            "Loginid": "crmlead",
+            "Followupapplicableid": 38,
+            "Nextfollowupdate": "05/07/2022",
+            "Nextfollowuptime": "14:00",
+            "Lastfollowupdate": null,
+            "Laststatusupdatedate": null,
+            "Laststatusupdatetime": null,
+            "Entrydate": "04/07/2022",
+            "Followupapplicable": "Prospect_Info",
+            "REMARKS": "Test Followup",
+            "FollowUpStatus": null,
+            "Statusid": 1,
+            "Reason": null,
+            "Reasonid": null,
+            "Collecteddate": null,
+            "Collectedtime": null,
+            "Followupconcludeddesc": "NO",
+            "Followupconcludedid": null
+        },
+        {
+            "Followupid": 1001,
+            "Clientid": "C/1034/02",
+            "Companyid": "OMAN",
+            "Loginid": "crmlead",
+            "Followupapplicableid": 38,
+            "Nextfollowupdate": "30/07/2022",
+            "Nextfollowuptime": "16:16",
+            "Lastfollowupdate": null,
+            "Laststatusupdatedate": null,
+            "Laststatusupdatetime": null,
+            "Entrydate": "04/07/2022",
+            "Followupapplicable": "Prospect_Info",
+            "REMARKS": "das",
+            "FollowUpStatus": null,
+            "Statusid": 1,
+            "Reason": null,
+            "Reasonid": null,
+            "Collecteddate": null,
+            "Collectedtime": null,
+            "Followupconcludeddesc": "Yes",
+            "Followupconcludedid": 1
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,36 @@
+192.168.1.15:8083/api/getalloldpolicydetails
+
+Req -->
+
+{
+
+    "Limit":"0",
+    "Offset":"1"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "OldPolicyNo": "125",
+            "OldStartDate": "01/05/2022",
+            "OldExpiryDate": "12/05/2022",
+            "OldSumInsured": "22.0",
+            "OldnoClaimBonus": "21.0",
+            "OldDiscountPercent": "12",
+            "OldCommisBasePremium": "516.0",
+            "OldOtherPremium": "51.0",
+            "OldTotalPremium": "56.0",
+            "OldGst": "12.0",
+            "OldTotalpremiumWithgst": "2116.0",
+            "OldPolicyAddiInfo": "15",
+            "EntryDate": "02/06/2022"
+        }
+    ],
+    "ErroCode": 0
+}

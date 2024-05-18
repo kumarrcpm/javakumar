@@ -1,0 +1,42 @@
+///////  Input
+
+{
+"DateOfBirth":"07/10/1996",
+"StartDate":"18/04/2022",
+"EndDate":"22/04/2023",
+"AccidentDate":"17/04/2022",
+"CalimDate":"16/04/2022"
+}
+
+
+/////// Output
+
+{
+    "Message": "Failed",
+    "IsError": true,
+    "ErrorMessage": [
+        {
+            "Code": "01",
+            "Field": "Date of Birth",
+            "Message": "You are eligible for this Insurance Policy"
+        },
+        {
+            "Code": "02",
+            "Field": "Start Date",
+            "Message": "Please Enter Your Policy Start Date in future date of today date"
+        },
+        {
+            "Code": "04",
+            "Field": "Accident Date",
+            "Message": "Your Accident Date is before your policy date, so you are not eligible"
+        },
+        {
+            "Code": "05",
+            "Field": "Claim Date",
+            "Message": "Please Enter Your Claim Date after your accident Date"
+        }
+    ],
+    "Result": null,
+    "ErroCode": 0,
+    "AdditionalData": null
+}

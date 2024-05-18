@@ -1,0 +1,59 @@
+192.168.1.15:8083/master/saveprospectinsurer
+
+
+Req -->
+
+{
+  "InsurancePlan": "Normal",
+  "Insurer": "Kumar",
+  "InsurerBranch": "chennai",
+  "InsurerBranchId": 1,
+  "InsurerId": 1,
+  "ProspectId": 1
+}
+
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+
+Update -->
+
+
+Req-->
+
+
+{
+  "InsurancePlan": "Normal",
+  "Insurer": "Kumar",
+  "InsurerBranch": "chennai",
+  "InsurerBranchId": 1,
+  "InsurerId": 1,
+  "ProspectId": 1,
+  "InsurerDetailsId":1000,
+  "EntryDate":"03/06/2022"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}
+

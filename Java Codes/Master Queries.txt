@@ -1,0 +1,17 @@
+# DropDown Query 
+SELECT  
+ *
+FROM State_master sm1 WHERE 
+STATUS= 'Y' AND Effective_date <= SYSDATE()
+AND Amend_id = (SELECT MAX(Amend_id) FROM state_master  sm2 WHERE sm1.state_id = sm2.state_id )
+ORDER BY Amend_id DESC
+
+# Get ,GetAll (AND State_Id = '1')
+SELECT  
+ *
+FROM State_master sm1 WHERE 
+STATUS= 'Y' 
+AND
+ sm1.Effective_date = (SELECT MAX(Effective_date) FROM state_master  sm2 WHERE sm1.state_id = sm2.state_id )
+AND Amend_id = (SELECT MAX(Amend_id) FROM state_master  sm2 WHERE sm1.state_id = sm2.state_id AND sm1.Effective_date = sm2.Effective_date )
+ORDER BY Amend_id DESC

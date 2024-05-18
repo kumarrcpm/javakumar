@@ -1,0 +1,35 @@
+Request -- >
+
+http://192.168.1.15:8084/api/getallaccinfotest/2
+
+Response -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "SequenceNumber": "2",
+        "VehicleId": "55",
+        "ActArabic": "AAA",
+        "ActEnglish": "BBB",
+        "Remarks": "test",
+        "CaseNumber": "100",
+        "AmendId": "100",
+        "EntryDate": "2022-04-20",
+        "Status": "Y",
+        "CityDetails": null,
+        "AccidentInformation": [
+            {
+                "VehCode": "23",
+                "AccDate": "vsdvss"
+            },
+            {
+                "VehCode": "23",
+                "AccDate": "vsdvss"
+            }
+        ]
+    },
+    "ErroCode": 0,
+    "AdditionalData": null
+}

@@ -1,0 +1,53 @@
+192.168.1.15:8083/api/invitemail
+
+Req-->
+
+{
+  "ClientList": [
+    {
+            "ClientName": "Kumar",
+            "MobileNumber": "9856849565",
+            "MailId": "maanrsa001@gmail.com"
+        },
+        {
+            "ClientName": "Kumar",
+            "MobileNumber": "9856849565",
+            "MailId": "maanrsa001@gmail.com"
+        },
+        {
+            "ClientName": "Kumar",
+            "MobileNumber": "9856849565",
+            "MailId": "maanrsa001@gmail.com"
+        },
+        {
+            "ClientName": "Kumar",
+            "MobileNumber": "9856849565",
+            "MailId": "maanrsa001@gmail.com"
+        }
+  ],
+  "InsuranceId": "OMAN"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "SUCCESS"
+    },
+    "ErroCode": 0
+}
+
+
+INVITE MAIL
+
+Dear Customer ,
+We invites You TO our family. Please checked out. www.maancrm.com CompanyDetails :
+Company_Name : OMAN_COMPANY
+Regards : Your CLIENT Relations Executive @
+
+Thank You !
+
+Your CLIENT Relations Executive @

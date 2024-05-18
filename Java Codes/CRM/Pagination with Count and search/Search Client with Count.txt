@@ -1,0 +1,127 @@
+192.168.1.15:8083/api/search/allclients
+
+Req-->
+
+
+{
+ "SearchValue":"kumar",
+"InsuranceId":"OMAN",
+  "BranchCode":"01",
+  "Limit":"0",
+  "Offset":"3"
+  
+ }
+ 
+ 
+ Res -->
+ 
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ClientCount": 3,
+            "ClientDetails": [
+                {
+                    "ClientRefNo": "C/1003/68",
+                    "ClientType": "Individual",
+                    "Title": "Mr",
+                    "ClientName": "Saravana Kumar",
+                    "Gender": "Male",
+                    "DateOfBirth": "04/01/2000",
+                    "Age": "27",
+                    "MaritalStatus": "Single",
+                    "DateOfAnniversary": "18/01/2021",
+                    "CRNo": "71547214",
+                    "Occupation": "Employees in private sector in the grade of officer and above",
+                    "Designation": "Chennai",
+                    "AnnualIncome": "1,20,001 to 3,00,000\r\n",
+                    "PassportNo": "768241547",
+                    "GstIn": "571N475812",
+                    "DmatId": "13",
+                    "DefaultUser": "crmlead2",
+                    "CompanyType": "Large",
+                    "BranchCode": "01",
+                    "RegionCode": "06",
+                    "EntryDate": "27/06/2022",
+                    "Status": "Y",
+                    "CreatedBy": "crmlead2",
+                    "UserType": "Lead",
+                    "LeadCount": null,
+                    "ReferenceName": "DharmaRaj",
+                    "UserNameWithMobile": "Saravana Kumar-6575675675",
+                    "MobileNumber": "6575675675",
+                    "AlternativeNumber": "75842158",
+                    "EmailId": "kumar@gmail.com"
+                },
+                {
+                    "ClientRefNo": "C/1007/73",
+                    "ClientType": "Individual",
+                    "Title": "Mr",
+                    "ClientName": "Saravana Kumar",
+                    "Gender": "Male",
+                    "DateOfBirth": "04/01/2000",
+                    "Age": "27",
+                    "MaritalStatus": "Single",
+                    "DateOfAnniversary": "18/01/2021",
+                    "CRNo": "715472156",
+                    "Occupation": "Employees in private sector in the grade of officer and above",
+                    "Designation": "Chennai",
+                    "AnnualIncome": "1,20,001 to 3,00,000\r\n",
+                    "PassportNo": "768241547",
+                    "GstIn": "571N475812",
+                    "DmatId": "13",
+                    "DefaultUser": "crmlead2",
+                    "CompanyType": "Medium",
+                    "BranchCode": "01",
+                    "RegionCode": "06",
+                    "EntryDate": "30/06/2022",
+                    "Status": "Y",
+                    "CreatedBy": "crmlead2",
+                    "UserType": "Lead",
+                    "LeadCount": null,
+                    "ReferenceName": "DharmaRaj",
+                    "UserNameWithMobile": "Saravana Kumar-0988888888",
+                    "MobileNumber": "0988888888",
+                    "AlternativeNumber": "75842158",
+                    "EmailId": "kumar@gmail.com"
+                },
+                {
+                    "ClientRefNo": "C/1012/75",
+                    "ClientType": "Individual",
+                    "Title": "Mr",
+                    "ClientName": "Dharma",
+                    "Gender": "Male",
+                    "DateOfBirth": "21/01/2022",
+                    "Age": "25",
+                    "MaritalStatus": "Single",
+                    "DateOfAnniversary": "07/01/2022",
+                    "CRNo": "AWG5173",
+                    "Occupation": "Bankers",
+                    "Designation": "Cleark",
+                    "AnnualIncome": "1,20,001 to 3,00,000\r\n",
+                    "PassportNo": "123456789",
+                    "GstIn": "987609",
+                    "DmatId": null,
+                    "DefaultUser": null,
+                    "CompanyType": null,
+                    "BranchCode": "01",
+                    "RegionCode": "06",
+                    "EntryDate": "01/07/2022",
+                    "Status": "Y",
+                    "CreatedBy": "crmlead2",
+                    "UserType": "Lead",
+                    "LeadCount": null,
+                    "ReferenceName": null,
+                    "UserNameWithMobile": "Dharma-844273028",
+                    "MobileNumber": "844273028",
+                    "AlternativeNumber": "9421311122",
+                    "EmailId": "kumar@gmail.com"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}

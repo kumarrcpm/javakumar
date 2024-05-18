@@ -1,0 +1,13 @@
+{"RequestReferenceNo":"Mot-221215502156882",
+"InsuranceId":"100002",
+"DocumentId":"2",
+"ProductId":"5",
+"SectionId":"13",
+"DocumentReferenceNo":"",
+"FileName":"1.JPG",
+"OriginalFileName":"1.JPG",
+"CreatedBy":"broker70",
+"QuoteNo":"Q2212151150426699",
+"Id":"1"}
+
+

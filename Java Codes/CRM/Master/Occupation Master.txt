@@ -1,0 +1,160 @@
+Occupation Master
+
+Get
+
+192.168.1.15:8083/master/getoccupationbyid
+
+Req -->
+
+
+{
+
+    "OccupationId":"1",
+    "InsuranceId":"OMAN"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "OccupationId": 1,
+        "OccupationName": "Architech",
+        "Status": "Y",
+        "EntryDate": "28/05/2022",
+        "EffectiveDate": "28/05/2022",
+        "AmendId": "0",
+        "Remarks": null,
+        "InsuranceId": "OMAN"
+    },
+    "ErroCode": 0
+}
+
+Get All
+
+192.168.1.15:8083/master/getalloccupation
+
+Req-->
+
+{
+
+    "InsuranceId":"OMAN",
+    "Limit":"0",
+    "Offset":"10"
+
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Architech",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Bankers",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Charted Accountant",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Diplomat",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Doctor",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Employees in private sector in the grade of officer and above",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Engineer",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Government Employees in the grade of officer and above",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Manager",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        },
+        {
+            "OccupationId": "OMAN",
+            "OccupationName": "Nurse",
+            "Status": "Y",
+            "EntryDate": "28/05/2022",
+            "EffectiveDate": "28/05/2022",
+            "AmendId": "0",
+            "Remarks": null,
+            "InsuranceId": "OMAN"
+        }
+    ],
+    "ErroCode": 0
+}

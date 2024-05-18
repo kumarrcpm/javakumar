@@ -1,0 +1,32 @@
+192.168.1.15:8083/master/dropdown/source
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "2",
+            "CodeDesc": "Customer"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Dealer"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Friend"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "Other"
+        },
+        {
+            "Code": "1",
+            "CodeDesc": "User"
+        }
+    ],
+    "ErroCode": 0
+}

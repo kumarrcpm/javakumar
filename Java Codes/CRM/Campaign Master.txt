@@ -1,0 +1,425 @@
+Insert
+
+192.168.1.15:8083/api/savecampaignmaster
+Req -->
+
+{
+"BranchCode": "01",
+  "CampaignName": "New Client",
+  "ClassType": "One",
+  "ClassTypeId": 1,
+  "CreatedBy": "Kumar",
+  "Description": "Welcome",
+  "EndDate": "30/07/2022",
+  "InsCompanyId": "OMAN",
+  "Offer": "60",
+  "PolicyType": "One",
+  "PolicyTypeId": 1,
+  "Product": "Travel",
+  "PromoCode": "TESDDSD",
+  "StartDate": "15/07/2022",
+  "Status": "Y",
+  "LandingPageLink":"https://www.crm.com"
+  }
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successful",
+        "Code": "Camp-1008"
+    },
+    "ErroCode": 0
+}
+
+
+// Update
+
+192.168.1.15:8083/api/savecampaignmaster
+
+
+Req -->
+
+{
+  "BranchCode": "01",
+  "CampaignName": "New Client",
+  "ClassType": "One",
+  "ClassTypeId": 1,
+  "CreatedBy": "Kumar",
+  "Description": "Welcome",
+  "EndDate": "30/07/2022",
+  "InsCompanyId": "OMAN",
+  "Offer": "60",
+  "PolicyType": "One",
+  "PolicyTypeId": 1,
+  "Product": "Travel",
+  "PromoCode": "TESDDSD",
+  "StartDate": "15/07/2022",
+  "Status": "Y",
+  "CampaignId":"camp-1001",
+  "EntryDate":"12/07/2022",
+  "LandingPageLink":"https://www.crm.com"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successful",
+        "Code": "camp-1001"
+    },
+    "ErroCode": 0
+}
+
+
+Get By CampaignId
+
+192.168.1.15:8083/api/getcampaignmaster
+
+Req
+
+{
+  "CampaignId": "camp-1005"
+
+  
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "CampaignId": "camp-1005",
+        "CampaignName": "New Client",
+        "CreatedBy": "crmlead",
+        "PromoCode": "TESDDSD",
+        "StartDate": "15/07/2022",
+        "EndDate": "30/07/2022",
+        "Product": "Travel",
+        "Description": "Welcome",
+        "BranchCode": "01",
+        "EntryDate": "12/07/2022",
+        "Status": "Y",
+        "InsCompanyId": "OMAN",
+        "LandingPageLink": "https://www.crm.com",
+        "ClassType": "One",
+        "ClassTypeId": 1,
+        "PolicyType": "One",
+        "PolicyTypeId": 1,
+        "Offer": "60"
+    },
+    "ErroCode": 0
+}
+Get All
+
+192.168.1.15:8083/api/getallcampaignmaster
+
+Req-->
+
+{
+
+    "BranchCode":"01",
+    "InsuranceId":"OMAN"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CampaignId": "camp-1001",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "12/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "60"
+        },
+        {
+            "CampaignId": "camp-1002",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "12/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "50"
+        },
+        {
+            "CampaignId": "camp-1003",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "12/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "50"
+        },
+        {
+            "CampaignId": "camp-1004",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "12/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "50"
+        },
+        {
+            "CampaignId": "camp-1005",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "12/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "60"
+        },
+        {
+            "CampaignId": "Camp-1006",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "07/10/2020",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "60"
+        },
+        {
+            "CampaignId": "Camp-1007",
+            "CampaignName": "New Client",
+            "CreatedBy": "crmlead",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "13/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "60"
+        },
+        {
+            "CampaignId": "Camp-1008",
+            "CampaignName": "New Client",
+            "CreatedBy": "Kumar",
+            "PromoCode": "TESDDSD",
+            "StartDate": "15/07/2022",
+            "EndDate": "30/07/2022",
+            "Product": "Travel",
+            "Description": "Welcome",
+            "BranchCode": "01",
+            "EntryDate": "13/07/2022",
+            "Status": "Y",
+            "InsCompanyId": "OMAN",
+            "LandingPageLink": "https://www.crm.com",
+            "ClassType": "One",
+            "ClassTypeId": 1,
+            "PolicyType": "One",
+            "PolicyTypeId": 1,
+            "Offer": "60"
+        }
+    ],
+    "ErroCode": 0
+}
+
+// Campaign Details Insert
+
+192.168.1.15:8083/api/savecampaigndetails
+
+Req -->
+
+{
+  "ClientName": "Kumar",
+  "EmailId": "kumar@gmail.com",
+  "MobileNumber": "8845745776",
+  "Occupation": "Developer",
+  "CampaignId":"camp-1005",
+  "ClientType":"Individual",
+  "ClientTypeId":1,
+  "Title":"Mr",
+  "TitleId":1,
+  "Crno":"87987889"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successful",
+        "ClientRefNo": "C/1050/59",
+        "LeadId": "17251",
+        "CampaignCode": "1006"
+    },
+    "ErroCode": 0
+}
+
+//Campaign Details Get
+
+192.168.1.15:8083/api/getcampaigndetails
+
+Req -->
+
+{
+  "MobileNumber": "8845745787"
+
+  
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ClientName": "Kumar",
+        "MobileNumber": "8845745787",
+        "EmailId": "kumar@gmail.com",
+        "Occupation": "Developer",
+        "Crno": "stdegeddd",
+        "ClientRefNo": "C/1047/14",
+        "LeadId": "16709",
+        "CampaignId": "camp-1005",
+        "ClientType": "Individual",
+        "Title": "Mr",
+        "ClientTypeId": 1,
+        "TitleId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+// Campaign Details Get All
+
+192.168.1.15:8083/api/getallcampaigndetails
+
+
+Req-->
+
+{
+"CampaignId":"camp-1005"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ClientName": "Kumar",
+            "MobileNumber": "8845745787",
+            "EmailId": "kumar@gmail.com",
+            "Occupation": "Developer",
+            "Crno": "stdegeddd",
+            "ClientRefNo": "C/1047/14",
+            "LeadId": "16709",
+            "CampaignId": "camp-1005",
+            "ClientType": "Individual",
+            "Title": "Mr",
+            "ClientTypeId": 1,
+            "TitleId": "1"
+        },
+        {
+            "ClientName": "Kumar",
+            "MobileNumber": "8845745786",
+            "EmailId": "kumar@gmail.com",
+            "Occupation": "Developer",
+            "Crno": "dft",
+            "ClientRefNo": "C/1048/34",
+            "LeadId": "16859",
+            "CampaignId": "camp-1005",
+            "ClientType": "Individual",
+            "Title": "Mr",
+            "ClientTypeId": 1,
+            "TitleId": "1"
+        }
+    ],
+    "ErroCode": 0
+}

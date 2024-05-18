@@ -1,0 +1,20 @@
+192.168.1.15:8083/dropdown/isgroupclient
+
+Res-->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Y"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "N"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,30 @@
+Campaign Management Software
+
+--> From Customer Database Send Automated Mails, SMS to Customers.
+--> Set Automated Marketing Campaigns to keep your Contacts engaged with regular messages.
+
+Campaign Management Steps 
+
+--> After Register as a client, if they wont move to lead, sends a mail like offer only this week
+--> Send Social Media Page Links to Clients to follow latest offers
+--> Based on Country,Annual Income,Occupation and Age sends a different package schemes
+--> Send Quotation Link After successful Registration
+--> Client Referred a New Person, based on that information sends a website link to that person
+--> If Client Register as a Family Group - Sends Family Travel Offer.
+
+Ticketing System
+
+--> Ticketing system is looks like a customer care
+--> Customer give one complaint- reply for that complaint
+--> After registers a ticket- It goes to open Stage,
+--> If that opened ticket as solved then the ticket goes to Closed ticket 
+
+Odoo
+
+--> Simplify the Quote and Policy
+--> Asking for Quote Automatically Calculate Policy Value
+--> Then this Policy goes to Pending status, Policy value is reduced in Creation block 
+	and Policy value Added in Pending Status
+--> Then in policy Completion process Policy Value is added finally, 
+	Calculate Total Policy Value
+--> Send this policy Page to customer as a mail

@@ -1,0 +1,74 @@
+192.168.1.15:8083/master/savepolicypayment
+
+Policy Payment Insert
+
+
+Req -->
+{
+
+  "PolicyId ": 1,
+  "Paymentdetailsid":"1",
+  "PaymentType":"Cash",
+  "PaymentTypeId":1,
+  "PaymentDate":"04/06/2022",
+  "PaymentRefNo":"one",
+  "BankName":"kkkk",
+  "PaymentAmount":"Hundred",
+  "Remarks":"ew",
+  "PaymentCollectedDate":"05/06/2022"
+
+
+  
+}
+
+
+Res -->
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully "
+    },
+    "ErroCode": 0
+}
+
+
+Update
+
+
+Req -->
+
+
+{
+
+  "PolicyId ": 1,
+  "Paymentdetailsid":"1",
+  "PaymentType":"Cash",
+  "PaymentTypeId":1,
+  "PaymentDate":"04/06/2022",
+  "PaymentRefNo":"one",
+  "BankName":"kkkk",
+  "PaymentAmount":" Five Hundred",
+  "Remarks":"ew",
+  "PaymentCollectedDate":"05/06/2022",
+  "PolicyPaymentDetailId":1000,
+  "EntryDate":"04/06/2022"
+
+
+  
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Updated Successfully "
+    },
+    "ErroCode": 0
+}

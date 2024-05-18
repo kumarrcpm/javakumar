@@ -1,0 +1,4 @@
+	Instant now = (req.getEffectiveDate().toInstant()); //current date
+				Instant before = now.minus(Duration.ofDays(1));
+				Date endDate2 = Date.from(before);
+			

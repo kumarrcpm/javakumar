@@ -1,0 +1,38 @@
+Lead Controller  --> Lead Details, Vehicle Details, Old Policy Details
+
+Prospect payment
+Prospect Quotation Basic Info
+ProspectQuotation Insurer
+Prospect Quotationvehicle Details
+Policy nominee Details
+======================
+Policy Add ons opted
+Policyp payment Details
+policy additional Details
+endorsement General Details
+endorsement payment details
+Endorsement Financial details
+Commission motor
+Commission non motor
+claim other details
+policy details
+prospect quotation Add on
+prospect quotation other details
+==========================
+prospect details
+prospect old policy details
+prospect quotation policy accounts
+policy rider details
+policy assured details
+policy account details
+Occupation Master
+Source Master
+City Master
+
+
+
+
+
+Manu Year
+Motor Color 
+motor make model

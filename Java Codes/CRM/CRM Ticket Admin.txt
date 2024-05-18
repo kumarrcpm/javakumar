@@ -1,0 +1,165 @@
+Ticket From Admin Side Insert Assingning User
+
+192.168.1.15:8083/api/ticketadmin
+
+Req -->
+
+{
+
+    
+    "IssuerName":"Kumar",
+    "IssuerId":1,
+    "Status":"Pending",
+    "StatusId":3,
+    "TicketId":"TID-1002/56"
+
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Success",
+        "SucessId": "1"
+    },
+    "ErroCode": 0
+}
+
+// Ticket View From Admin Side Based On Status
+
+192.168.1.15:8083/api/ticketsview
+
+Req -->
+
+
+{
+
+    "BranchCode":"01",
+    "RegionCode":"06",
+    "InsuranceId":"OMAN",
+    "Status":"Pending",
+    "StatusId":3
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "TicketId": "TID-1002/56",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Pending",
+            "StatusId": 3,
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1,
+            "IssuerId": 1,
+            "IssuerName": "Kumar"
+        },
+        {
+            "TicketId": "TID-1002/96",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Pending",
+            "StatusId": 3,
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1,
+            "IssuerId": 1,
+            "IssuerName": "Kumar"
+        },
+        {
+            "TicketId": "TID-1003/78",
+            "ClientRefNo": "C/1051/19",
+            "ClientName": "Samilla",
+            "BranchCode": "01",
+            "RegionCode": "06",
+            "MobileNumber": "6576577777",
+            "EmailId": "ssamilla@gmail.com",
+            "EntryDate": "15/07/2022",
+            "Status": "Pending",
+            "StatusId": 3,
+            "InsCompanyId": "OMAN",
+            "Issue": "Travel",
+            "Remarks": "Test",
+            "IssueId": 1,
+            "IssuerId": 1,
+            "IssuerName": "Kumar"
+        }
+    ],
+    "ErroCode": 0
+}
+
+Ticket Status Drop Down
+
+192.168.1.15:8083/dropdown/ticketstatus
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Open"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Closed"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Pending"
+        }
+    ],
+    "ErroCode": 0
+}
+
+Ticket Issuer Drop Down
+
+192.168.1.15:8083/dropdown/ticketissuer
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "User1"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "User2"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "User3"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,32 @@
+192.168.1.15:8083/master/getendorsementpayment
+
+
+Req -->
+
+
+{
+  "EndorsementId": 1000,
+  "EndorsementPaymentId":1001
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "EndorsementId": 1000,
+        "EndorsementPaymentId": 1001,
+        "PaymentType": "string2",
+        "PaymentTypeId": 0,
+        "PaymentDate": "05/06/2022",
+        "PaymentRefNo": "string2",
+        "BankName": "string",
+        "PaymentAmount": 1000.0,
+        "PaymentCollectedDate": "05/06/2022",
+        "Remarks": "string"
+    },
+    "ErroCode": 0
+}

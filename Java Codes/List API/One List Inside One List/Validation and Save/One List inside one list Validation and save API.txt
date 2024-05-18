@@ -1,0 +1,84 @@
+http://192.168.1.15:8084/api/savelistbylisttest
+
+Request -- >
+
+[
+{
+"Status":"F",
+"Remarks":"Kumar",
+"AccidentDetails": [
+{
+"CaseNumber":"100",
+"SurveyOrName":"100",
+"CallDate":"23/04/2022",
+"CallTime":"3049",
+"LandMark":"wfrswf",
+"Location":"vsdvs",
+"LocationCoordinates":"few",
+"CityId":"23",
+"City":"vsd",
+"AccidentDescription":"vsdvss",
+"AmendId":"0",
+"EntryDate":"23/04/2022",
+"Status":"Y",
+"Remarks":"sdsds"
+}]},{
+"Status":"G",
+"Remarks":"Kumar",
+"AccidentDetails": [
+{
+"CaseNumber":"101",
+"SurveyOrName":"6",
+"CallDate":"23/04/2022",
+"CallTime":"e34w",
+"LandMark":"sgbswg",
+"Location":"EAgffe",
+"LocationCoordinates":"sgvwsrgf",
+"CityId":"43",
+"City":"wrgewrg",
+"AccidentDescription":"wrgesgrfwsg",
+"AmendId":"0",
+"EntryDate":"23/04/2022",
+"Status":"Y",
+"Remarks":"wrgeswgfsfgr"
+}]}
+,{
+"Status":"G",
+"Remarks":"Kumar",
+"AccidentDetails": [
+{
+"CaseNumber":"102",
+"SurveyOrName":"7",
+"CallDate":"23/04/2022",
+"CallTime":"rwgw",
+"LandMark":"gwerfw",
+"Location":"wergwe",
+"LocationCoordinates":"rwgewg",
+"CityId":"43",
+"City":"wfwf",
+"AccidentDescription":"wgwfwsfw",
+"AmendId":"0",
+"EntryDate":"23/04/2022",
+"Status":"Y",
+"Remarks":"gwsg"
+}
+]
+}
+]
+
+
+Response -- >
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": null
+    },
+    "ErroCode": 0,
+    "AdditionalData": null
+}
+
+
+
