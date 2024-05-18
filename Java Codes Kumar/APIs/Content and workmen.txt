@@ -1,0 +1,91 @@
+192.168.1.15:8085/home/savebuildingdetails
+
+
+Section id - 47   Content
+"ContentSuminsured"
+Section id -48 
+"WorkmenCompSuminsured"
+
+Req -->
+
+
+{
+    "AcexecutiveId": "",
+    "AgencyCode": "10117",
+    "AllriskSumInsured": "0",
+    "BdmCode": "",
+    "ApplicationId": "1",
+    "BranchCode": "01",
+    "BrokerCode": "10117",
+    "BrokerBranchCode": "01",
+    "InsuranceType": "",
+    "PersonalIntermediarySuminsured": "0",
+    "BuildingUsageId": "1",
+    "Havepromocode": "N",
+    "BuildingBuildYear": "2030",
+    "BuildingFloors": "2",
+    "BuildingOwnerYn": "N",
+     "WorkmenCompSuminsured": "10000000",
+    "OutbuildConstructType": "W",
+    "ConsecutiveDays": 365,
+    "ContentSuminsured": "100",
+    "Createdby": "broker70",
+    "UserType": "Broker",
+    "Currency": "TZS",
+    "CustomerReferenceNo": "Cust-00038",
+    "ExchangeRate": "1.0",
+    "InbuildConstructType": "W",
+    "InsuranceId": "100002",
+    "LocationId": "1",
+    "LoginId": "broker70",
+    "OccupationDetails": [],
+    "PolicyEndDate": "14/02/2024",
+    "PolicyStartDate": "15/02/2023",
+    "ProductId": "3",
+    "RequestReferenceNo": "Cust-00038",
+    "SectionId": [
+        "47",
+        "48"
+    ],
+    "SubUsertype": "b2b"
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "RequestReferenceNo": "Cust-00038",
+            "CustomerReferenceNo": "Cust-00038",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "07047",
+            "CdRefNo": "07044",
+            "VdRefNo": "07045",
+            "SectionId": "47",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker70"
+        },
+        {
+            "RequestReferenceNo": "Cust-00038",
+            "CustomerReferenceNo": "Cust-00038",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "07048",
+            "CdRefNo": "07044",
+            "VdRefNo": "07046",
+            "SectionId": "48",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker70"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,264 @@
+192.168.1.15:8086/master/insertbrokercommission
+
+
+Req -->
+
+{
+  "AgencyCode":"10017",
+  "CheckerYn":"Y",
+  "CommissionPercentage":"20", 
+   "CreatedBy": "broker70",
+  "EffectiveDateStart": "17/04/2023",
+  "InsuranceId": "100002",
+  "LoginId":"broker70",
+   "OaCode":"10017",
+   "PolicyType":"1",
+  "ProductId": "3",
+  "Remarks": "Test",
+  "Status": "Y",
+  "SuminsuredStart":"1000",
+  "SuminsuredEnd":"100000",
+  "Id":""
+  }
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/getbrokercommission
+
+Req -->
+
+{
+  "AgencyCode":"10017",
+  "InsuranceId": "100002",
+  "LoginId":"broker70",
+   "OaCode":"10017",
+   "PolicyType":"01",
+  "ProductId": "19",
+  "Id":"3"
+  }
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Id": "3",
+        "OaCode": "10017",
+        "AgencyCode": "10017",
+        "LoginId": "broker70",
+        "InsuranceId": "100002",
+        "ProductId": "19",
+        "PolicyType": "01",
+        "PolicyTypeDesc": "ALL",
+        "SuminsuredStart": "10000",
+        "SuminsuredEnd": "1000000",
+        "CommissionPercentage": "5.0",
+        "CheckerYn": "Y",
+        "EffectiveDateEnd": "30/12/2050",
+        "EffectiveDateStart": "18/04/2023",
+        "Status": "N",
+        "Remarks": "Test",
+        "CreatedBy": "broker70",
+        "EntryDate": "18/04/2023",
+        "UpdatedDate": "18/04/2023",
+        "UpdatedBy": "broker70",
+        "AmendId": "0"
+    },
+    "ErroCode": 0
+}
+
+192.168.1.15:8086/master/getallbrokercommission
+
+
+
+Req -->
+
+
+{
+  "AgencyCode":"10017",
+  "InsuranceId": "100002",
+  "LoginId":"broker70",
+   "OaCode":"10017",
+  "ProductId": "19"
+  }
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Id": "2",
+            "OaCode": "10017",
+            "AgencyCode": "10017",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "19",
+            "PolicyType": "01",
+            "PolicyTypeDesc": "ALL",
+            "SuminsuredStart": "1000",
+            "SuminsuredEnd": "1000000",
+            "CommissionPercentage": "5.0",
+            "CheckerYn": "Y",
+            "EffectiveDateEnd": "17/04/2023",
+            "EffectiveDateStart": "18/04/2023",
+            "Status": "Y",
+            "Remarks": "Test",
+            "CreatedBy": "broker70",
+            "EntryDate": "18/04/2023",
+            "UpdatedDate": "18/04/2023",
+            "UpdatedBy": "broker70",
+            "AmendId": "0"
+        },
+        {
+            "Id": "1",
+            "OaCode": "10017",
+            "AgencyCode": "10017",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "19",
+            "PolicyType": "99999",
+            "PolicyTypeDesc": "",
+            "SuminsuredStart": "1000",
+            "SuminsuredEnd": "1000000",
+            "CommissionPercentage": "5.0",
+            "CheckerYn": "Y",
+            "EffectiveDateEnd": "30/12/2050",
+            "EffectiveDateStart": "18/04/2023",
+            "Status": "Y",
+            "Remarks": "Test",
+            "CreatedBy": "broker70",
+            "EntryDate": "18/04/2023",
+            "UpdatedDate": "18/04/2023",
+            "UpdatedBy": "broker70",
+            "AmendId": "0"
+        }
+    ],
+    "ErroCode": 0
+}
+
+192.168.1.15:8086/master/changestatusbrokercommission
+
+
+Req -->
+
+{
+  "AgencyCode":"10017",
+  "InsuranceId": "100002",
+  "LoginId":"broker70",
+   "OaCode":"10017",
+  "ProductId": "19",
+  "PolicyType":"01",
+  "Status":"N",
+  "EffectiveDateStart":"18/04/2023",
+  "CreatedBy":"broker70",
+  "Id":"3"
+  }
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed Successfully",
+        "SuccessId": "3"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+
+192.168.1.15:8086/master/getactivebrokercommission
+
+
+Req -->
+
+{
+  "AgencyCode":"10017",
+  "InsuranceId": "100002",
+  "LoginId":"broker70",
+   "OaCode":"10017",
+  "ProductId": "3"
+    }
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Id": "2",
+            "OaCode": "10017",
+            "AgencyCode": "10017",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "19",
+            "PolicyType": "01",
+            "PolicyTypeDesc": "ALL",
+            "SuminsuredStart": "1000",
+            "SuminsuredEnd": "1000000",
+            "CommissionPercentage": "5.0",
+            "CheckerYn": "Y",
+            "EffectiveDateEnd": "17/04/2023",
+            "EffectiveDateStart": "18/04/2023",
+            "Status": "Y",
+            "Remarks": "Test",
+            "CreatedBy": "broker70",
+            "EntryDate": "18/04/2023",
+            "UpdatedDate": "18/04/2023",
+            "UpdatedBy": "broker70",
+            "AmendId": "0"
+        },
+        {
+            "Id": "1",
+            "OaCode": "10017",
+            "AgencyCode": "10017",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "19",
+            "PolicyType": "99999",
+            "PolicyTypeDesc": "",
+            "SuminsuredStart": "1000",
+            "SuminsuredEnd": "1000000",
+            "CommissionPercentage": "5.0",
+            "CheckerYn": "Y",
+            "EffectiveDateEnd": "30/12/2050",
+            "EffectiveDateStart": "18/04/2023",
+            "Status": "Y",
+            "Remarks": "Test",
+            "CreatedBy": "broker70",
+            "EntryDate": "18/04/2023",
+            "UpdatedDate": "18/04/2023",
+            "UpdatedBy": "broker70",
+            "AmendId": "0"
+        }
+    ],
+    "ErroCode": 0
+}

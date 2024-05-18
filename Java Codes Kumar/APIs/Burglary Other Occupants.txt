@@ -1,0 +1,97 @@
+192.168.1.15:8085/api/saveburglaryotheroccupants
+
+Req -->
+
+[
+  {
+    "BranchCode": "99999",
+    "Createdby": "broker70",
+    "HowSecured": "Test",
+    "InsuranceId": "100002",
+    "Name": "Kumar",
+    "Occupation": "Developer",
+    "ProductId": "1",
+    "QuoteNo": "Q0560",
+    "RequestReferenceNo": "BUG123",
+    "RiskId": "1",
+    "SectionId": "52"
+  },
+  {
+    "BranchCode": "99999",
+    "Createdby": "broker70",
+    "HowSecured": "Test",
+    "InsuranceId": "100002",
+    "Name": "Ram",
+    "Occupation": "Tester",
+    "ProductId": "1",
+    "QuoteNo": "Q0560",
+    "RequestReferenceNo": "BUG123",
+    "RiskId": "1",
+    "SectionId": "52"
+  }
+]
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Successfully Added",
+        "SuccessId": "Q0560"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8085/api/getburglaryquoteno
+
+
+Req -->
+
+
+
+  {
+    "QuoteNo": "Q0560",
+    "RiskId":"1"
+  }
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "InsuranceId": "100002",
+        "BranchCode": "99999",
+        "ProductId": "1",
+        "SectionId": "52",
+        "RequestReferenceNo": "BUG123",
+        "QuoteNo": "Q0560",
+        "EntryDate": "16/05/2023",
+        "Createdby": "broker70",
+        "Status": "Y",
+        "RiskId": "1",
+        "BurglaryOtherOccupants": [
+            {
+                "Id": "1",
+                "Name": "Kumar",
+                "Occupation": "Developer",
+                "HowSecured": "Test"
+            },
+            {
+                "Id": "2",
+                "Name": "Ram",
+                "Occupation": "Tester",
+                "HowSecured": "Test"
+            }
+        ]
+    },
+    "ErroCode": 0
+}

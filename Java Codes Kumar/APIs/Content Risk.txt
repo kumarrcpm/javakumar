@@ -1,0 +1,150 @@
+Content And Risk
+
+192.168.1.15:8085/api/savecontentrisk
+
+
+Req -->
+
+
+{
+  "CreatedBy": "Issuer3",
+  "QuoteNo": "12345",
+  "RequestReferenceNo": "",
+  "RiskId": "1",
+  "SectionId": "3",
+   "Type":"C",
+  "ContentRiskDetails": [
+    {
+        "ItemId":"1",
+        "MakeAndModel":"TN123",
+        "SerialNo":"155685",
+        "ItemValue":"26534556",
+        "SumInsured":"1352654"
+    },
+    {
+        "ItemId":"2",
+        "MakeAndModel":"TN1233",
+        "SerialNo":"155643485",
+        "ItemValue":"26534344556",
+        "SumInsured":"135432654"
+    
+    }
+  ]
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successful",
+        "SuccessId": "BUL-230103325397330"
+    },
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8085/api/getcontentrisk
+
+
+Req -->
+
+
+{ "RequestReferenceNo": "BUL-230103325397330",
+  "RiskId": "1",
+ "ItemId":"1",
+ "SectionId":"3"
+ }
+ 
+ 
+ Res ->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "RequestReferenceNo": "BUL-230103325397330",
+        "RiskId": "1",
+        "SectionId": "3",
+        "SectionDesc": "All Risk",
+        "ItemId": "1",
+        "ItemDesc": "Gold",
+        "ItemValue": "26534556",
+        "SumInsured": "1352654",
+        "SerialNo": "155685",
+        "MakeAndModel": "TN123",
+        "Type": "C",
+        "TypeDesc": "Content",
+        "QuoteNo": "12345",
+        "EntryDate": "03/01/2023",
+        "Createdby": "Issuer3",
+        "Status": "Y",
+        "UpdatedDate": null,
+        "Updatedby": null
+    },
+    "ErroCode": 0
+}
+
+
+
+
+192.168.1.15:8085/api/getallcontentrisk
+
+
+
+Req -->
+
+
+{ "RequestReferenceNo": "BUL-230103325397330",
+  "SectionId":"3"
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "RequestReferenceNo": "BUL-230103325397330",
+            "RiskId": "1",
+            "SectionId": "3",
+            "SectionDesc": "All Risk",
+            "Type": "C",
+            "TypeDesc": "Content",
+            "QuoteNo": "12345",
+            "EntryDate": "03/01/2023",
+            "Createdby": "Issuer3",
+            "Status": "Y",
+            "UpdatedDate": null,
+            "Updatedby": null,
+            "ContentRiskDetails": [
+                {
+                    "ItemId": "1",
+                    "ItemDesc": "Gold",
+                    "ItemValue": "26534556",
+                    "SumInsured": "1352654",
+                    "SerialNo": "155685",
+                    "MakeAndModel": "TN123"
+                },
+                {
+                    "ItemId": "2",
+                    "ItemDesc": "Silver",
+                    "ItemValue": "26534344556",
+                    "SumInsured": "135432654",
+                    "SerialNo": "155643485",
+                    "MakeAndModel": "TN1233"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}

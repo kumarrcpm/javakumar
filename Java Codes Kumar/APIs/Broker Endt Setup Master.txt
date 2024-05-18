@@ -1,0 +1,254 @@
+192.168.1.15:8086/master/insertbrokerendtsetup
+
+
+Req -->
+
+{
+  "AgencyCode": "65127",
+  "CreatedBy": "broker70",
+  "EffectiveDateStart": "10/04/2022",
+  "EndtSetupId": "",
+  "EndtTypes": [
+    "1","2","3"
+  ],
+  "InsuranceId": "100002",
+  "LoginId": "broker70",
+  "OaCode": "65127",
+  "ProductId": "5",
+  "Remarks": "Test",
+  "Status": "Y",
+  "SubUserType": "b2b",
+  "UpdatedBy": "broker70",
+  "UserType": "broker"
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+192.168.1.15:8086/master/getbybrokerendtsetupid
+
+
+
+Req -->
+
+
+{
+  "EndtSetupId": "2",
+  "InsuranceId": "100002",
+  "LoginId": "broker70",
+  "ProductId": "5",
+  "SubUserType": "b2b",
+  "UserType": "broker"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "EndtSetupId": "2",
+        "LoginId": "broker70",
+        "InsuranceId": "100002",
+        "ProductId": "5",
+        "AgencyCode": "65127",
+        "OaCode": "65127",
+        "Status": "Y",
+        "CreatedBy": "broker70",
+        "UpdatedBy": "broker70",
+        "EntryDate": "10/04/2023",
+        "UpdatedDate": "10/04/2023",
+        "EffectiveDateStart": "15/04/2022",
+        "EffectiveDateEnd": "30/12/2050",
+        "AmendId": "1",
+        "Remarks": "Test",
+        "UserType": "broker",
+        "SubUserType": "b2b",
+        "EndtTypes": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/getallbrokerendtsetup
+
+
+
+Req -->
+
+
+{
+  "InsuranceId": "100002",
+  "ProductId": "5",
+  "SubUserType": "b2b",
+  "UserType": "broker"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "EndtSetupId": "1",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "5",
+            "AgencyCode": "65127",
+            "OaCode": "65127",
+            "Status": "Y",
+            "CreatedBy": "broker70",
+            "UpdatedBy": "broker70",
+            "EntryDate": "10/04/2023",
+            "UpdatedDate": "10/04/2023",
+            "EffectiveDateStart": "10/04/2022",
+            "EffectiveDateEnd": "30/12/2050",
+            "AmendId": "0",
+            "Remarks": "Test",
+            "UserType": "broker",
+            "SubUserType": "b2b",
+            "EndtTypes": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "EndtSetupId": "2",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "5",
+            "AgencyCode": "65127",
+            "OaCode": "65127",
+            "Status": "Y",
+            "CreatedBy": "broker70",
+            "UpdatedBy": "broker70",
+            "EntryDate": "10/04/2023",
+            "UpdatedDate": "10/04/2023",
+            "EffectiveDateStart": "15/04/2022",
+            "EffectiveDateEnd": "30/12/2050",
+            "AmendId": "1",
+            "Remarks": "Test",
+            "UserType": "broker",
+            "SubUserType": "b2b",
+            "EndtTypes": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/brokerendtsetup/changestatus
+
+
+Req -->
+
+{
+  "InsuranceId": "100002",
+  "ProductId": "5",
+  "SubUserType": "b2b",
+  "UserType": "broker",
+  "LoginId":"broker70",
+  "EndtSetupId":"2",
+  "Status":"N",
+  "EffectiveDateStart":"25/04/2022",
+  "CreatedBy":"broker70"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed",
+        "SuccessId": "2"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/getactivebrokerendtsetup
+
+
+
+Req -->
+
+
+{
+  "InsuranceId": "100002",
+  "ProductId": "5",
+  "SubUserType": "b2b",
+  "UserType": "broker"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "EndtSetupId": "1",
+            "LoginId": "broker70",
+            "InsuranceId": "100002",
+            "ProductId": "5",
+            "AgencyCode": "65127",
+            "OaCode": "65127",
+            "Status": "Y",
+            "CreatedBy": "broker70",
+            "UpdatedBy": "broker70",
+            "EntryDate": "10/04/2023",
+            "UpdatedDate": "10/04/2023",
+            "EffectiveDateStart": "10/04/2022",
+            "EffectiveDateEnd": "30/12/2050",
+            "AmendId": "0",
+            "Remarks": "Test",
+            "UserType": "broker",
+            "SubUserType": "b2b",
+            "EndtTypes": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    ],
+    "ErroCode": 0
+}

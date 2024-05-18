@@ -1,0 +1,486 @@
+192.168.1.15:8086/master/insertendorsement
+
+
+Req -->
+
+{
+  "CompanyId": "100002",
+  "CoreAppCode": "99999",
+  "CreatedBy": "broker70",
+  "EffectiveDateStart": "24/03/2023",
+  "EndtDependantIds": [
+    "1","2","3","4"
+  ],
+  "EndtFeePercent": "10",
+  "EndtFeeYn": "Y",
+  "EndtType": "Test Endorsement",
+  "EndtTypeCategoryId": "1",
+  "EndtTypeDesc": "Test Endorsement",
+  "EndtTypeId": "",
+  "Priority": "1",
+  "ProductId": "3",
+  "Remarks": "Test",
+  "Status": "Y",
+  "CalcTypeId":"P",
+  "RegulatoryCode":"99999"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+
+
+192.168.1.15:8086/master/getbyendorsementid
+
+
+
+Req -->
+
+{
+  "CompanyId": "100002",
+  "EndtTypeCategoryId": "1",
+  "EndtTypeId": "1",
+  "ProductId": "3"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "EndtTypeId": "1",
+        "EndtType": "Test Endorsement",
+        "EndtTypeDesc": "Test Endorsement",
+        "EndtTypeCategoryId": "1",
+        "EndtTypeCategory": "Non Financial",
+        "Status": "Y",
+        "Priority": "1",
+        "EndtDependantFields": [
+            "Title",
+            "CustomerName",
+            "Address1",
+            "Address2"
+        ],
+        "EndtDependantIds": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "ProductId": "3",
+        "CoreAppCode": "99999",
+        "CompanyId": "100002",
+        "EndtFeeYn": "Y",
+        "EndtFeePercent": "10",
+        "Remarks": "Test",
+        "EntryDate": "24/03/2023",
+        "EffectiveDateStart": "24/03/2023",
+        "EffectiveDateEnd": "30/12/2050",
+        "CreatedBy": "broker70",
+        "UpdatedBy": "broker70",
+        "UpdatedDate": "24/03/2023",
+        "AmendId": "0",
+        "RegulatoryCode": "99999",
+        "CalcTypeId": "P"
+    },
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/getallendorsement
+
+
+
+Req -->
+
+
+{
+  "CompanyId": "100002",
+  "EndtTypeCategoryId": "1",
+  "ProductId": "3"
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "EndtTypeCategoryId": "1",
+            "EndtTypeCategory": "Non Financial",
+            "ProductId": "3",
+            "CompanyId": "100002",
+            "EndorsementMasterListRes": [
+                {
+                    "EndtTypeId": "1",
+                    "EndtType": "Test Endorsement",
+                    "EndtTypeDesc": "Test Endorsement",
+                    "Status": "Y",
+                    "Priority": "1",
+                    "EndtDependantFields": [
+                        "Title",
+                        "CustomerName",
+                        "Address1",
+                        "Address2"
+                    ],
+                    "EndtDependantIds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "EndtFeeYn": "Y",
+                    "EndtFeePercent": "10",
+                    "Remarks": "Test",
+                    "EntryDate": "24/03/2023",
+                    "EffectiveDateStart": "24/03/2023",
+                    "EffectiveDateEnd": "30/12/2050",
+                    "CreatedBy": "broker70",
+                    "UpdatedBy": "broker70",
+                    "RegulatoryCode": "99999",
+                    "UpdatedDate": "24/03/2023",
+                    "AmendId": "0",
+                    "CalcTypeId": "P",
+                    "CoreAppCode": "99999"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/getactiveendorsement
+
+Req -->
+
+{
+  "CompanyId": "100002",
+  "EndtTypeCategoryId": "1",
+  "ProductId": "3"
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "EndtTypeCategoryId": "1",
+            "EndtTypeCategory": "Non Financial",
+            "ProductId": "3",
+            "CompanyId": "100002",
+            "EndorsementMasterListRes": [
+                {
+                    "EndtTypeId": "1",
+                    "EndtType": "Test Endorsement",
+                    "EndtTypeDesc": "Test Endorsement",
+                    "Status": "Y",
+                    "Priority": "1",
+                    "EndtDependantFields": [
+                        "Title",
+                        "CustomerName",
+                        "Address1",
+                        "Address2"
+                    ],
+                    "EndtDependantIds": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "EndtFeeYn": "Y",
+                    "EndtFeePercent": "10",
+                    "Remarks": "Test",
+                    "EntryDate": "24/03/2023",
+                    "EffectiveDateStart": "24/03/2023",
+                    "EffectiveDateEnd": "30/12/2050",
+                    "CreatedBy": "broker70",
+                    "UpdatedBy": "broker70",
+                    "RegulatoryCode": "99999",
+                    "UpdatedDate": "24/03/2023",
+                    "AmendId": "0",
+                    "CalcTypeId": "P",
+                    "CoreAppCode": "99999"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/endorsement/changestatus
+
+
+
+Req -->
+
+
+{
+  "CompanyId": "100002",
+  "EndtTypeCategoryId": "1",
+  "EndtTypeId":"1",
+  "ProductId": "3",
+  "Status":"N",
+  "EffectiveDateStart":"24/03/2023",
+  "CreatedBy":"broker70"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/dropdown/endtdependantfields
+
+
+
+Req -->
+
+{
+  "CompanyId": "",
+  "BranchCode":""
+}
+  
+  
+  
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "30",
+            "CodeDesc": "AccessoriesSi",
+            "Status": "Y"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Address1",
+            "Status": "Y"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Address2",
+            "Status": "Y"
+        },
+        {
+            "Code": "23",
+            "CodeDesc": "AllriskSuminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "34",
+            "CodeDesc": "BenefitCoverMonth",
+            "Status": "Y"
+        },
+        {
+            "Code": "25",
+            "CodeDesc": "BodyType",
+            "Status": "Y"
+        },
+        {
+            "Code": "18",
+            "CodeDesc": "BuildingOwnerYn",
+            "Status": "Y"
+        },
+        {
+            "Code": "19",
+            "CodeDesc": "BuildingSuminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "City",
+            "Status": "Y"
+        },
+        {
+            "Code": "27",
+            "CodeDesc": "ClaimsYn",
+            "Status": "Y"
+        },
+        {
+            "Code": "20",
+            "CodeDesc": "ContentSuminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "37",
+            "CodeDesc": "Covers",
+            "Status": "Y"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "CustomerName",
+            "Status": "Y"
+        },
+        {
+            "Code": "9",
+            "CodeDesc": "DocumentId",
+            "Status": "Y"
+        },
+        {
+            "Code": "11",
+            "CodeDesc": "DocumentName",
+            "Status": "Y"
+        },
+        {
+            "Code": "10",
+            "CodeDesc": "DocumentType",
+            "Status": "Y"
+        },
+        {
+            "Code": "14",
+            "CodeDesc": "DriverDob",
+            "Status": "Y"
+        },
+        {
+            "Code": "12",
+            "CodeDesc": "DriverName",
+            "Status": "Y"
+        },
+        {
+            "Code": "13",
+            "CodeDesc": "DriverType",
+            "Status": "Y"
+        },
+        {
+            "Code": "8",
+            "CodeDesc": "Email",
+            "Status": "Y"
+        },
+        {
+            "Code": "28",
+            "CodeDesc": "GpsYn",
+            "Status": "Y"
+        },
+        {
+            "Code": "15",
+            "CodeDesc": "IdNumber",
+            "Status": "Y"
+        },
+        {
+            "Code": "17",
+            "CodeDesc": "IdType",
+            "Status": "Y"
+        },
+        {
+            "Code": "24",
+            "CodeDesc": "InsuranceClass",
+            "Status": "Y"
+        },
+        {
+            "Code": "36",
+            "CodeDesc": "JobJoiningMonth",
+            "Status": "Y"
+        },
+        {
+            "Code": "7",
+            "CodeDesc": "MobileNo",
+            "Status": "Y"
+        },
+        {
+            "Code": "26",
+            "CodeDesc": "MotorUsage",
+            "Status": "Y"
+        },
+        {
+            "Code": "22",
+            "CodeDesc": "PersonalAccidentSuminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "21",
+            "CodeDesc": "PersonalIntermeditySuminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "PoBox",
+            "Status": "Y"
+        },
+        {
+            "Code": "39",
+            "CodeDesc": "PolicyEndDate",
+            "Status": "Y"
+        },
+        {
+            "Code": "16",
+            "CodeDesc": "PolicyHolderType",
+            "Status": "Y"
+        },
+        {
+            "Code": "38",
+            "CodeDesc": "PolicyStartDate",
+            "Status": "Y"
+        },
+        {
+            "Code": "35",
+            "CodeDesc": "SalaryPerAnnum",
+            "Status": "Y"
+        },
+        {
+            "Code": "33",
+            "CodeDesc": "Suminsured",
+            "Status": "Y"
+        },
+        {
+            "Code": "1",
+            "CodeDesc": "Title",
+            "Status": "Y"
+        },
+        {
+            "Code": "32",
+            "CodeDesc": "TppdSi",
+            "Status": "Y"
+        },
+        {
+            "Code": "29",
+            "CodeDesc": "VehicleSi",
+            "Status": "Y"
+        },
+        {
+            "Code": "31",
+            "CodeDesc": "WindShieldSi",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

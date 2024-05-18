@@ -1,0 +1,268 @@
+192.168.1.15:8086/admin/attachissuerproducts
+
+
+{
+    "LoginId":"admin01",
+    "InsuranceId":"100002",
+    "CreatedBy":"prakashadmin",
+    "IssuerProduct": [
+    {
+      "ProductId": "19",
+      "ReferralIds": [
+        "1","2","3"
+      ],
+      "EndorsementIds": [
+        "1","2","3"
+      ],
+      "SuminsuredEnd": "1000000",
+      "SuminsuredStart": "1000"
+    },
+    {
+      "ProductId": "32",
+      "ReferralIds": [
+        "4","5","6"
+      ],
+      "EndorsementIds": [
+        "1","2","3"
+      ],
+      "SuminsuredEnd": "1000000",
+      "SuminsuredStart": "1000"
+    }
+  ]
+}
+
+
+
+192.168.1.15:8086/admin/getissuerproductbyid
+
+
+
+Req -->
+
+{
+    "LoginId":"admin01",
+    "InsuranceId":"100002"
+ 
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ProductId": "1",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "16/05/2023",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "Burglary",
+            "Status": "Y",
+            "ProductDesc": "Theft",
+            "SumInsuredStart": "0",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "3",
+            "InsuranceId": "100002",
+            "LoginId": "admin01",
+            "EffectiveDateStart": "22/12/2022",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "Domestic",
+            "Status": "Y",
+            "ProductDesc": null,
+            "SumInsuredStart": "100000",
+            "SumInsuredEnd": "500000000",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "Y"
+        },
+        {
+            "ProductId": "4",
+            "InsuranceId": "100002",
+            "LoginId": "admin01",
+            "EffectiveDateStart": "27/12/2022",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "Travel",
+            "Status": "Y",
+            "ProductDesc": "Health",
+            "SumInsuredStart": "100000",
+            "SumInsuredEnd": "500000000",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "Y"
+        },
+        {
+            "ProductId": "5",
+            "InsuranceId": "100002",
+            "LoginId": "admin01",
+            "EffectiveDateStart": "27/12/2022",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "Motor",
+            "Status": "Y",
+            "ProductDesc": "Motor ",
+            "SumInsuredStart": "100000",
+            "SumInsuredEnd": "500000000",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "Y"
+        },
+        {
+            "ProductId": "13",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "01/02/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "ProductName": "Personal Accident",
+            "Status": "Y",
+            "ProductDesc": "Personal Accident",
+            "SumInsuredStart": "1000000",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "14",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "07/02/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "ProductName": "Employer's Liability",
+            "Status": "Y",
+            "ProductDesc": "Employers Liability",
+            "SumInsuredStart": "1",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "15",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "25/01/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "ProductName": "Workmens Compensation",
+            "Status": "Y",
+            "ProductDesc": "Workmens Compensation",
+            "SumInsuredStart": "1000000",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "16",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "06/03/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "ProductName": "Money",
+            "Status": "Y",
+            "ProductDesc": "Money Insursance",
+            "SumInsuredStart": "0",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "19",
+            "InsuranceId": "100002",
+            "LoginId": "admin01",
+            "EffectiveDateStart": "16/05/2023",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "SME Product",
+            "Status": "Y",
+            "ProductDesc": "SME Product",
+            "SumInsuredStart": "1000",
+            "SumInsuredEnd": "1000000",
+            "EndorsementIds": [
+                "1,2,3"
+            ],
+            "ReferralIds": [
+                "1,2,3"
+            ],
+            "IsOptedYn": "Y"
+        },
+        {
+            "ProductId": "29",
+            "InsuranceId": "100002",
+            "LoginId": null,
+            "EffectiveDateStart": "23/03/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "ProductName": "Motor2",
+            "Status": "Y",
+            "ProductDesc": "Motor2",
+            "SumInsuredStart": "0",
+            "SumInsuredEnd": "99999999",
+            "EndorsementIds": [
+                ""
+            ],
+            "ReferralIds": [
+                ""
+            ],
+            "IsOptedYn": "N"
+        },
+        {
+            "ProductId": "32",
+            "InsuranceId": "100002",
+            "LoginId": "admin01",
+            "EffectiveDateStart": "16/05/2023",
+            "EffectiveDateEnd": "26/12/2049",
+            "ProductName": "Fidelity",
+            "Status": "Y",
+            "ProductDesc": "Fidelity",
+            "SumInsuredStart": "1000",
+            "SumInsuredEnd": "1000000",
+            "EndorsementIds": [
+                "1,2,3"
+            ],
+            "ReferralIds": [
+                "4,5,6"
+            ],
+            "IsOptedYn": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

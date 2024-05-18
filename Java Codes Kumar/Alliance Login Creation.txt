@@ -1,0 +1,45 @@
+LoginId : samplebroker2
+Password :	Admin@01
+UserType : broker
+Arusha, Dar Es Salaam Broker Branch Created
+7 Products Added
+
+
+LoginId : samplebroker3
+Password :	Admin@01
+UserType : broker
+Arusha, Dar Es Salaam Broker Branch Created
+7 Products Added
+
+
+
+LoginId : sampleuser2
+Password :	Admin@01
+Sample Broker 2 -> User
+Arusha, Dar Es Salaam Broker Branch Added
+7 Products Added
+
+LoginId : sampleuser3
+Password :	Admin@01
+Sample Broker 3 -> User
+Arusha, Dar Es Salaam Broker Branch Added
+7 Products Added
+
+LoginId : sampleapprover2
+Password :	Admin@01
+UserType  -> Approver
+Arusha, Dar Es Salaam Branch Added
+7 Products Added
+
+LoginId : sampleapprover3
+Password :	Admin@01
+UserType  -> Approver
+Arusha, Dar Es Salaam Branch Added
+7 Products Added
+
+
+Sample Broker 2
+Branch Arusha
+Through New Customer and New Vehicle
+Quote No   Q01817
+Policy No P11/2023/100/1002/10/00432

@@ -1,0 +1,97 @@
+192.168.1.15:8086/master/getallbrokerendorsement
+
+
+Req -->
+
+{
+    "CompanyId": "100002",
+    "EndtTypeCategoryId": "2",
+    "ProductId": "5",
+	"LoginId":"gokulapprover"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "EndtTypeCategoryId": "2",
+            "EndtTypeCategory": "Financial",
+            "ProductId": "5",
+            "CompanyId": "100002",
+            "EndorsementMasterListRes": [
+                {
+                    "EndtTypeId": "846",
+                    "EndtType": "Add New Vehicle Detail",
+                    "EndtTypeDesc": "Add New Vehicle Detail",
+                    "Status": "Y",
+                    "Priority": "1",
+                    "EndtDependantFields": [
+                        "addVehicle"
+                    ],
+                    "EndtDependantIds": [
+                        "1"
+                    ],
+                    "EndtFeeYn": "Y",
+                    "EndtFeePercent": "2",
+                    "Remarks": null,
+                    "EntryDate": "28/03/2023",
+                    "EffectiveDateStart": "28/03/2023",
+                    "EffectiveDateEnd": "30/12/2050",
+                    "CreatedBy": null,
+                    "UpdatedBy": null,
+                    "RegulatoryCode": null,
+                    "UpdatedDate": null,
+                    "AmendId": "0",
+                    "CalcTypeId": "P",
+                    "CoreAppCode": "20"
+                }
+            ]
+        },
+        {
+            "EndtTypeCategoryId": "2",
+            "EndtTypeCategory": "Financial",
+            "ProductId": "5",
+            "CompanyId": "100002",
+            "EndorsementMasterListRes": [
+                {
+                    "EndtTypeId": "849",
+                    "EndtType": "Change of Currency Type",
+                    "EndtTypeDesc": "Change of Currency Type",
+                    "Status": "Y",
+                    "Priority": "1",
+                    "EndtDependantFields": [
+                        "Currency"
+                    ],
+                    "EndtDependantIds": [
+                        "30"
+                    ],
+                    "EndtFeeYn": "Y",
+                    "EndtFeePercent": "2",
+                    "Remarks": "Change of Currency Type",
+                    "EntryDate": "26/04/2023",
+                    "EffectiveDateStart": "26/04/2023",
+                    "EffectiveDateEnd": "30/12/2050",
+                    "CreatedBy": "prakash_admin",
+                    "UpdatedBy": "prakash_admin",
+                    "RegulatoryCode": "99999",
+                    "UpdatedDate": "26/04/2023",
+                    "AmendId": "0",
+                    "CalcTypeId": "P",
+                    "CoreAppCode": "99999"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+
+

@@ -1,0 +1,134 @@
+192.168.1.15:8086/dropdown/openoption
+
+Req ->
+{
+  "BranchCode": "99999",
+  "InsuranceId": "100002"
+  }
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "2",
+            "CodeDesc": "Combination",
+            "Status": "Y"
+        },
+        {
+            "Code": "1",
+            "CodeDesc": "Single",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}  
+
+
+
+192.168.1.15:8085/api/saveburglarypolicyinfo
+
+
+
+Req -->
+
+{
+  "BranchCode": "99999",
+  "BurglarResistingSafe": "Y",
+   "CreatedBy":"broker70",
+  "ExtentOfLoss": "Test",
+  "InsuranceId": "100002",
+  "LastStockTaken": "04/2021",
+  "LeftUninhabited": "Y",
+  "NumberOfKeys": "2",
+  "OpenOptionId": "1",
+  "PrecautionTaken": "Test",
+  "PremisesOccupied": "Y",
+  "ProductId": "1",
+  "QuoteNo": "Q0120",
+  "RequestReferenceNo": "BUR-123",
+  "RiskId": "1",
+  "SafetyLockerDepth": "10",
+  "SafetyLockerHeight": "50",
+  "SafetyLockerName": "Globe",
+  "SafetyLockerStructure": "Thin",
+  "SafetyLockerWidth": "1",
+  "SectionId": "52",
+  "StockBookLoss": "N",
+  "StockBookMaintained": "Y",
+  "UninhabitedDays": "20",
+  "UninhabitedPerYear": "2"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Inserted Successfully ",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8085/api/getburglarypolicyinfo
+
+
+
+Req -->
+
+{
+  "QuoteNo": "Q0120",
+  "RiskId": "1"
+  
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "InsuranceId": "100002",
+        "BranchCode": "99999",
+        "ProductId": "1",
+        "SectionId": "52",
+        "RequestReferenceNo": "BUR-123",
+        "QuoteNo": "Q0120",
+        "EntryDate": "18/05/2023",
+        "Createdby": "broker70",
+        "UpdatedDate": null,
+        "Updatedby": null,
+        "Status": "Y",
+        "RiskId": "1",
+        "Id": "1",
+        "LeftUninhabited": "Y",
+        "UninhabitedPerYear": "2",
+        "UninhabitedDays": "20",
+        "PremisesOccupied": "Y",
+        "ExtentOfLoss": "Test",
+        "PrecautionTaken": "Test",
+        "StockBookMaintained": "Y",
+        "StockBookLoss": "N",
+        "LastStockTaken": "04/2021",
+        "SafetyLockerName": "Globe",
+        "BurglarResistingSafe": "Y",
+        "SafetyLockerHeight": "50.0",
+        "SafetyLockerWidth": "1.0",
+        "SafetyLockerDepth": "10.0",
+        "SafetyLockerStructure": "Thin",
+        "NumberOfKeys": "2",
+        "OpenOptionId": "1"
+    },
+    "ErroCode": 0
+}

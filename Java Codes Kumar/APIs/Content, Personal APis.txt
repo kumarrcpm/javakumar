@@ -1,0 +1,327 @@
+192.168.1.15:8085/api/savepersonalaccident
+
+
+
+Req -->
+
+
+{
+  "CreatedBy": "Issuer3",
+  "QuoteNo": "12345",
+  "RequestReferenceNo": "12345",
+  "SectionId": "35",
+  "Description": "Accident Details",
+   "Type":"PA",
+  "PersonalDetails": [
+    {
+      "Dob": "05/12/1990",
+      "Height": "172",
+      "OccupationId": "1",
+      "PersonName": "Kumar",
+      "Salary": "20000",
+      "Weight": "80",
+       "RiskId": "1",
+         "SerialNo": ""
+
+     },
+    {
+         "RiskId": "2",
+      "Dob": "05/12/1965",
+      "Height": "155",
+      "OccupationId": "5",
+      "PersonName": "Ram",
+      "Salary": "200000",
+      "SumInsured": "500000",
+      "Weight": "52",
+        "SerialNo": ""
+
+    }
+  ]
+}
+
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successful",
+        "SuccessId": "12345"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8085/api/getpersonalaccident
+
+
+
+Req -->
+
+{ "QuoteNo": "12345",
+  "RiskId": "1",
+ "PersonId":"1",
+ "SectionId":"35"
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "RequestReferenceNo": "12345",
+        "RiskId": "1",
+        "SectionId": "35",
+        "SerialNo": "1",
+        "SectionDesc": "Personal Accident",
+        "PersonId": "1",
+        "PersonName": "Kumar",
+        "Dob": "04/12/1990",
+        "Age": "33",
+        "Height": "172",
+        "Weight": "80",
+        "Description": "Accident Details",
+        "EntryDate": "09/01/2023",
+        "Createdby": "Issuer3",
+        "Status": "Y",
+        "UpdatedDate": null,
+        "Updatedby": null,
+        "QuoteNo": "12345",
+        "OccupationId": "1",
+        "CategoryId": "2",
+        "OccupationDesc": "Business",
+        "Salary": "20000",
+        "Type": "PA",
+        "TypeDesc": "Personal Accident"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8085/api/getallpersonalaccident
+
+
+
+Req -->
+
+
+{
+    "QuoteNo":"12345"
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "RequestReferenceNo": "12345",
+            "RiskId": "1",
+            "SectionId": "35",
+            "SerialNo": "1",
+            "SectionDesc": "Personal Accident",
+            "QuoteNo": "12345",
+            "Type": "PA",
+            "TypeDesc": "Personal Accident",
+            "EntryDate": "09/01/2023",
+            "Createdby": "Issuer3",
+            "Status": "Y",
+            "UpdatedDate": null,
+            "Updatedby": null,
+            "PersonalDetails": [
+                {
+                    "PersonId": "1",
+                    "PersonName": "Kumar",
+                    "Dob": "04/12/1990",
+                    "Age": "33",
+                    "Height": "172",
+                    "Weight": "80",
+                    "Description": "Accident Details",
+                    "OccupationId": "1",
+                    "CategoryId": "2",
+                    "OccupationDesc": "Business",
+                    "Salary": "20000"
+                },
+                {
+                    "PersonId": "2",
+                    "PersonName": "Ram",
+                    "Dob": "04/12/1965",
+                    "Age": "58",
+                    "Height": "155",
+                    "Weight": "52",
+                    "Description": "Accident Details",
+                    "OccupationId": "5",
+                    "CategoryId": "2",
+                    "OccupationDesc": "Architech",
+                    "Salary": "200000"
+                }
+            ]
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/dropdown/personal
+
+
+Req -->
+
+{
+    "InsuranceId":"100002",
+    "BranchCode":"01"
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "PA",
+            "CodeDesc": "Personal Accident",
+            "Status": "Y"
+        },
+        {
+            "Code": "PI",
+            "CodeDesc": "Personal Intemedity",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/dropdown/content
+
+
+Req -->
+
+{
+    "InsuranceId":"100002",
+    "BranchCode":"01"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Gold",
+            "Status": "Y"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Others",
+            "Status": "Y"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Platinum",
+            "Status": "Y"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Silver",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/dropdown/contentrisk
+
+
+Req -->
+
+{
+    "InsuranceId":"100002",
+    "BranchCode":"01"
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "A",
+            "CodeDesc": "All Risk",
+            "Status": "Y"
+        },
+        {
+            "Code": "C",
+            "CodeDesc": "Content",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/dropdown/allrisk
+
+
+
+Req -->
+
+{
+    "InsuranceId":"100002",
+    "BranchCode":"01"
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Cloth",
+            "Status": "Y"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Table",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

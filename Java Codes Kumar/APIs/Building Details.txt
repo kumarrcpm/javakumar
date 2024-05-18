@@ -1,0 +1,150 @@
+Save and Update
+
+192.168.1.15:8085/api/buildingdetails
+
+
+
+Req -->
+
+{
+  "ApartmentOrBorder": "Y",
+  "BuidingAreaSqm": "2000",
+  "BuildingBuildYear": "2005",
+  "BuildingCondition": "Good",
+  "BuildingFloors": "5",
+  "BuildingOccupationType": "Y",
+  "BuildingSuminsured": "10000000",
+  "BuildingType": "A private dwelling house",
+  "BuildingUsageId": "1",
+  "BuildingUsageYn": "Y",
+  "BuildingAddress":"Chennai",
+  "Createdby": "Issuer3",
+  "CustomerId": "12345",
+  "InbuildConstructType": "W",
+  "QuoteNo": "12345",
+  "RequestReferenceNo": "",
+  "RiskId": "3",
+  "SectionId": "1",
+  "UpdatedDate": "02/01/2023",
+  "Updatedby": "Issuer3",
+  "WithoutInhabitantDays": "30"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successful",
+        "SuccessId": "BUL-230103363657916"
+    },
+    "ErroCode": 0
+}
+
+
+Get
+
+
+192.168.1.15:8085/api/getbuildingdetails
+
+
+Req -->
+
+{ "RequestReferenceNo": "BUL-230103363657916",
+  "RiskId": "3"
+ 
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "RequestReferenceNo": "BUL-230103363657916",
+        "RiskId": "3",
+        "SectionId": "1",
+        "InbuildConstructType": "W",
+        "InbuildConstructTypeDesc": "Wall",
+        "BuildingFloors": "5",
+        "BuildingUsageId": "1",
+        "BuildingUsageDesc": "Purely Residential",
+        "BuildingUsageYn": "Y",
+        "BuildingType": "A private dwelling house",
+        "BuildingOccupationType": "Y",
+        "ApartmentOrBorder": "Y",
+        "WithoutInhabitantDays": "30",
+        "BuildingCondition": "Good",
+        "BuildingBuildYear": "2005",
+        "BuildingAge": "18",
+        "BuildingAreaSqm": "2000.0",
+        "BuildingSuminsured": "10000000",
+        "EntryDate": "03/01/2023",
+        "CustomerId": "12345",
+        "QuoteNo": "12345",
+        "Createdby": "Issuer3",
+        "Status": "Y",
+        "Updatedby": "Issuer3",
+        "UpdatedDate": "02/01/2023",
+        "BuildingAddress": "Chennai",
+        "SectionDesc": "Building"
+    },
+    "ErroCode": 0
+}
+
+Get all
+
+192.168.1.15:8085/api/getallbuildingdetails
+
+
+
+Req -->
+
+
+{ "RequestReferenceNo": "BUL-230103363657916"
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "RequestReferenceNo": "BUL-230103363657916",
+            "RiskId": "3",
+            "SectionId": "1",
+            "InbuildConstructType": "W",
+            "InbuildConstructTypeDesc": "Wall",
+            "BuildingFloors": "5",
+            "BuildingUsageId": "1",
+            "BuildingUsageDesc": "Purely Residential",
+            "BuildingUsageYn": "Y",
+            "BuildingType": "A private dwelling house",
+            "BuildingOccupationType": "Y",
+            "ApartmentOrBorder": "Y",
+            "WithoutInhabitantDays": "30",
+            "BuildingCondition": "Good",
+            "BuildingBuildYear": "2005",
+            "BuildingAge": "18",
+            "BuildingAreaSqm": "2000.0",
+            "BuildingSuminsured": "10000000",
+            "EntryDate": "03/01/2023",
+            "CustomerId": "12345",
+            "QuoteNo": "12345",
+            "Createdby": "Issuer3",
+            "Status": "Y",
+            "Updatedby": "Issuer3",
+            "UpdatedDate": "02/01/2023",
+            "BuildingAddress": "Chennai",
+            "SectionDesc": "Building"
+        }
+    ],
+    "ErroCode": 0
+}

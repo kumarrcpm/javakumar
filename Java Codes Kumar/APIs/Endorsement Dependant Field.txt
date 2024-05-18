@@ -1,0 +1,213 @@
+192.168.1.15:8086/master/savedependant
+
+
+Req -->
+
+{
+  "CoreAppCode": "99999",
+  "CreatedBy": "broker70",
+  "DependantFieldId": "",
+  "DependantFieldName": "Test",
+  "EffectiveDateStart": "25/03/2023",
+  "InsuranceId": "100002",
+  "ProductId": "5",
+  "RegulatoryCode": "99999",
+  "Remarks": "Test",
+  "Status": "Y"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successful",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+192.168.1.15:8086/master/getbydependantid
+
+Req -->
+
+{
+  "InsuranceId": "100002",
+  "ProductId":"5",
+  "DependantFieldId":"1"
+}
+  
+  
+  
+  Res -->
+  
+  {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "DependantFieldId": "1",
+        "InsuranceId": "100002",
+        "ProductId": "5",
+        "DependantFieldName": "Test Update",
+        "EffectiveDateStart": "25/03/2023",
+        "EffectiveDateEnd": "30/12/2050",
+        "EntryDate": "25/03/2023",
+        "CreatedBy": "broker70",
+        "UpdatedBy": "broker70",
+        "UpdatedDate": "25/03/2023",
+        "CoreAppCode": "99999",
+        "RegulatoryCode": "99999",
+        "AmendId": "0",
+        "Status": "Y",
+        "Remarks": "Test"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/getalldependant
+
+
+Req -->
+
+{
+  "InsuranceId": "100002",
+   "ProductId": "5"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "DependantFieldId": "1",
+            "InsuranceId": "100002",
+            "ProductId": "5",
+            "DependantFieldName": "Test Update",
+            "EffectiveDateStart": "25/03/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "EntryDate": "25/03/2023",
+            "CreatedBy": "broker70",
+            "UpdatedBy": "broker70",
+            "UpdatedDate": "25/03/2023",
+            "CoreAppCode": "99999",
+            "RegulatoryCode": "99999",
+            "AmendId": "0",
+            "Status": "Y",
+            "Remarks": "Test"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/getactivedependant
+
+
+
+Req -->
+
+{
+  "InsuranceId": "100002",
+  "ProductId": "5"
+ }
+ 
+ 
+ Res -->
+ 
+ {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "DependantFieldId": "1",
+            "InsuranceId": "100002",
+            "ProductId": "5",
+            "DependantFieldName": "Test Update",
+            "EffectiveDateStart": "25/03/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "EntryDate": "25/03/2023",
+            "CreatedBy": "broker70",
+            "UpdatedBy": "broker70",
+            "UpdatedDate": "25/03/2023",
+            "CoreAppCode": "99999",
+            "RegulatoryCode": "99999",
+            "AmendId": "0",
+            "Status": "Y",
+            "Remarks": "Test"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8086/master/dependant/changestatus
+
+
+Req -->
+
+
+{
+  "InsuranceId": "100002",
+  "DependantFieldId": "1",
+  "ProductId": "5",
+  "Status":"N",
+  "EffectiveDateStart":"25/03/2023",
+  "CreatedBy":"broker70"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/dropdown/dependant
+
+
+
+Req -->
+
+{
+  "InsuranceId": "100002",
+  "ProductId":"5"
+}
+  
+  
+  
+  Res -->
+  
+  {
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Test Update",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}

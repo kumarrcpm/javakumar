@@ -1,0 +1,51 @@
+192.168.1.15:8086/api/inserttermsandcondition
+
+
+Req -->
+
+{
+  "BranchCode": "01",
+  "CreatedBy": "broker7",
+  "InsuranceId": "100002",
+  "ProductId": "5",
+  "QuoteNo": "Q123",
+  "RiskId": "1",
+  "SectionId": "2",
+  "TermsAndConditionReq": [
+    {
+      "Id": "4",
+      "SubId": "1",
+       "SubIdDesc":"Warranty"
+    },
+    {
+      "Id": "5",
+      "SubId": "1",
+       "SubIdDesc":"WarRate"
+    },
+    {
+     "Id": "6",
+      "SubId": "1",
+       "SubIdDesc":"Clauses"
+    }
+    ,
+    {
+     "Id": "7",
+      "SubId": "1",
+       "SubIdDesc":"Exclusion"
+    }
+
+  ]
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successful",
+        "SuccessId": "Q123"
+    },
+    "ErroCode": 0
+}

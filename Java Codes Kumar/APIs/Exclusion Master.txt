@@ -1,0 +1,150 @@
+192.168.1.15:8086/master/insertexclusion
+
+Req -->
+
+{"ExclusionId":"",
+"ExclusionDescription":"Test5",
+"Status":"Y",
+"EffectiveDateStart":"13/01/2023",
+"Remarks":"Test",
+"CreatedBy":"Issuer3",
+"InsuranceId":"100002",
+"BranchCode":"02",
+"UpdatedBy":"Kumar",
+"CoreAppCode":"1000",
+"RegulatoryCode":"1000",
+"ProductId":"5",
+"SectionId":"1",
+"DocRefNo":"001"
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Saved Successfully",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/getbyexclusionid
+
+
+Req -->
+
+{"ExclusionId":"1",
+"InsuranceId":"100002",
+"BranchCode":"02",
+"ProductId":"5",
+"SectionId":"1"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ExclusionId": "1",
+        "ExclusionDescription": "Test5",
+        "BranchCode": "02",
+        "InsuranceId": "100002",
+        "EffectiveDateStart": "13/01/2023",
+        "EffectiveDateEnd": "30/12/2050",
+        "Remarks": "Test",
+        "Status": "Y",
+        "CreatedBy": "Issuer3",
+        "UpdatedBy": "Issuer3",
+        "UpdatedDate": "13/01/2023",
+        "CoreAppCode": "1000",
+        "RegulatoryCode": "1000",
+        "EntryDate": "12/01/2023",
+        "ProductId": "5",
+        "SectionId": "1",
+        "DocRefNo": null
+    },
+    "ErroCode": 0
+}
+
+
+192.168.1.15:8086/master/getallexclusion
+
+
+
+Req -->
+
+
+{
+"InsuranceId":"100002",
+"BranchCode":"02",
+"ProductId":"5",
+"SectionId":"1"
+
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "ExclusionId": "1",
+            "ExclusionDescription": "Test5",
+            "BranchCode": "02",
+            "InsuranceId": "100002",
+            "EffectiveDateStart": "13/01/2023",
+            "EffectiveDateEnd": "30/12/2050",
+            "Remarks": "Test",
+            "Status": "Y",
+            "CreatedBy": "Issuer3",
+            "UpdatedBy": "Issuer3",
+            "UpdatedDate": "13/01/2023",
+            "CoreAppCode": "1000",
+            "RegulatoryCode": "1000",
+            "EntryDate": "12/01/2023",
+            "ProductId": "5",
+            "SectionId": "1",
+            "DocRefNo": null
+        }
+    ],
+    "ErroCode": 0
+}
+
+192.168.1.15:8086/master/exclusion/changestatus
+
+
+Req -->
+
+{"ExclusionId":"1",
+"InsuranceId":"100002",
+"BranchCode":"02",
+"ProductId":"5",
+"SectionId":"1",
+"Status":"N"
+}
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed",
+        "SuccessId": "1"
+    },
+    "ErroCode": 0
+}

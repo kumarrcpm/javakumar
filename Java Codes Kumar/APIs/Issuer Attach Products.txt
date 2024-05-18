@@ -1,0 +1,102 @@
+192.168.1.15:8086/admin/attachissuerproducts
+
+
+Req -->
+
+{
+    "LoginId":"admin01",
+    "InsuranceId":"100002",
+    "CreatedBy":"prakashadmin",
+    "IssuerProduct": [
+    {
+      "ProductId": "19",
+      "ReferralIds": [
+        "1","2","3"
+      ],
+      "SuminsuredEnd": "1000000",
+      "SuminsuredStart": "1000"
+    },
+    {
+      "ProductId": "32",
+      "ReferralIds": [
+        "4","5","6"
+      ],
+      "SuminsuredEnd": "1000000",
+      "SuminsuredStart": "1000"
+    }
+  ]
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Products Added Successfully",
+        "AgencyCode": null
+    },
+    "ErroCode": 0
+}
+
+
+
+
+192.168.1.15:8086/admin/getissuerproductbyid
+
+
+
+Req -->
+
+{
+    "LoginId":"admin01",
+    "InsuranceId":"100002",
+    "ProductId":"19"
+
+}
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "ProductId": "19",
+        "InsuranceId": "100002",
+        "LoginId": "admin01",
+        "EffectiveDateStart": "16/05/2023",
+        "EffectiveDateEnd": "26/12/2049",
+        "CommissionPercent": "15",
+        "ProductName": "SME Product",
+        "PaymentYn": null,
+        "PaymentRedirUrl": null,
+        "AppLoginUrl": null,
+        "Status": "Y",
+        "ProductDesc": "SME Product",
+        "CoreAppCode": "99999",
+        "RegulatoryCode": "99999",
+        "Remarks": "None",
+        "SumInsuredStart": "100000",
+        "SumInsuredEnd": "10000",
+        "CommissionVatYn": "Y",
+        "CheckerYn": "Y",
+        "MakerYn": "Y",
+        "CustConfirmYn": "Y",
+        "CreatedBy": "prakashadmin",
+        "BackDays": "0",
+        "FinanceIds": [
+            "1,46,53"
+        ],
+        "NonFinanceIds": [
+            "842,843,844,845"
+        ],
+        "ReferralIds": [
+            "1,2,3"
+        ]
+    },
+    "ErroCode": 0
+}

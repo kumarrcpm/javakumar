@@ -1,0 +1,148 @@
+192.168.1.15:8085/home/savebuildingdetails
+
+
+
+Req -->
+
+ {
+    "AcexecutiveId": "1",
+    "AgencyCode": "10079",
+    "AllriskSumInsured": "19999",
+    "ApplicationId": "1",
+    "BranchCode": "01",
+    "BrokerCode": "10079",
+    "BrokerBranchCode": "01",
+    "InsuranceType": "O",
+    "PersonalIntermediarySuminsured": "30000",
+    "PersonalAccidentSuminsured": "100000",
+    "PaDeathSuminsured": "184869",
+    "PaMedicalSuminsured": "894647",
+    "PaPermanentdisablementSuminsured": "163854",
+    "PaTotaldisabilitySumInsured": "74984",
+    "BuildingUsageId": "3",
+    "Havepromocode": "N",
+    "BuildingBuildYear": "1988",
+    "BuildingFloors": "4",
+    "BuildingOwnerYn": "N",
+    "BuildingSuminsured": "1899999",
+    "OutbuildConstructType": "R",
+    "ConsecutiveDays": 365,
+    "ContentSuminsured": "19",
+    "Createdby": "broker72",
+    "Currency": "TZS",
+    "CustomerReferenceNo": "Cust-221217231174637",
+    "ExchangeRate": "1.0",
+    "InbuildConstructType": "W",
+    "InsuranceId": "100002",
+    "LocationId": "1",
+    "LoginId": "broker72",
+    "PolicyEndDate": "23/12/2023",
+    "PolicyStartDate": "24/12/2022",
+    "ProductId": "3",
+    "RequestReferenceNo": null,
+    "SectionId": ["32","35"],
+    "SubUsertype": "b2b",
+    "UserType":"Issuer",
+     "OccupationDetails": [
+    {
+      "Count": "2",
+      "OccupationType": "1",
+      "SumInsuredTotal": "1000"
+    },
+        {
+      "Count": "1",
+      "OccupationType": "2",
+      "SumInsuredTotal": "10000"
+    },
+    {
+      "Count": "1",
+      "OccupationType": "3",
+      "SumInsuredTotal": "100"
+    },
+    {
+      "Count": "1",
+      "OccupationType": "4",
+      "SumInsuredTotal": "10"
+    }
+  ]
+
+}
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "RequestReferenceNo": "DOM-230106462344777",
+            "CustomerReferenceNo": "Cust-221217231174637",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "23010606470620116",
+            "CdRefNo": "23010606462590961",
+            "VdRefNo": "23010606462591066",
+            "SectionId": "32",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker72"
+        },
+        {
+            "RequestReferenceNo": "DOM-230106462344777",
+            "CustomerReferenceNo": "Cust-221217231174637",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "23010606470628515",
+            "CdRefNo": "23010606462590961",
+            "VdRefNo": "23010606462665296",
+            "SectionId": "35",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker72"
+        },
+        {
+            "RequestReferenceNo": "DOM-230106462344777",
+            "CustomerReferenceNo": "Cust-221217231174637",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "23010606470630514",
+            "CdRefNo": "23010606462590961",
+            "VdRefNo": "2301060646444056",
+            "SectionId": "35",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker72"
+        },
+        {
+            "RequestReferenceNo": "DOM-230106462344777",
+            "CustomerReferenceNo": "Cust-221217231174637",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "23010606470636614",
+            "CdRefNo": "23010606462590961",
+            "VdRefNo": "23010606464535293",
+            "SectionId": "35",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker72"
+        },
+        {
+            "RequestReferenceNo": "DOM-230106462344777",
+            "CustomerReferenceNo": "Cust-221217231174637",
+            "LocationId": "1",
+            "Response": "Saved Successfully",
+            "ProductId": "3",
+            "MSRefNo": "23010606470647030",
+            "CdRefNo": "23010606462590961",
+            "VdRefNo": "23010606464732017",
+            "SectionId": "35",
+            "InsuranceId": "100002",
+            "CreatedBy": "broker72"
+        }
+    ],
+    "ErroCode": 0
+}

@@ -1,0 +1,214 @@
+192.168.1.15:8084/master/insertbrokersectioncover
+
+
+Req -->
+
+[
+    {
+        "CreatedBy": "brokernew",
+        "InsuranceId": "100002",
+        "ProductId": "5",
+        "SectionId": "11",
+        "CoverId": "21",
+        "AgencyCode": "10279",
+        "BranchCode": "99999",
+        "Status": "Y",
+        "EffectiveDateStart":"05/04/2023"
+    },
+    {
+        "CreatedBy": "brokernew",
+        "InsuranceId": "100002",
+        "ProductId": "5",
+        "SectionId": "11",
+        "CoverId": "5",
+        "AgencyCode": "10279",
+        "BranchCode": "99999",
+        "Status": "Y",
+       "EffectiveDateStart":"05/04/2023"
+
+    }
+]
+
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Cover Added Successfully",
+        "SuccessId": "5",
+        "FactorTypeId": null,
+        "CoverId": null
+    },
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8084/master/sectioncover/changestatus
+
+
+
+Req -->
+
+{
+        "InsuranceId": "100002",
+        "ProductId": "5",
+        "SectionId": "11",
+        "AgencyCode": "10279",
+        "BranchCode": "99999",
+        "CoverId":"21",
+        "Status":"N",
+        "EffectiveDateStart":"10/04/2023"
+     }
+	
+	
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": {
+        "Response": "Status Changed",
+        "SuccessId": "21",
+        "FactorTypeId": null,
+        "CoverId": null
+    },
+    "ErroCode": 0
+}	
+
+
+Included
+192.168.1.15:8084/master/getallsectionbrokercoverdetails
+
+Req -->
+
+{
+    "Limit": "",
+    "Offset": "100000",
+    "InsuranceId": "100002",
+    "SectionId": "11",
+    "ProductId": "5",
+    "BranchCode": "99999",
+    "AgencyCode": "10279"
+}
+
+
+
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "CoverId": "21",
+            "ProductId": "5",
+            "SectionId": "11",
+            "InsuranceId": "100002",
+            "EffectiveDateStart": "10/04/2023",
+            "CoverName": "Fire & Theft Loading",
+            "CoverDesc": "Fire & Theft Loading",
+            "Status": "N",
+            "CoverBasedOn": "sumInsured",
+            "CoreAppCode": "99999",
+            "Remarks": "Fire & Theft Loading",
+            "CreatedBy": "brokernew",
+            "ToolTip": "Fire & Theft Loading",
+            "RegulatoryCode": "Fire & Theft Loading",
+            "EffectiveDateEnd": "30/12/2050",
+            "EntryDate": "04/05/2023",
+            "CoverageType": "L",
+            "CoverageLimit": "0.0",
+            "Excess": null,
+            "CalcType": "F",
+            "BaseRate": null,
+            "SumInsuredEnd": null,
+            "MinimumPremium": null,
+            "FactorTypeId": "1001",
+            "SubCoverYn": "N",
+            "AmendId": "1",
+            "DiscountCoverId": "5",
+            "IsTaxExcempted": "N",
+            "TaxAmount": "0.0",
+            "TaxCode": "Vat",
+            "TaxExcemptionReference": null,
+            "TaxExcemptionType": null,
+            "ExcessPercent": "10.0",
+            "ExcessAmount": "1000.0",
+            "ExcessDesc": "None"
+        },
+        {
+            "CoverId": "5",
+            "ProductId": "5",
+            "SectionId": "11",
+            "InsuranceId": "100002",
+            "EffectiveDateStart": "05/04/2023",
+            "CoverName": "Base Cover",
+            "CoverDesc": "Base Cover - Motor",
+            "Status": "Y",
+            "CoverBasedOn": "sumInsured",
+            "CoreAppCode": "99999",
+            "Remarks": "SP014001000004  ",
+            "CreatedBy": "brokernew",
+            "ToolTip": "Base cover",
+            "RegulatoryCode": "SP014001000004",
+            "EffectiveDateEnd": "30/12/2050",
+            "EntryDate": "04/05/2023",
+            "CoverageType": "B",
+            "CoverageLimit": "10.0",
+            "Excess": null,
+            "CalcType": "F",
+            "BaseRate": null,
+            "SumInsuredEnd": null,
+            "MinimumPremium": null,
+            "FactorTypeId": "1001",
+            "SubCoverYn": "N",
+            "AmendId": "0",
+            "DiscountCoverId": null,
+            "IsTaxExcempted": "N",
+            "TaxAmount": "0.0",
+            "TaxCode": "Vat",
+            "TaxExcemptionReference": null,
+            "TaxExcemptionType": null,
+            "ExcessPercent": "1.0",
+            "ExcessAmount": "10000.0",
+            "ExcessDesc": "None"
+        }
+    ],
+    "ErroCode": 0
+}
+
+
+
+192.168.1.15:8084/master/getallsectioncoverbroker
+
+
+Req -->
+
+{
+    "InsuranceId": "100002",
+    "ProductId": "5",
+    "SectionId": "11",
+    "AgencyCode": "10279",
+    "BranchCode": "99999"
+}
+	
+	
+Res -->
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [],
+    "ErroCode": 0
+}	
+	

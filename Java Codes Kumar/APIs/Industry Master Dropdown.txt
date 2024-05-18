@@ -1,0 +1,274 @@
+192.168.1.15:8086/master/dropdown/industry
+
+
+Req -->
+
+
+{
+    "InsuranceId": "100002",
+    "BranchCode": "01",
+    "ProductId": "19"
+}
+
+
+Res -->
+
+
+{
+    "Message": "Success",
+    "IsError": false,
+    "ErrorMessage": [],
+    "Result": [
+        {
+            "Code": "1",
+            "CodeDesc": "Malls",
+            "Status": "Y"
+        },
+        {
+            "Code": "10",
+            "CodeDesc": "Grain and Pulses trading",
+            "Status": "Y"
+        },
+        {
+            "Code": "11",
+            "CodeDesc": "Flour, corn and Oil Mills",
+            "Status": "Y"
+        },
+        {
+            "Code": "12",
+            "CodeDesc": "Readymade Garments Trading",
+            "Status": "Y"
+        },
+        {
+            "Code": "13",
+            "CodeDesc": "Textiles Trading/Tailors",
+            "Status": "Y"
+        },
+        {
+            "Code": "14",
+            "CodeDesc": "Carpets Trading",
+            "Status": "Y"
+        },
+        {
+            "Code": "15",
+            "CodeDesc": "Open air storage",
+            "Status": "Y"
+        },
+        {
+            "Code": "16",
+            "CodeDesc": "Tailors",
+            "Status": "Y"
+        },
+        {
+            "Code": "17",
+            "CodeDesc": "Building materials",
+            "Status": "Y"
+        },
+        {
+            "Code": "18",
+            "CodeDesc": "Cement Works",
+            "Status": "Y"
+        },
+        {
+            "Code": "19",
+            "CodeDesc": "asbestos",
+            "Status": "Y"
+        },
+        {
+            "Code": "2",
+            "CodeDesc": "Shoppin Centres",
+            "Status": "Y"
+        },
+        {
+            "Code": "20",
+            "CodeDesc": "Manufacturing plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "21",
+            "CodeDesc": "Desalination plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "22",
+            "CodeDesc": "District Cooling Plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "23",
+            "CodeDesc": "Beverage manufacturing",
+            "Status": "Y"
+        },
+        {
+            "Code": "24",
+            "CodeDesc": "bottling(withot PET bottling manufacturing)",
+            "Status": "Y"
+        },
+        {
+            "Code": "25",
+            "CodeDesc": "Modern dairy farms/plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "26",
+            "CodeDesc": "Metal working risks",
+            "Status": "Y"
+        },
+        {
+            "Code": "27",
+            "CodeDesc": "Rolling Mills",
+            "Status": "Y"
+        },
+        {
+            "Code": "28",
+            "CodeDesc": "Metallurgical Plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "29",
+            "CodeDesc": "Food and Sweet factories / Plants",
+            "Status": "Y"
+        },
+        {
+            "Code": "3",
+            "CodeDesc": "Super Markets",
+            "Status": "Y"
+        },
+        {
+            "Code": "30",
+            "CodeDesc": "Enamalware factories / Electroplaters",
+            "Status": "Y"
+        },
+        {
+            "Code": "31",
+            "CodeDesc": "Electronic manufacturers / assemblers",
+            "Status": "Y"
+        },
+        {
+            "Code": "32",
+            "CodeDesc": "Silent",
+            "Status": "Y"
+        },
+        {
+            "Code": "33",
+            "CodeDesc": "Unoccupied",
+            "Status": "Y"
+        },
+        {
+            "Code": "34",
+            "CodeDesc": "Vacant risks(being empty and unused property)",
+            "Status": "Y"
+        },
+        {
+            "Code": "35",
+            "CodeDesc": "Factories producing readymade garments",
+            "Status": "Y"
+        },
+        {
+            "Code": "36",
+            "CodeDesc": "Textiles ",
+            "Status": "Y"
+        },
+        {
+            "Code": "37",
+            "CodeDesc": "Machine-made carpets",
+            "Status": "Y"
+        },
+        {
+            "Code": "38",
+            "CodeDesc": "Printers/newspapers establishmets",
+            "Status": "Y"
+        },
+        {
+            "Code": "39",
+            "CodeDesc": "paper mills",
+            "Status": "Y"
+        },
+        {
+            "Code": "4",
+            "CodeDesc": "Showrooms",
+            "Status": "Y"
+        },
+        {
+            "Code": "40",
+            "CodeDesc": "paper products converters",
+            "Status": "Y"
+        },
+        {
+            "Code": "41",
+            "CodeDesc": "Offices",
+            "Status": "Y"
+        },
+        {
+            "Code": "42",
+            "CodeDesc": "Offices",
+            "Status": "Y"
+        },
+        {
+            "Code": "43",
+            "CodeDesc": "residental buildings having shops and resturants",
+            "Status": "Y"
+        },
+        {
+            "Code": "44",
+            "CodeDesc": "servives such as banks, insurance companies, govt offices and museum",
+            "Status": "Y"
+        },
+        {
+            "Code": "45",
+            "CodeDesc": "Mosques",
+            "Status": "Y"
+        },
+        {
+            "Code": "46",
+            "CodeDesc": "Educational Insitutions",
+            "Status": "Y"
+        },
+        {
+            "Code": "47",
+            "CodeDesc": "Hospitals",
+            "Status": "Y"
+        },
+        {
+            "Code": "48",
+            "CodeDesc": "Private Clubs",
+            "Status": "Y"
+        },
+        {
+            "Code": "49",
+            "CodeDesc": "County Clubs",
+            "Status": "Y"
+        },
+        {
+            "Code": "5",
+            "CodeDesc": "Shops with non Haz stock value less than AED 2.5 Mn",
+            "Status": "Y"
+        },
+        {
+            "Code": "50",
+            "CodeDesc": "Stadium",
+            "Status": "Y"
+        },
+        {
+            "Code": "6",
+            "CodeDesc": "Motor Parts Dealers",
+            "Status": "Y"
+        },
+        {
+            "Code": "7",
+            "CodeDesc": "Show room + parts Sales",
+            "Status": "Y"
+        },
+        {
+            "Code": "8",
+            "CodeDesc": "Bakeries",
+            "Status": "Y"
+        },
+        {
+            "Code": "9",
+            "CodeDesc": "Food and Sweet shops",
+            "Status": "Y"
+        }
+    ],
+    "ErroCode": 0
+}
